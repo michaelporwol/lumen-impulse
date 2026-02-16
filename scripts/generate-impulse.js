@@ -4,12 +4,13 @@
  * Daily impulse generator for Lumen.
  *
  * 1. Fetches today's Gospel reference from USCCB
- * 2. Fetches actual Bible text from API.Bible for DE/EN/PL
+ * 2. Fetches actual Bible text from Bolls.life (public domain, no API key needed)
  * 3. Calls Magisterium AI API for each language (de, en, pl)
  * 4. Writes JSON to impulses/<date>.json + impulses/latest.json
  *
  * NO user data is ever sent to any API — only the Gospel reference.
- * API keys come from environment variables (MAGISTERIUM_API_KEY, API_BIBLE_KEY).
+ * Bible texts are PUBLIC DOMAIN (Elberfelder 1871, KJV, Biblia Gdańska 1881).
+ * Only the Magisterium API key is needed (MAGISTERIUM_API_KEY env var).
  */
 
 const fs = require('fs');
@@ -18,19 +19,15 @@ const path = require('path');
 // ── Configuration ──────────────────────────────────────────────────
 const MAGISTERIUM_API_URL = 'https://www.magisterium.com/api/v1/chat/completions';
 const API_KEY = process.env.MAGISTERIUM_API_KEY;
-const API_BIBLE_KEY = process.env.API_BIBLE_KEY;
-const API_BIBLE_BASE = 'https://api.scripture.api.bible/v1';
+const BOLLS_API_BASE = 'https://bolls.life';
 const LANGUAGES = ['de', 'en', 'pl'];
 const API_TIMEOUT_MS = 30000; // 30s timeout (CI has no rush)
 
-// Bible version IDs for API.Bible (per language)
-// To find IDs: GET https://api.scripture.api.bible/v1/bibles?language=deu (or eng, pol)
-// User specified DE ID. EN/PL will be verified on first run — if they fail,
-// update the IDs here. The script continues even if Bible text fetch fails.
-const BIBLE_VERSIONS = {
-  de: 'f492a38d0e52db0f-01', // Elberfelder Translation (bibelkommentare.de) — user-specified
-  en: 'de4e12af7f28f599-02', // King James (Authorised) Version
-  pl: '18c05e3bd0440626-01', // Biblia Gdańska (public domain)
+// Bible versions on Bolls.life — ALL public domain, no copyright issues
+const BOLLS_VERSIONS = {
+  de: { id: 'ELB', name: 'Elberfelder 1871' },
+  en: { id: 'KJV', name: 'King James Version' },
+  pl: { id: 'BG', name: 'Biblia Gdańska 1881' },
 };
 
 // ── USCCB Gospel Parser ────────────────────────────────────────────
@@ -119,46 +116,44 @@ async function fetchGospelReference(isoDate) {
   };
 }
 
-// ── API.Bible — Fetch actual Bible text ───────────────────────────
+// ── Bolls.life — Fetch Bible text (public domain, no API key) ─────
 
 /**
- * Map English book names (from USCCB) to OSIS book abbreviations (API.Bible format).
- * Covers all Gospel books + common lectionary books.
+ * Map English book names (from USCCB) to Bolls.life book numbers.
+ * Bolls.life uses sequential numbering: Genesis=1 ... Revelation=66.
+ * Includes Catholic deuterocanonical books and common USCCB name variants.
  */
-const BOOK_TO_OSIS = {
-  'genesis': 'GEN', 'exodus': 'EXO', 'leviticus': 'LEV', 'numbers': 'NUM',
-  'deuteronomy': 'DEU', 'joshua': 'JOS', 'judges': 'JDG', 'ruth': 'RUT',
-  '1 samuel': '1SA', '2 samuel': '2SA', '1 kings': '1KI', '2 kings': '2KI',
-  '1 chronicles': '1CH', '2 chronicles': '2CH', 'ezra': 'EZR', 'nehemiah': 'NEH',
-  'tobit': 'TOB', 'judith': 'JDT', 'esther': 'EST',
-  '1 maccabees': '1MA', '2 maccabees': '2MA',
-  'job': 'JOB', 'psalms': 'PSA', 'psalm': 'PSA', 'proverbs': 'PRO',
-  'ecclesiastes': 'ECC', 'song of solomon': 'SNG', 'song of songs': 'SNG',
-  'wisdom': 'WIS', 'sirach': 'SIR', 'ecclesiasticus': 'SIR',
-  'isaiah': 'ISA', 'jeremiah': 'JER', 'lamentations': 'LAM',
-  'baruch': 'BAR', 'ezekiel': 'EZK', 'daniel': 'DAN',
-  'hosea': 'HOS', 'joel': 'JOL', 'amos': 'AMO', 'obadiah': 'OBA',
-  'jonah': 'JON', 'micah': 'MIC', 'nahum': 'NAM', 'habakkuk': 'HAB',
-  'zephaniah': 'ZEP', 'haggai': 'HAG', 'zechariah': 'ZEC', 'malachi': 'MAL',
-  'matthew': 'MAT', 'matt': 'MAT', 'mt': 'MAT',
-  'mark': 'MRK', 'mk': 'MRK', 'mrk': 'MRK',
-  'luke': 'LUK', 'lk': 'LUK', 'luk': 'LUK',
-  'john': 'JHN', 'jn': 'JHN', 'joh': 'JHN',
-  'acts': 'ACT', 'romans': 'ROM', '1 corinthians': '1CO', '2 corinthians': '2CO',
-  'galatians': 'GAL', 'ephesians': 'EPH', 'philippians': 'PHP', 'colossians': 'COL',
-  '1 thessalonians': '1TH', '2 thessalonians': '2TH',
-  '1 timothy': '1TI', '2 timothy': '2TI', 'titus': 'TIT', 'philemon': 'PHM',
-  'hebrews': 'HEB', 'james': 'JAS',
-  '1 peter': '1PE', '2 peter': '2PE',
-  '1 john': '1JN', '2 john': '2JN', '3 john': '3JN',
-  'jude': 'JUD', 'revelation': 'REV',
+const BOOK_TO_NUMBER = {
+  'genesis': 1, 'exodus': 2, 'leviticus': 3, 'numbers': 4,
+  'deuteronomy': 5, 'joshua': 6, 'judges': 7, 'ruth': 8,
+  '1 samuel': 9, '2 samuel': 10, '1 kings': 11, '2 kings': 12,
+  '1 chronicles': 13, '2 chronicles': 14, 'ezra': 15, 'nehemiah': 16,
+  'esther': 17, 'job': 18, 'psalms': 19, 'psalm': 19, 'proverbs': 20,
+  'ecclesiastes': 21, 'song of solomon': 22, 'song of songs': 22,
+  'isaiah': 23, 'jeremiah': 24, 'lamentations': 25,
+  'ezekiel': 26, 'daniel': 27,
+  'hosea': 28, 'joel': 29, 'amos': 30, 'obadiah': 31,
+  'jonah': 32, 'micah': 33, 'nahum': 34, 'habakkuk': 35,
+  'zephaniah': 36, 'haggai': 37, 'zechariah': 38, 'malachi': 39,
+  'matthew': 40, 'matt': 40, 'mt': 40,
+  'mark': 41, 'mk': 41, 'mrk': 41,
+  'luke': 42, 'lk': 42, 'luk': 42,
+  'john': 43, 'jn': 43, 'joh': 43,
+  'acts': 44, 'romans': 45, '1 corinthians': 46, '2 corinthians': 47,
+  'galatians': 48, 'ephesians': 49, 'philippians': 50, 'colossians': 51,
+  '1 thessalonians': 52, '2 thessalonians': 53,
+  '1 timothy': 54, '2 timothy': 55, 'titus': 56, 'philemon': 57,
+  'hebrews': 58, 'james': 59,
+  '1 peter': 60, '2 peter': 61,
+  '1 john': 62, '2 john': 63, '3 john': 64,
+  'jude': 65, 'revelation': 66,
 };
 
 /**
- * Convert a USCCB-style reference like "Mark 8:11-13" or "1 John 3:1-2"
- * into API.Bible OSIS passageId like "MRK.8.11-MRK.8.13"
+ * Parse a USCCB-style reference like "Mark 8:11-13" or "1 John 3:1-2"
+ * into { bookNumber, chapter, verseStart, verseEnd }.
  */
-function referenceToOsis(reference) {
+function parseReference(reference) {
   const normalized = reference.replace(/\s+/g, ' ').trim();
 
   // Match: optional number prefix, book name, chapter:verse(-verse)
@@ -169,70 +164,68 @@ function referenceToOsis(reference) {
   }
 
   const bookRaw = match[1].trim().toLowerCase();
-  const chapter = match[2];
-  const verseStart = match[3];
-  const verseEnd = match[4] || verseStart;
+  const chapter = parseInt(match[2], 10);
+  const verseStart = parseInt(match[3], 10);
+  const verseEnd = match[4] ? parseInt(match[4], 10) : verseStart;
 
-  const osisBook = BOOK_TO_OSIS[bookRaw];
-  if (!osisBook) {
+  const bookNumber = BOOK_TO_NUMBER[bookRaw];
+  if (!bookNumber) {
     console.warn(`  ⚠️ Unknown book: "${bookRaw}"`);
     return null;
   }
 
-  if (verseStart === verseEnd) {
-    return `${osisBook}.${chapter}.${verseStart}`;
-  }
-  return `${osisBook}.${chapter}.${verseStart}-${osisBook}.${chapter}.${verseEnd}`;
+  return { bookNumber, chapter, verseStart, verseEnd };
 }
 
 /**
- * Fetch Bible text from API.Bible for a given passage and Bible version.
- * Returns { text, copyright, fums } or null on failure.
+ * Fetch Bible text from Bolls.life for a given book/chapter and filter by verse range.
+ * Bolls.life API: GET /get-text/{translation}/{bookNumber}/{chapter}/
+ * Returns { text, reference } or null on failure.
+ * No API key needed — all translations are public domain.
  */
-async function fetchBibleText(bibleId, passageId, lang) {
-  if (!API_BIBLE_KEY) return null;
-
+async function fetchBibleText(translation, bookNumber, chapter, verseStart, verseEnd, lang) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
 
   try {
-    const url = `${API_BIBLE_BASE}/bibles/${bibleId}/passages/${passageId}?content-type=text&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true&include-verse-spans=false`;
+    const url = `${BOLLS_API_BASE}/get-text/${translation}/${bookNumber}/${chapter}/`;
 
-    console.log(`  📖 Fetching API.Bible [${lang}]: ${passageId} from ${bibleId}...`);
-    const resp = await fetch(url, {
-      headers: { 'api-key': API_BIBLE_KEY },
-      signal: controller.signal,
-    });
+    console.log(`  📖 Fetching Bolls.life [${lang}]: ${translation} book=${bookNumber} ch=${chapter} v${verseStart}-${verseEnd}...`);
+    const resp = await fetch(url, { signal: controller.signal });
 
     if (!resp.ok) {
       const body = await resp.text().catch(() => '');
-      console.warn(`  ⚠️ API.Bible [${lang}] ${resp.status}: ${body.substring(0, 200)}`);
+      console.warn(`  ⚠️ Bolls.life [${lang}] ${resp.status}: ${body.substring(0, 200)}`);
       return null;
     }
 
-    const data = await resp.json();
-    const passage = data?.data;
-    if (!passage?.content) {
-      console.warn(`  ⚠️ API.Bible [${lang}]: No content returned`);
+    const verses = await resp.json();
+    if (!Array.isArray(verses) || verses.length === 0) {
+      console.warn(`  ⚠️ Bolls.life [${lang}]: No verses returned`);
       return null;
     }
 
-    // Clean up the text (remove extra whitespace, normalize)
-    const text = passage.content
+    // Filter to requested verse range
+    const filtered = verses.filter((v) => v.verse >= verseStart && v.verse <= verseEnd);
+    if (filtered.length === 0) {
+      console.warn(`  ⚠️ Bolls.life [${lang}]: No verses in range ${verseStart}-${verseEnd}`);
+      return null;
+    }
+
+    // Join verse texts, clean up HTML tags and extra whitespace
+    const text = filtered
+      .map((v) => v.text.replace(/<[^>]*>/g, '').trim())
+      .filter(Boolean)
+      .join(' ')
       .replace(/\s+/g, ' ')
-      .replace(/\[\d+\]\s*/g, '') // remove verse markers like [11]
       .trim();
 
-    console.log(`  ✅ API.Bible [${lang}]: ${text.substring(0, 80)}...`);
+    const versionName = BOLLS_VERSIONS[lang]?.name || translation;
+    console.log(`  ✅ Bolls.life [${lang}] (${versionName}): ${text.substring(0, 80)}...`);
 
-    return {
-      text,
-      reference: passage.reference || '',
-      copyright: data?.meta?.fumsToken ? undefined : (passage.copyright || ''),
-      fumsToken: data?.meta?.fumsToken || null,
-    };
+    return { text, reference: versionName };
   } catch (err) {
-    console.warn(`  ⚠️ API.Bible [${lang}] error:`, err.message);
+    console.warn(`  ⚠️ Bolls.life [${lang}] error:`, err.message);
     return null;
   } finally {
     clearTimeout(timeout);
@@ -240,22 +233,25 @@ async function fetchBibleText(bibleId, passageId, lang) {
 }
 
 /**
- * Fetch Bible text for all languages. Returns { de, en, pl } with text + copyright.
+ * Fetch Bible text for all languages from Bolls.life.
+ * Returns { de, en, pl } with { text, reference } per language, or null on total failure.
+ * No API key needed — all public domain translations.
  */
 async function fetchAllBibleTexts(reference) {
-  const passageId = referenceToOsis(reference);
-  if (!passageId) {
+  const parsed = parseReference(reference);
+  if (!parsed) {
     console.warn('  ⚠️ Skipping Bible text fetch — could not parse reference');
     return null;
   }
 
-  console.log(`\n📖 Fetching Bible text for passage: ${passageId}\n`);
+  const { bookNumber, chapter, verseStart, verseEnd } = parsed;
+  console.log(`\n📖 Fetching Bible text: book=${bookNumber} ch=${chapter} v${verseStart}-${verseEnd}\n`);
 
   const results = {};
   for (const lang of LANGUAGES) {
-    const bibleId = BIBLE_VERSIONS[lang];
-    if (!bibleId) continue;
-    results[lang] = await fetchBibleText(bibleId, passageId, lang);
+    const version = BOLLS_VERSIONS[lang];
+    if (!version) continue;
+    results[lang] = await fetchBibleText(version.id, bookNumber, chapter, verseStart, verseEnd, lang);
   }
 
   // At least one language must succeed
@@ -394,16 +390,13 @@ async function main() {
     process.exit(1);
   }
 
-  // 2. Fetch Bible text (API.Bible) — non-critical, continues even if it fails
+  // 2. Fetch Bible text (Bolls.life, public domain, no API key needed)
+  //    Non-critical — continues even if it fails
   let gospelTexts = null;
-  if (API_BIBLE_KEY) {
-    try {
-      gospelTexts = await fetchAllBibleTexts(gospel.reference);
-    } catch (err) {
-      console.warn('⚠️ Bible text fetch failed (non-critical):', err.message);
-    }
-  } else {
-    console.log('⚠️ API_BIBLE_KEY not set — skipping Bible text fetch\n');
+  try {
+    gospelTexts = await fetchAllBibleTexts(gospel.reference);
+  } catch (err) {
+    console.warn('⚠️ Bible text fetch failed (non-critical):', err.message);
   }
 
   // 3. Generate impulses for all languages (Magisterium AI)
