@@ -25,6 +25,7 @@ jobs:
         run: node scripts/generate-impulse.js
         env:
           MAGISTERIUM_API_KEY: ${{ secrets.MAGISTERIUM_API_KEY }}
+          API_BIBLE_KEY: ${{ secrets.API_BIBLE_KEY }}
 
       - name: Commit and push
         run: |
