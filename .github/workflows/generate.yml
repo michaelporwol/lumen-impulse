@@ -1,0 +1,35 @@
+name: Generate Daily Impulse
+
+on:
+  schedule:
+    # 04:00 UTC = 05:00 CET / 06:00 CEST
+    - cron: '0 4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate impulse
+        run: node scripts/generate-impulse.js
+        env:
+          MAGISTERIUM_API_KEY: ${{ secrets.MAGISTERIUM_API_KEY }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add impulses/
+          git diff --cached --quiet || git commit -m "impulse: $(date -u +%Y-%m-%d)"
+          git push
