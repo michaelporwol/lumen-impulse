@@ -212,9 +212,13 @@ async function fetchBibleText(translation, bookNumber, chapter, verseStart, vers
       return null;
     }
 
-    // Join verse texts, clean up HTML tags and extra whitespace
+    // Join verse texts, clean up Strong's numbers (<S>1234</S>), HTML tags, extra whitespace
     const text = filtered
-      .map((v) => v.text.replace(/<[^>]*>/g, '').trim())
+      .map((v) => v.text
+        .replace(/<S>\d+<\/S>/gi, '')  // strip Strong's concordance markup (e.g. <S>2532</S>)
+        .replace(/<[^>]*>/g, '')       // strip remaining HTML tags
+        .trim()
+      )
       .filter(Boolean)
       .join(' ')
       .replace(/\s+/g, ' ')
