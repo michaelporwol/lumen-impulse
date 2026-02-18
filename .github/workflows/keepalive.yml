@@ -1,0 +1,23 @@
+name: Keep Alive
+
+# Prevents GitHub from auto-disabling scheduled workflows after 60 days of inactivity.
+# Scheduled workflow runs alone do NOT count as repo activity.
+
+on:
+  schedule:
+    # 1st and 15th of every month at 12:00 UTC
+    - cron: '0 12 1,15 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          time_elapsed: 50
