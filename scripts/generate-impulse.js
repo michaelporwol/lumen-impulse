@@ -311,11 +311,11 @@ Regeln:
   };
 }
 
-/** Strip Magisterium AI footnote references like [^3], [^6][^7], (cf. [^1]) etc. */
+/** Strip Magisterium AI footnote references like [^3], [^6][^7], [^1^], (cf. [^1]) etc. */
 function stripFootnotes(text) {
   if (typeof text !== 'string') return text;
   return text
-    .replace(/\s*\[\^?\d+\]/g, '')     // [^3], [1], [^12] (with optional leading space)
+    .replace(/\s*\[\^?\d+\^?\]/g, '')  // [^3], [1], [^12], [^1^] (with optional leading space)
     .replace(/\s*\(cf\.\s*\)/g, '')    // leftover empty "(cf. )" after stripping
     .replace(/\s{2,}/g, ' ')           // collapse double spaces
     .trim();
