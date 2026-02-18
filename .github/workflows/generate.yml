@@ -2,8 +2,8 @@ name: Generate Daily Impulse
 
 on:
   schedule:
-    # 04:00 UTC = 05:00 CET / 06:00 CEST
-    - cron: '0 4 * * *'
+    # 23:01 UTC = 00:01 CET / 01:01 CEST (next day in CET)
+    - cron: '1 23 * * *'
   workflow_dispatch: {}
 
 permissions:

@@ -150,14 +150,16 @@ const BOOK_TO_NUMBER = {
 };
 
 /**
- * Parse a USCCB-style reference like "Mark 8:11-13" or "1 John 3:1-2"
- * into { bookNumber, chapter, verseStart, verseEnd }.
+ * Parse a USCCB-style reference like "Mark 8:11-13", "1 John 3:1-2",
+ * or multi-range "Matthew 6:1-6, 16-18" into a result with verse ranges.
+ * Returns { bookNumber, chapter, ranges: [{ verseStart, verseEnd }] }
+ * Also sets verseStart/verseEnd spanning the full range for backwards compat.
  */
 function parseReference(reference) {
   const normalized = reference.replace(/\s+/g, ' ').trim();
 
-  // Match: optional number prefix, book name, chapter:verse(-verse)
-  const match = normalized.match(/^([1-3]?\s?[A-Za-z]+(?:\s+of\s+[A-Za-z]+)?)\s+(\d+):(\d+)(?:\s*[-–]\s*(\d+))?$/);
+  // Match: optional number prefix, book name, chapter:verses (including multi-range like "6:1-6, 16-18")
+  const match = normalized.match(/^([1-3]?\s?[A-Za-z]+(?:\s+of\s+[A-Za-z]+)?)\s+(\d+):(.+)$/);
   if (!match) {
     console.warn(`  ⚠️ Could not parse reference: "${reference}"`);
     return null;
@@ -165,8 +167,7 @@ function parseReference(reference) {
 
   const bookRaw = match[1].trim().toLowerCase();
   const chapter = parseInt(match[2], 10);
-  const verseStart = parseInt(match[3], 10);
-  const verseEnd = match[4] ? parseInt(match[4], 10) : verseStart;
+  const versePart = match[3].trim();
 
   const bookNumber = BOOK_TO_NUMBER[bookRaw];
   if (!bookNumber) {
@@ -174,25 +175,45 @@ function parseReference(reference) {
     return null;
   }
 
-  return { bookNumber, chapter, verseStart, verseEnd };
+  // Parse verse ranges: "1-6, 16-18" → [{1,6}, {16,18}]
+  const ranges = [];
+  for (const segment of versePart.split(/[,;]\s*/)) {
+    const rangeMatch = segment.trim().match(/^(\d+)(?:\s*[-–]\s*(\d+))?$/);
+    if (rangeMatch) {
+      const start = parseInt(rangeMatch[1], 10);
+      const end = rangeMatch[2] ? parseInt(rangeMatch[2], 10) : start;
+      ranges.push({ verseStart: start, verseEnd: end });
+    }
+  }
+
+  if (ranges.length === 0) {
+    console.warn(`  ⚠️ Could not parse verses: "${versePart}"`);
+    return null;
+  }
+
+  return {
+    bookNumber,
+    chapter,
+    verseStart: ranges[0].verseStart,
+    verseEnd: ranges[ranges.length - 1].verseEnd,
+    ranges,
+  };
 }
 
 /**
- * Fetch Bible text from Bolls.life for a given book/chapter and filter by verse range.
- * Bolls.life API: GET /get-text/{translation}/{bookNumber}/{chapter}/
- * Returns { text, reference } or null on failure.
- * No API key needed — all translations are public domain.
+ * Fetch Bible text for a single language, supporting multi-range references.
+ * Fetches the full chapter once and filters by all verse ranges.
  */
-async function fetchBibleText(translation, bookNumber, chapter, verseStart, verseEnd, lang) {
+async function fetchBibleTextMultiRange(translation, bookNumber, chapter, ranges, lang) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
 
   try {
     const url = `${BOLLS_API_BASE}/get-text/${translation}/${bookNumber}/${chapter}/`;
+    const rangeStr = ranges.map(r => `${r.verseStart}-${r.verseEnd}`).join(', ');
+    console.log(`  📖 Fetching Bolls.life [${lang}]: ${translation} book=${bookNumber} ch=${chapter} v${rangeStr}...`);
 
-    console.log(`  📖 Fetching Bolls.life [${lang}]: ${translation} book=${bookNumber} ch=${chapter} v${verseStart}-${verseEnd}...`);
     const resp = await fetch(url, { signal: controller.signal });
-
     if (!resp.ok) {
       const body = await resp.text().catch(() => '');
       console.warn(`  ⚠️ Bolls.life [${lang}] ${resp.status}: ${body.substring(0, 200)}`);
@@ -205,18 +226,19 @@ async function fetchBibleText(translation, bookNumber, chapter, verseStart, vers
       return null;
     }
 
-    // Filter to requested verse range
-    const filtered = verses.filter((v) => v.verse >= verseStart && v.verse <= verseEnd);
+    // Filter to all requested verse ranges
+    const filtered = verses.filter((v) =>
+      ranges.some(r => v.verse >= r.verseStart && v.verse <= r.verseEnd)
+    );
     if (filtered.length === 0) {
-      console.warn(`  ⚠️ Bolls.life [${lang}]: No verses in range ${verseStart}-${verseEnd}`);
+      console.warn(`  ⚠️ Bolls.life [${lang}]: No verses in requested ranges`);
       return null;
     }
 
-    // Join verse texts, clean up Strong's numbers (<S>1234</S>), HTML tags, extra whitespace
     const text = filtered
       .map((v) => v.text
-        .replace(/<S>\d+<\/S>/gi, '')  // strip Strong's concordance markup (e.g. <S>2532</S>)
-        .replace(/<[^>]*>/g, '')       // strip remaining HTML tags
+        .replace(/<S>\d+<\/S>/gi, '')
+        .replace(/<[^>]*>/g, '')
         .trim()
       )
       .filter(Boolean)
@@ -226,7 +248,6 @@ async function fetchBibleText(translation, bookNumber, chapter, verseStart, vers
 
     const versionName = BOLLS_VERSIONS[lang]?.name || translation;
     console.log(`  ✅ Bolls.life [${lang}] (${versionName}): ${text.substring(0, 80)}...`);
-
     return { text, reference: versionName };
   } catch (err) {
     console.warn(`  ⚠️ Bolls.life [${lang}] error:`, err.message);
@@ -248,14 +269,15 @@ async function fetchAllBibleTexts(reference) {
     return null;
   }
 
-  const { bookNumber, chapter, verseStart, verseEnd } = parsed;
-  console.log(`\n📖 Fetching Bible text: book=${bookNumber} ch=${chapter} v${verseStart}-${verseEnd}\n`);
+  const { bookNumber, chapter, ranges } = parsed;
+  const rangeStr = ranges.map(r => `${r.verseStart}-${r.verseEnd}`).join(', ');
+  console.log(`\n📖 Fetching Bible text: book=${bookNumber} ch=${chapter} v${rangeStr}\n`);
 
   const results = {};
   for (const lang of LANGUAGES) {
     const version = BOLLS_VERSIONS[lang];
     if (!version) continue;
-    results[lang] = await fetchBibleText(version.id, bookNumber, chapter, verseStart, verseEnd, lang);
+    results[lang] = await fetchBibleTextMultiRange(version.id, bookNumber, chapter, ranges, lang);
   }
 
   // At least one language must succeed
