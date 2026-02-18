@@ -2,8 +2,10 @@ name: Generate Daily Impulse
 
 on:
   schedule:
-    # 23:01 UTC = 00:01 CET / 01:01 CEST (next day in CET)
+    # Primary: 23:01 UTC = 00:01 CET (generate for next CET day)
     - cron: '1 23 * * *'
+    # Backup: 04:30 UTC = 05:30 CET (catch up if primary was skipped by GitHub)
+    - cron: '30 4 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -17,16 +19,31 @@ jobs:
         with:
           ref: main
 
+      - name: Check if today's impulse already exists
+        id: check
+        run: |
+          TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
+          if [ -f "impulses/${TODAY}.json" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Impulse for ${TODAY} already exists — skipping."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Generating impulse for ${TODAY}..."
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.check.outputs.skip != 'true'
         with:
           node-version: 20
 
       - name: Generate impulse
+        if: steps.check.outputs.skip != 'true'
         run: node scripts/generate-impulse.js
         env:
           MAGISTERIUM_API_KEY: ${{ secrets.MAGISTERIUM_API_KEY }}
 
       - name: Commit and push
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

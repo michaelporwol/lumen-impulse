@@ -306,8 +306,19 @@ Regeln:
 - Die Frage (mitnahme) soll konkret und alltagstauglich sein
 - tieferReingehen: theologisch fundiert (Kirchenväter, Ignatius, KKK), 3 Gedanken, 1 praktische Übung
 - Kein Moralisieren, keine Angst-Rhetorik, ignatianisch-barmherzig
-- Beziehe dich auf das Tagesevangelium`,
+- Beziehe dich auf das Tagesevangelium
+- KEINE Fußnoten, Quellenverweise oder Referenzmarker wie [^1] oder [1] im Text`,
   };
+}
+
+/** Strip Magisterium AI footnote references like [^3], [^6][^7], (cf. [^1]) etc. */
+function stripFootnotes(text) {
+  if (typeof text !== 'string') return text;
+  return text
+    .replace(/\s*\[\^?\d+\]/g, '')     // [^3], [1], [^12] (with optional leading space)
+    .replace(/\s*\(cf\.\s*\)/g, '')    // leftover empty "(cf. )" after stripping
+    .replace(/\s{2,}/g, ' ')           // collapse double spaces
+    .trim();
 }
 
 function parseImpulseJson(content) {
@@ -341,16 +352,16 @@ function parseImpulseJson(content) {
   }
 
   return {
-    impuls: { title: parsed.impuls.title, text: parsed.impuls.text },
+    impuls: { title: stripFootnotes(parsed.impuls.title), text: stripFootnotes(parsed.impuls.text) },
     mitnahme: {
-      title: parsed.mitnahme.title || 'Eine Frage für heute',
-      text: parsed.mitnahme.text,
+      title: stripFootnotes(parsed.mitnahme.title) || 'Eine Frage für heute',
+      text: stripFootnotes(parsed.mitnahme.text),
     },
     tieferReingehen: {
-      titel: parsed.tieferReingehen.titel,
-      text: parsed.tieferReingehen.text,
-      gedanken: parsed.tieferReingehen.gedanken,
-      uebung: parsed.tieferReingehen.uebung || '',
+      titel: stripFootnotes(parsed.tieferReingehen.titel),
+      text: stripFootnotes(parsed.tieferReingehen.text),
+      gedanken: parsed.tieferReingehen.gedanken.map(stripFootnotes),
+      uebung: stripFootnotes(parsed.tieferReingehen.uebung || ''),
     },
   };
 }
