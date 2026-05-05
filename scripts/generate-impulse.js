@@ -178,7 +178,7 @@ function parseReference(reference) {
   // Parse verse ranges: "1-6, 16-18" → [{1,6}, {16,18}]
   const ranges = [];
   for (const segment of versePart.split(/[,;]\s*/)) {
-    const rangeMatch = segment.trim().match(/^(\d+)(?:\s*[-–]\s*(\d+))?$/);
+    const rangeMatch = segment.trim().match(/^(\d+)[a-z]?(?:\s*[-–]\s*(\d+)[a-z]?)?$/);
     if (rangeMatch) {
       const start = parseInt(rangeMatch[1], 10);
       const end = rangeMatch[2] ? parseInt(rangeMatch[2], 10) : start;
