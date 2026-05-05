@@ -21,7 +21,7 @@ const MAGISTERIUM_API_URL = 'https://www.magisterium.com/api/v1/chat/completions
 const API_KEY = process.env.MAGISTERIUM_API_KEY;
 const BOLLS_API_BASE = 'https://bolls.life';
 const LANGUAGES = ['de', 'en', 'pl'];
-const API_TIMEOUT_MS = 30000; // 30s timeout (CI has no rush)
+const API_TIMEOUT_MS = 120000; // 120s timeout — Magisterium API can be slow
 
 // Bible versions on Bolls.life — ALL public domain, no copyright issues
 const BOLLS_VERSIONS = {
