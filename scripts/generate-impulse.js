@@ -94,15 +94,64 @@ function parseUsccbMarkdown(markdown) {
   return { title, reference };
 }
 
-async function fetchGospelReference(isoDate) {
+// ── Evangelizo.org — Primary Gospel source ────────────────────────
+
+function parseEvangelizoReference(shortTitle) {
+  // shortTitle looks like: 'John <font dir="ltr">15,18-21.</font>'
+  // Strip HTML tags, trailing period, normalize
+  const clean = shortTitle.replace(/<[^>]*>/g, '').replace(/\.\s*$/, '').trim();
+  // "John 15,18-21" → "John 15:18-21" (Bolls.life uses colon)
+  const reference = clean.replace(/(\d+),(\d+)/, '$1:$2');
+  return reference;
+}
+
+async function fetchGospelFromEvangelizo(isoDate) {
+  const dateSlug = isoDate.replace(/-/g, ''); // 2026-05-09 → 20260509
+  const stUrl = `https://feed.evangelizo.org/v2/reader.php?date=${dateSlug}&type=reading_st&lang=AM&content=GSP`;
+  const ltUrl = `https://feed.evangelizo.org/v2/reader.php?date=${dateSlug}&type=reading_lt&lang=AM&content=GSP`;
+
+  console.log(`Fetching Evangelizo: ${stUrl}`);
+  const [stResp, ltResp] = await Promise.all([
+    fetch(stUrl),
+    fetch(ltUrl),
+  ]);
+
+  if (!stResp.ok) throw new Error(`Evangelizo fetch failed: ${stResp.status}`);
+
+  const shortTitle = await stResp.text();
+  const longTitle = ltResp.ok ? await ltResp.text() : '';
+
+  const reference = parseEvangelizoReference(shortTitle);
+  if (!reference || reference.length < 3) {
+    throw new Error(`Could not parse Evangelizo reference from: "${shortTitle}"`);
+  }
+
+  // Extract title from long title (strip HTML)
+  const title = longTitle.replace(/<[^>]*>/g, '').trim() || 'Daily Gospel';
+
+  console.log(`  ✅ Evangelizo: "${reference}" (${title})`);
+  return {
+    reference,
+    referenceDisplay: toGermanDisplayReference(reference),
+    title,
+  };
+}
+
+// ── USCCB — Fallback Gospel source ────────────────────────────────
+
+async function fetchGospelFromUsccb(isoDate) {
   const slug = toUsccbDateSlug(isoDate);
   const url = `https://bible.usccb.org/bible/readings/${slug}.cfm.md`;
 
-  console.log(`Fetching USCCB: ${url}`);
+  console.log(`Fetching USCCB (fallback): ${url}`);
   const resp = await fetch(url);
   if (!resp.ok) throw new Error(`USCCB fetch failed: ${resp.status}`);
 
   const markdown = await resp.text();
+  // Check for bot protection page
+  if (markdown.includes('Checking connection') || markdown.includes('noindex, nofollow')) {
+    throw new Error('USCCB returned bot protection page instead of readings');
+  }
   const { title, reference } = parseUsccbMarkdown(markdown);
 
   if (!reference) {
@@ -114,6 +163,24 @@ async function fetchGospelReference(isoDate) {
     referenceDisplay: toGermanDisplayReference(reference),
     title: title || 'Daily Gospel',
   };
+}
+
+async function fetchGospelReference(isoDate) {
+  // Try Evangelizo first (reliable, no bot protection)
+  try {
+    return await fetchGospelFromEvangelizo(isoDate);
+  } catch (err) {
+    console.warn(`⚠️ Evangelizo failed: ${err.message}`);
+  }
+
+  // Fallback to USCCB
+  try {
+    return await fetchGospelFromUsccb(isoDate);
+  } catch (err) {
+    console.warn(`⚠️ USCCB also failed: ${err.message}`);
+  }
+
+  throw new Error('All Gospel sources failed (Evangelizo + USCCB)');
 }
 
 // ── Bolls.life — Fetch Bible text (public domain, no API key) ─────
