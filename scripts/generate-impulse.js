@@ -32,11 +32,25 @@ const BOLLS_VERSIONS = {
 
 // ── USCCB Gospel Parser ────────────────────────────────────────────
 
-const bibleBookGermanMap = {
-  matthew: 'Matthaeus', mark: 'Markus', luke: 'Lukas', john: 'Johannes',
-  mt: 'Matthaeus', mk: 'Markus', lk: 'Lukas', jn: 'Johannes',
-  matt: 'Matthaeus', mrk: 'Markus', luk: 'Lukas', joh: 'Johannes',
+const bibleBookMaps = {
+  de: {
+    matthew: 'Matthäus', mark: 'Markus', luke: 'Lukas', john: 'Johannes',
+    mt: 'Matthäus', mk: 'Markus', lk: 'Lukas', jn: 'Johannes',
+    matt: 'Matthäus', mrk: 'Markus', luk: 'Lukas', joh: 'Johannes',
+  },
+  en: {
+    matthew: 'Matthew', mark: 'Mark', luke: 'Luke', john: 'John',
+    mt: 'Matthew', mk: 'Mark', lk: 'Luke', jn: 'John',
+    matt: 'Matthew', mrk: 'Mark', luk: 'Luke', joh: 'John',
+  },
+  pl: {
+    matthew: 'Mateusz', mark: 'Marek', luke: 'Łukasz', john: 'Jan',
+    mt: 'Mateusz', mk: 'Marek', lk: 'Łukasz', jn: 'Jan',
+    matt: 'Mateusz', mrk: 'Marek', luk: 'Łukasz', joh: 'Jan',
+  },
 };
+// Backwards compat
+const bibleBookGermanMap = bibleBookMaps.de;
 
 function getLocalIsoDate() {
   const formatter = new Intl.DateTimeFormat('en-CA', {
@@ -51,14 +65,20 @@ function toUsccbDateSlug(isoDate) {
   return `${month}${day}${year.slice(-2)}`;
 }
 
-function toGermanDisplayReference(reference) {
+function toLocalizedDisplayReference(reference, lang = 'de') {
   const normalized = reference.replace(/\s+/g, ' ').trim();
   const match = normalized.match(/^([1-3]?\s?[A-Za-z.]+)\s+([0-9].*)$/);
   if (!match) return normalized;
   const bookRaw = match[1].replace(/\./g, '').trim();
   const chapterVerse = match[2].replace(/:/g, ',');
-  const germanBook = bibleBookGermanMap[bookRaw.toLowerCase()] || bookRaw;
-  return `${germanBook} ${chapterVerse}`;
+  const bookMap = bibleBookMaps[lang] || bibleBookMaps.de;
+  const localBook = bookMap[bookRaw.toLowerCase()] || bookRaw;
+  return `${localBook} ${chapterVerse}`;
+}
+
+// Backwards compat alias
+function toGermanDisplayReference(reference) {
+  return toLocalizedDisplayReference(reference, 'de');
 }
 
 function parseUsccbMarkdown(markdown) {
@@ -523,10 +543,16 @@ async function main() {
   }
 
   // 4. Write JSON files
+  const gospelRefs = {};
+  for (const lang of LANGUAGES) {
+    gospelRefs[lang] = toLocalizedDisplayReference(gospel.reference, lang);
+  }
+
   const output = {
     date: today,
-    gospelRef: gospel.referenceDisplay,
+    gospelRef: gospel.referenceDisplay, // backwards compat (German)
     gospelRefOriginal: gospel.reference,
+    gospelRefs, // per-language: { de: "Matthäus 6,1-6", en: "Matthew 6,1-6", pl: "Mateusz 6,1-6" }
     generatedAt: new Date().toISOString(),
     gospelTexts: gospelTexts || null,
     impulses,
