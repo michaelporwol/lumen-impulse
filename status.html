@@ -99,8 +99,6 @@
   <span><span class="dot" style="background:var(--gray)"></span> Unbekannt</span>
 </div>
 
-<div id="audio-note" style="display:none; color:var(--muted); font-size:0.8rem; margin-bottom:12px; font-style:italic;"></div>
-
 <div id="content">
   <div class="loading">
     <div class="spinner"></div>
@@ -109,12 +107,11 @@
 </div>
 
 <script>
-const IMPULSE_BASE = 'https://michaelporwol.github.io/lumen-impulse/impulses';
-const AUDIO_BASE = 'http://76.13.153.18:8090';
+const BASE = 'https://michaelporwol.github.io/lumen-impulse';
+const IMPULSE_BASE = `${BASE}/impulses`;
+const AUDIO_STATUS_BASE = `${BASE}/audio-status`;
 const DAYS = 30;
 const LANGS = ['de', 'en', 'pl'];
-// Mixed content: HTTPS page can't fetch HTTP audio manifests in most browsers
-const canFetchAudio = location.protocol !== 'https:';
 
 function getDates(count) {
   const dates = [];
@@ -150,11 +147,8 @@ async function checkDate(date) {
   // Fetch impulse data (HTTPS, always works)
   const impulseData = await fetchJson(`${IMPULSE_BASE}/${date}.json`);
 
-  // Audio manifest (HTTP — only works when page is also HTTP, blocked on HTTPS)
-  let audioManifest = null;
-  if (canFetchAudio) {
-    audioManifest = await fetchJson(`${AUDIO_BASE}/${date}/manifest.json`, 3000);
-  }
+  // Audio status from GitHub Pages (pushed by lumen-tts-generate)
+  const audioManifest = await fetchJson(`${AUDIO_STATUS_BASE}/${date}.json`, 3000);
 
   const result = { date, impulseData, audioManifest };
 
@@ -268,12 +262,6 @@ function renderTable(results) {
 }
 
 async function main() {
-  if (!canFetchAudio) {
-    const note = document.getElementById('audio-note');
-    note.style.display = 'block';
-    note.textContent = 'Audio-Status kann von HTTPS nicht geprüft werden (VPS ist HTTP). Audio-Spalte zeigt "?".';
-  }
-
   const dates = getDates(DAYS);
 
   // Fetch all in parallel (batched to avoid too many concurrent requests)

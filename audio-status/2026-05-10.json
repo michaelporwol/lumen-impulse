@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-10",
+  "generatedAt": "2026-05-10T00:01:57Z",
+  "audio": {
+    "de": {
+      "gospel": {
+        "url": "gospel-de.mp3",
+        "size": 325152,
+        "duration": 54
+      },
+      "impulse": {
+        "url": "impulse-de.mp3",
+        "size": 137088,
+        "duration": 22
+      },
+      "takeaway": {
+        "url": "takeaway-de.mp3",
+        "size": 83808,
+        "duration": 13
+      },
+      "deeper": {
+        "url": "deeper-de.mp3",
+        "size": 608688,
+        "duration": 101
+      }
+    },
+    "en": {
+      "gospel": {
+        "url": "gospel-en.mp3",
+        "size": 365904,
+        "duration": 60
+      },
+      "impulse": {
+        "url": "impulse-en.mp3",
+        "size": 164016,
+        "duration": 27
+      },
+      "takeaway": {
+        "url": "takeaway-en.mp3",
+        "size": 90576,
+        "duration": 15
+      },
+      "deeper": {
+        "url": "deeper-en.mp3",
+        "size": 559584,
+        "duration": 93
+      }
+    },
+    "pl": {
+      "gospel": {
+        "url": "gospel-pl.mp3",
+        "size": 327888,
+        "duration": 54
+      },
+      "impulse": {
+        "url": "impulse-pl.mp3",
+        "size": 132480,
+        "duration": 22
+      },
+      "takeaway": {
+        "url": "takeaway-pl.mp3",
+        "size": 86976,
+        "duration": 14
+      },
+      "deeper": {
+        "url": "deeper-pl.mp3",
+        "size": 599328,
+        "duration": 99
+      }
+    }
+  }
+}
