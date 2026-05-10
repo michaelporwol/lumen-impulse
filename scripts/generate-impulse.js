@@ -394,6 +394,7 @@ Regeln:
 - tieferReingehen: theologisch fundiert (Kirchenväter, Ignatius, KKK), 3 Gedanken, 1 praktische Übung
 - Kein Moralisieren, keine Angst-Rhetorik, ignatianisch-barmherzig
 - Beziehe dich auf das Tagesevangelium
+- ALLE Bibelzitate und Verweise müssen auf ${langLabel} sein — NIEMALS Zitate in einer anderen Sprache (kein Englisch in deutschen Texten, kein Deutsch in englischen Texten etc.)
 - KEINE Fußnoten, Quellenverweise oder Referenzmarker wie [^1] oder [1] im Text`,
   };
 }
