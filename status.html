@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumen Impulse Status</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d27;
+    --border: #2a2d3a;
+    --text: #e4e4e7;
+    --muted: #71717a;
+    --green: #22c55e;
+    --red: #ef4444;
+    --yellow: #eab308;
+    --gray: #3f3f46;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg); color: var(--text);
+    padding: 24px; max-width: 960px; margin: 0 auto;
+    line-height: 1.5;
+  }
+  h1 { font-size: 1.4rem; font-weight: 600; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
+  .summary {
+    display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;
+  }
+  .summary-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 20px; flex: 1; min-width: 120px;
+    text-align: center;
+  }
+  .summary-card .num { font-size: 1.8rem; font-weight: 700; }
+  .summary-card .label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+  .legend {
+    display: flex; gap: 16px; margin-bottom: 16px; font-size: 0.8rem; color: var(--muted);
+    flex-wrap: wrap;
+  }
+  .legend span { display: flex; align-items: center; gap: 4px; }
+  .legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  table {
+    width: 100%; border-collapse: collapse; background: var(--card);
+    border-radius: 10px; overflow: hidden; border: 1px solid var(--border);
+  }
+  thead { background: #12141c; }
+  th {
+    text-align: left; padding: 10px 12px; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted);
+    font-weight: 600; white-space: nowrap;
+  }
+  td { padding: 8px 12px; border-top: 1px solid var(--border); font-size: 0.85rem; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .date-cell { font-weight: 500; white-space: nowrap; }
+  .today { background: rgba(99,102,241,0.08); }
+  .status-row { display: flex; gap: 3px; }
+  .dot-status {
+    width: 18px; height: 18px; border-radius: 4px; display: inline-flex;
+    align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600;
+    cursor: default;
+  }
+  .dot-status.ok { background: rgba(34,197,94,0.15); color: var(--green); }
+  .dot-status.fail { background: rgba(239,68,68,0.15); color: var(--red); }
+  .dot-status.warn { background: rgba(234,179,8,0.15); color: var(--yellow); }
+  .dot-status.unknown { background: rgba(63,63,70,0.3); color: var(--gray); }
+  .gospel-title {
+    font-size: 0.8rem; color: var(--muted); max-width: 200px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .loading {
+    text-align: center; padding: 60px 20px; color: var(--muted);
+  }
+  .spinner {
+    width: 24px; height: 24px; border: 2px solid var(--border);
+    border-top-color: var(--green); border-radius: 50%;
+    animation: spin 0.8s linear infinite; margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (max-width: 640px) {
+    body { padding: 16px; }
+    .gospel-title { max-width: 100px; }
+    th, td { padding: 6px 8px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Lumen Impulse Status</h1>
+<p class="subtitle">Pipeline-Status der letzten 30 Tage</p>
+
+<div class="summary" id="summary"></div>
+
+<div class="legend">
+  <span><span class="dot" style="background:var(--green)"></span> OK</span>
+  <span><span class="dot" style="background:var(--red)"></span> Fehlt</span>
+  <span><span class="dot" style="background:var(--yellow)"></span> Teilweise</span>
+  <span><span class="dot" style="background:var(--gray)"></span> Unbekannt</span>
+</div>
+
+<div id="content">
+  <div class="loading">
+    <div class="spinner"></div>
+    Lade Daten...
+  </div>
+</div>
+
+<script>
+const IMPULSE_BASE = 'https://michaelporwol.github.io/lumen-impulse/impulses';
+const AUDIO_BASE = 'http://76.13.153.18:8090';
+const DAYS = 30;
+const LANGS = ['de', 'en', 'pl'];
+
+function getDates(count) {
+  const dates = [];
+  const now = new Date();
+  // Use Berlin timezone
+  for (let i = 0; i < count; i++) {
+    const d = new Date(now);
+    d.setDate(d.getDate() - i);
+    const iso = d.toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' });
+    dates.push(iso);
+  }
+  return dates;
+}
+
+function dot(ok, title) {
+  const cls = ok === true ? 'ok' : ok === false ? 'fail' : ok === 'warn' ? 'warn' : 'unknown';
+  const sym = ok === true ? '\u2713' : ok === false ? '\u2717' : ok === 'warn' ? '!' : '?';
+  return `<span class="dot-status ${cls}" title="${title || ''}">${sym}</span>`;
+}
+
+async function fetchJson(url, timeout = 5000) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeout);
+  try {
+    const r = await fetch(url, { signal: ctrl.signal });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+  finally { clearTimeout(timer); }
+}
+
+async function checkDate(date) {
+  const [impulseData, audioManifest] = await Promise.all([
+    fetchJson(`${IMPULSE_BASE}/${date}.json`),
+    fetchJson(`${AUDIO_BASE}/${date}/manifest.json`),
+  ]);
+
+  const result = { date, impulseData, audioManifest };
+
+  // Impulse checks
+  result.hasJson = !!impulseData;
+  result.gospelRef = impulseData?.gospelRef || null;
+
+  result.gospelText = {};
+  result.impulse = {};
+  result.audio = {};
+
+  for (const lang of LANGS) {
+    result.gospelText[lang] = !!(impulseData?.gospelTexts?.[lang]?.text);
+    result.impulse[lang] = !!(impulseData?.impulses?.[lang]?.impuls?.text);
+    result.audio[lang] = audioManifest?.audio?.[lang] ? Object.keys(audioManifest.audio[lang]) : null;
+  }
+
+  return result;
+}
+
+function allLangs(obj) {
+  return LANGS.every(l => obj[l]);
+}
+function someLangs(obj) {
+  return LANGS.some(l => obj[l]) && !allLangs(obj);
+}
+function langStatus(obj) {
+  if (allLangs(obj)) return true;
+  if (someLangs(obj)) return 'warn';
+  return false;
+}
+function langDetail(obj, labelFn) {
+  return LANGS.map(l => dot(obj[l], labelFn ? labelFn(l) : l.toUpperCase())).join('');
+}
+
+function audioLangStatus(audioObj) {
+  // 4 expected tracks per lang: gospel, impulse, takeaway, deeper
+  const result = {};
+  for (const lang of LANGS) {
+    const tracks = audioObj[lang];
+    if (!tracks) { result[lang] = null; continue; } // unknown (no manifest)
+    result[lang] = tracks.length >= 4 ? true : tracks.length > 0 ? 'warn' : false;
+  }
+  return result;
+}
+
+function renderSummary(results) {
+  const total = results.length;
+  const perfect = results.filter(r =>
+    r.hasJson && allLangs(r.gospelText) && allLangs(r.impulse) &&
+    r.audioManifest && LANGS.every(l => (r.audio[l]?.length || 0) >= 4)
+  ).length;
+  const withIssues = results.filter(r =>
+    !r.hasJson || !allLangs(r.impulse)
+  ).length;
+  const audioOk = results.filter(r =>
+    r.audioManifest && LANGS.every(l => (r.audio[l]?.length || 0) >= 4)
+  ).length;
+
+  document.getElementById('summary').innerHTML = `
+    <div class="summary-card"><div class="num" style="color:var(--green)">${perfect}</div><div class="label">Perfekt</div></div>
+    <div class="summary-card"><div class="num">${total - withIssues}</div><div class="label">Impulse OK</div></div>
+    <div class="summary-card"><div class="num">${audioOk}</div><div class="label">Audio OK</div></div>
+    <div class="summary-card"><div class="num" style="color:${withIssues > 0 ? 'var(--red)' : 'var(--green)'}">${withIssues}</div><div class="label">Probleme</div></div>
+  `;
+}
+
+function renderTable(results) {
+  const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' });
+
+  let html = `<table>
+    <thead><tr>
+      <th>Datum</th>
+      <th>JSON</th>
+      <th>Evangelium</th>
+      <th>KI-Impulse</th>
+      <th>Audio</th>
+      <th>Evangelium</th>
+    </tr></thead><tbody>`;
+
+  for (const r of results) {
+    const isToday = r.date === today;
+    const trClass = isToday ? ' class="today"' : '';
+
+    // Audio per-lang status
+    const audioStatus = audioLangStatus(r.audio);
+    const audioDetail = LANGS.map(l => {
+      const s = audioStatus[l];
+      const tracks = r.audio[l];
+      const title = tracks ? `${l.toUpperCase()}: ${tracks.join(', ')}` : `${l.toUpperCase()}: ?`;
+      return dot(s === null ? null : s, title);
+    }).join('');
+
+    const gospelTextDetail = langDetail(r.gospelText, l => `Bibeltext ${l.toUpperCase()}`);
+    const impulseDetail = langDetail(r.impulse, l => `KI-Impuls ${l.toUpperCase()}`);
+
+    const dayLabel = isToday ? `<strong>${r.date}</strong> <span style="color:var(--muted);font-size:0.7rem">heute</span>` : r.date;
+
+    html += `<tr${trClass}>
+      <td class="date-cell">${dayLabel}</td>
+      <td>${dot(r.hasJson, r.hasJson ? 'JSON vorhanden' : 'JSON fehlt')}</td>
+      <td><div class="status-row">${gospelTextDetail}</div></td>
+      <td><div class="status-row">${impulseDetail}</div></td>
+      <td><div class="status-row">${audioDetail}</div></td>
+      <td class="gospel-title" title="${r.gospelRef || ''}">${r.gospelRef || '-'}</td>
+    </tr>`;
+  }
+
+  html += '</tbody></table>';
+  document.getElementById('content').innerHTML = html;
+}
+
+async function main() {
+  const dates = getDates(DAYS);
+
+  // Fetch all in parallel (batched to avoid too many concurrent requests)
+  const results = [];
+  const batchSize = 10;
+  for (let i = 0; i < dates.length; i += batchSize) {
+    const batch = dates.slice(i, i + batchSize);
+    const batchResults = await Promise.all(batch.map(checkDate));
+    results.push(...batchResults);
+
+    // Progressive render
+    renderSummary(results);
+    renderTable(results);
+  }
+}
+
+main();
+</script>
+</body>
+</html>
