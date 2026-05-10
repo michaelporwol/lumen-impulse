@@ -3,92 +3,238 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lumen Impulse Status</title>
+<title>Lumen – Systemstatus</title>
+<meta name="description" content="Systemstatus der Lumen Impulse-Pipeline. Täglicher Status von Evangelium, KI-Impulsen und Audio.">
+<link rel="icon" type="image/png" href="https://lumenexamen.com/images/logo.png">
 <style>
   :root {
-    --bg: #0f1117;
-    --card: #1a1d27;
-    --border: #2a2d3a;
-    --text: #e4e4e7;
-    --muted: #71717a;
-    --green: #22c55e;
-    --red: #ef4444;
-    --yellow: #eab308;
-    --gray: #3f3f46;
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #141414;
+    --bg-card: #1a1a1a;
+    --gold: #b8964e;
+    --gold-light: #d4b574;
+    --gold-dark: #8a6f3a;
+    --text-primary: #f0ece4;
+    --text-secondary: #a09888;
+    --text-muted: #6b6358;
+    --green: #4ade80;
+    --red: #f87171;
+    --yellow: #facc15;
   }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background: var(--bg); color: var(--text);
-    padding: 24px; max-width: 960px; margin: 0 auto;
-    line-height: 1.5;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
   }
-  h1 { font-size: 1.4rem; font-weight: 600; margin-bottom: 4px; }
-  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
-  .summary {
-    display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;
-  }
-  .summary-card {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 10px; padding: 14px 20px; flex: 1; min-width: 120px;
+
+  /* Header */
+  .header {
+    padding: 2rem 1.5rem 0;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
   }
-  .summary-card .num { font-size: 1.8rem; font-weight: 700; }
-  .summary-card .label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+  .header a {
+    text-decoration: none;
+    color: var(--text-primary);
+  }
+  .header-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .header-logo img {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+  .header-logo span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--gold-light);
+  }
+  h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+  }
+  .subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  /* Summary Cards */
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 0 1.5rem;
+  }
+  .summary-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 16px 12px;
+    text-align: center;
+  }
+  .summary-card .num {
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: Georgia, serif;
+  }
+  .summary-card .label {
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+  }
+
+  /* Legend */
   .legend {
-    display: flex; gap: 16px; margin-bottom: 16px; font-size: 0.8rem; color: var(--muted);
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+    padding: 0 1.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
   }
-  .legend span { display: flex; align-items: center; gap: 4px; }
-  .legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .legend span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .legend .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* Table */
+  .table-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    overflow-x: auto;
+  }
   table {
-    width: 100%; border-collapse: collapse; background: var(--card);
-    border-radius: 10px; overflow: hidden; border: 1px solid var(--border);
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.05);
   }
-  thead { background: #12141c; }
+  thead { background: var(--bg-secondary); }
   th {
-    text-align: left; padding: 10px 12px; font-size: 0.7rem;
-    text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted);
-    font-weight: 600; white-space: nowrap;
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+    white-space: nowrap;
   }
-  td { padding: 8px 12px; border-top: 1px solid var(--border); font-size: 0.85rem; }
-  tr:hover td { background: rgba(255,255,255,0.02); }
-  .date-cell { font-weight: 500; white-space: nowrap; }
-  .today { background: rgba(99,102,241,0.08); }
+  td {
+    padding: 9px 14px;
+    border-top: 1px solid rgba(255,255,255,0.03);
+    font-size: 0.85rem;
+  }
+  tr:hover td { background: rgba(184,150,78,0.03); }
+  .date-cell { font-weight: 500; white-space: nowrap; font-size: 0.8rem; }
+  .today td { background: rgba(184,150,78,0.06); }
+
+  /* Status Dots */
   .status-row { display: flex; gap: 3px; }
   .dot-status {
-    width: 18px; height: 18px; border-radius: 4px; display: inline-flex;
-    align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 700;
     cursor: default;
+    transition: transform 0.15s;
   }
-  .dot-status.ok { background: rgba(34,197,94,0.15); color: var(--green); }
-  .dot-status.fail { background: rgba(239,68,68,0.15); color: var(--red); }
-  .dot-status.warn { background: rgba(234,179,8,0.15); color: var(--yellow); }
-  .dot-status.unknown { background: rgba(63,63,70,0.3); color: var(--gray); }
-  .gospel-title {
-    font-size: 0.8rem; color: var(--muted); max-width: 200px;
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  .dot-status:hover { transform: scale(1.15); }
+  .dot-status.ok { background: rgba(74,222,128,0.12); color: var(--green); }
+  .dot-status.fail { background: rgba(248,113,113,0.12); color: var(--red); }
+  .dot-status.warn { background: rgba(250,204,21,0.12); color: var(--yellow); }
+  .dot-status.unknown { background: rgba(255,255,255,0.04); color: var(--text-muted); }
+
+  .gospel-ref {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
-  .loading {
-    text-align: center; padding: 60px 20px; color: var(--muted);
-  }
+
+  /* Loading */
+  .loading { text-align: center; padding: 4rem 1.5rem; color: var(--text-muted); }
   .spinner {
-    width: 24px; height: 24px; border: 2px solid var(--border);
-    border-top-color: var(--green); border-radius: 50%;
-    animation: spin 0.8s linear infinite; margin: 0 auto 12px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255,255,255,0.06);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin: 0 auto 10px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
-  @media (max-width: 640px) {
-    body { padding: 16px; }
-    .gospel-title { max-width: 100px; }
-    th, td { padding: 6px 8px; }
+
+  /* Footer */
+  footer {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+  footer p { color: var(--text-muted); font-size: 0.8rem; font-weight: 300; }
+  footer a { color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+  footer a:hover { color: var(--gold-light); }
+  .footer-sep { margin: 0 0.5rem; color: var(--text-muted); }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .summary { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 1.3rem; }
+    .gospel-ref { max-width: 100px; }
+    th, td { padding: 7px 10px; }
   }
 </style>
 </head>
 <body>
 
-<h1>Lumen Impulse Status</h1>
-<p class="subtitle">Pipeline-Status der letzten 30 Tage</p>
+<div class="header">
+  <a href="https://lumenexamen.com">
+    <div class="header-logo">
+      <img src="https://lumenexamen.com/images/logo.png" alt="Lumen">
+      <span>LUMEN</span>
+    </div>
+  </a>
+  <h1>Systemstatus</h1>
+  <p class="subtitle">Impulse-Pipeline der letzten 30 Tage</p>
+</div>
 
 <div class="summary" id="summary"></div>
 
@@ -96,15 +242,28 @@
   <span><span class="dot" style="background:var(--green)"></span> OK</span>
   <span><span class="dot" style="background:var(--red)"></span> Fehlt</span>
   <span><span class="dot" style="background:var(--yellow)"></span> Teilweise</span>
-  <span><span class="dot" style="background:var(--gray)"></span> Unbekannt</span>
+  <span><span class="dot" style="background:var(--text-muted)"></span> Unbekannt</span>
 </div>
 
-<div id="content">
-  <div class="loading">
-    <div class="spinner"></div>
-    Lade Daten...
+<div class="table-wrap">
+  <div id="content">
+    <div class="loading">
+      <div class="spinner"></div>
+      Lade Daten...
+    </div>
   </div>
 </div>
+
+<footer>
+  <p>&copy; 2026 Lumen. Mit Liebe gemacht zur Ehre Gottes.</p>
+  <p style="margin-top:0.5rem;">
+    <a href="https://lumenexamen.com">Startseite</a>
+    <span class="footer-sep">&middot;</span>
+    <a href="https://lumenexamen.com/privacy.html">Datenschutz</a>
+    <span class="footer-sep">&middot;</span>
+    <a href="https://lumenexamen.com/impressum.html">Impressum</a>
+  </p>
+</footer>
 
 <script>
 const BASE = 'https://michaelporwol.github.io/lumen-impulse';
@@ -116,12 +275,10 @@ const LANGS = ['de', 'en', 'pl'];
 function getDates(count) {
   const dates = [];
   const now = new Date();
-  // Use Berlin timezone
   for (let i = 0; i < count; i++) {
     const d = new Date(now);
     d.setDate(d.getDate() - i);
-    const iso = d.toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' });
-    dates.push(iso);
+    dates.push(d.toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' }));
   }
   return dates;
 }
@@ -144,18 +301,14 @@ async function fetchJson(url, timeout = 5000) {
 }
 
 async function checkDate(date) {
-  // Fetch impulse data (HTTPS, always works)
-  const impulseData = await fetchJson(`${IMPULSE_BASE}/${date}.json`);
-
-  // Audio status from GitHub Pages (pushed by lumen-tts-generate)
-  const audioManifest = await fetchJson(`${AUDIO_STATUS_BASE}/${date}.json`, 3000);
+  const [impulseData, audioManifest] = await Promise.all([
+    fetchJson(`${IMPULSE_BASE}/${date}.json`),
+    fetchJson(`${AUDIO_STATUS_BASE}/${date}.json`, 3000),
+  ]);
 
   const result = { date, impulseData, audioManifest };
-
-  // Impulse checks
   result.hasJson = !!impulseData;
   result.gospelRef = impulseData?.gospelRef || null;
-
   result.gospelText = {};
   result.impulse = {};
   result.audio = {};
@@ -165,34 +318,13 @@ async function checkDate(date) {
     result.impulse[lang] = !!(impulseData?.impulses?.[lang]?.impuls?.text);
     result.audio[lang] = audioManifest?.audio?.[lang] ? Object.keys(audioManifest.audio[lang]) : null;
   }
-
   return result;
 }
 
-function allLangs(obj) {
-  return LANGS.every(l => obj[l]);
-}
-function someLangs(obj) {
-  return LANGS.some(l => obj[l]) && !allLangs(obj);
-}
-function langStatus(obj) {
-  if (allLangs(obj)) return true;
-  if (someLangs(obj)) return 'warn';
-  return false;
-}
+function allLangs(obj) { return LANGS.every(l => obj[l]); }
+
 function langDetail(obj, labelFn) {
   return LANGS.map(l => dot(obj[l], labelFn ? labelFn(l) : l.toUpperCase())).join('');
-}
-
-function audioLangStatus(audioObj) {
-  // 4 expected tracks per lang: gospel, impulse, takeaway, deeper
-  const result = {};
-  for (const lang of LANGS) {
-    const tracks = audioObj[lang];
-    if (!tracks) { result[lang] = null; continue; } // unknown (no manifest)
-    result[lang] = tracks.length >= 4 ? true : tracks.length > 0 ? 'warn' : false;
-  }
-  return result;
 }
 
 function renderSummary(results) {
@@ -201,17 +333,15 @@ function renderSummary(results) {
     r.hasJson && allLangs(r.gospelText) && allLangs(r.impulse) &&
     r.audioManifest && LANGS.every(l => (r.audio[l]?.length || 0) >= 4)
   ).length;
-  const withIssues = results.filter(r =>
-    !r.hasJson || !allLangs(r.impulse)
-  ).length;
+  const withIssues = results.filter(r => !r.hasJson || !allLangs(r.impulse)).length;
   const audioOk = results.filter(r =>
     r.audioManifest && LANGS.every(l => (r.audio[l]?.length || 0) >= 4)
   ).length;
 
   document.getElementById('summary').innerHTML = `
     <div class="summary-card"><div class="num" style="color:var(--green)">${perfect}</div><div class="label">Perfekt</div></div>
-    <div class="summary-card"><div class="num">${total - withIssues}</div><div class="label">Impulse OK</div></div>
-    <div class="summary-card"><div class="num">${audioOk}</div><div class="label">Audio OK</div></div>
+    <div class="summary-card"><div class="num" style="color:var(--gold-light)">${total - withIssues}</div><div class="label">Impulse OK</div></div>
+    <div class="summary-card"><div class="num" style="color:var(--gold-light)">${audioOk}</div><div class="label">Audio OK</div></div>
     <div class="summary-card"><div class="num" style="color:${withIssues > 0 ? 'var(--red)' : 'var(--green)'}">${withIssues}</div><div class="label">Probleme</div></div>
   `;
 }
@@ -226,34 +356,31 @@ function renderTable(results) {
       <th>Evangelium</th>
       <th>KI-Impulse</th>
       <th>Audio</th>
-      <th>Evangelium</th>
+      <th>Tagesevangelium</th>
     </tr></thead><tbody>`;
 
   for (const r of results) {
     const isToday = r.date === today;
     const trClass = isToday ? ' class="today"' : '';
 
-    // Audio per-lang status
-    const audioStatus = audioLangStatus(r.audio);
     const audioDetail = LANGS.map(l => {
-      const s = audioStatus[l];
       const tracks = r.audio[l];
-      const title = tracks ? `${l.toUpperCase()}: ${tracks.join(', ')}` : `${l.toUpperCase()}: ?`;
-      return dot(s === null ? null : s, title);
+      if (!tracks) return dot(null, `${l.toUpperCase()}: ?`);
+      const ok = tracks.length >= 4 ? true : tracks.length > 0 ? 'warn' : false;
+      return dot(ok, `${l.toUpperCase()}: ${tracks.join(', ')}`);
     }).join('');
 
-    const gospelTextDetail = langDetail(r.gospelText, l => `Bibeltext ${l.toUpperCase()}`);
-    const impulseDetail = langDetail(r.impulse, l => `KI-Impuls ${l.toUpperCase()}`);
-
-    const dayLabel = isToday ? `<strong>${r.date}</strong> <span style="color:var(--muted);font-size:0.7rem">heute</span>` : r.date;
+    const dayLabel = isToday
+      ? `<strong>${r.date}</strong> <span style="color:var(--gold);font-size:0.65rem">heute</span>`
+      : r.date;
 
     html += `<tr${trClass}>
       <td class="date-cell">${dayLabel}</td>
       <td>${dot(r.hasJson, r.hasJson ? 'JSON vorhanden' : 'JSON fehlt')}</td>
-      <td><div class="status-row">${gospelTextDetail}</div></td>
-      <td><div class="status-row">${impulseDetail}</div></td>
+      <td><div class="status-row">${langDetail(r.gospelText, l => `Bibeltext ${l.toUpperCase()}`)}</div></td>
+      <td><div class="status-row">${langDetail(r.impulse, l => `KI-Impuls ${l.toUpperCase()}`)}</div></td>
       <td><div class="status-row">${audioDetail}</div></td>
-      <td class="gospel-title" title="${r.gospelRef || ''}">${r.gospelRef || '-'}</td>
+      <td class="gospel-ref" title="${r.gospelRef || ''}">${r.gospelRef || '\u2013'}</td>
     </tr>`;
   }
 
@@ -263,16 +390,13 @@ function renderTable(results) {
 
 async function main() {
   const dates = getDates(DAYS);
-
-  // Fetch all in parallel (batched to avoid too many concurrent requests)
   const results = [];
   const batchSize = 10;
+
   for (let i = 0; i < dates.length; i += batchSize) {
     const batch = dates.slice(i, i + batchSize);
     const batchResults = await Promise.all(batch.map(checkDate));
     results.push(...batchResults);
-
-    // Progressive render
     renderSummary(results);
     renderTable(results);
   }
