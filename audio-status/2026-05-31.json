@@ -1,0 +1,78 @@
+{
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-31T01:36:37Z",
+  "audio": {
+    "de": {
+      "gospel": {
+        "url": "gospel-de.mp3",
+        "size": 217152,
+        "duration": 36
+      },
+      "impulse": {
+        "url": "impulse-de.mp3",
+        "size": 166896,
+        "duration": 27
+      },
+      "takeaway": {
+        "url": "takeaway-de.mp3",
+        "size": 113184,
+        "duration": 18
+      },
+      "deeper": {
+        "url": "deeper-de.mp3",
+        "size": 591264,
+        "duration": 98
+      },
+      "lectio": {
+        "url": "gospel-de-lectio.mp3",
+        "size": 223056,
+        "duration": 37,
+        "alignment_url": "gospel-de-lectio-alignment.json",
+        "original_text_url": "gospel-de-lectio-original.txt"
+      }
+    },
+    "en": {
+      "gospel": {
+        "url": "gospel-en.mp3",
+        "size": 209232,
+        "duration": 34
+      },
+      "lectio": {
+        "url": "gospel-en-lectio.mp3",
+        "size": 212688,
+        "duration": 35,
+        "alignment_url": "gospel-en-lectio-alignment.json",
+        "original_text_url": "gospel-en-lectio-original.txt"
+      }
+    },
+    "pl": {
+      "gospel": {
+        "url": "gospel-pl.mp3",
+        "size": 180432,
+        "duration": 30
+      },
+      "impulse": {
+        "url": "impulse-pl.mp3",
+        "size": 139680,
+        "duration": 23
+      },
+      "takeaway": {
+        "url": "takeaway-pl.mp3",
+        "size": 97632,
+        "duration": 16
+      },
+      "deeper": {
+        "url": "deeper-pl.mp3",
+        "size": 610704,
+        "duration": 101
+      },
+      "lectio": {
+        "url": "gospel-pl-lectio.mp3",
+        "size": 179280,
+        "duration": 29,
+        "alignment_url": "gospel-pl-lectio-alignment.json",
+        "original_text_url": "gospel-pl-lectio-original.txt"
+      }
+    }
+  }
+}
