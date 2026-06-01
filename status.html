@@ -3,26 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lumen – Systemstatus</title>
-<meta name="description" content="Systemstatus von Lumen. Lumen arbeitet ohne KI: alle Inhalte stammen aus der Heiligen Schrift und werden auf dem Gerät verarbeitet.">
+<title>Lumen – KI-Transparenz</title>
+<meta name="description" content="Wie Lumen mit KI umgeht: Deine Daten werden nie von KI verarbeitet. Nur die optionalen Vorlese-Stimmen sind synthetisch (Text-to-Speech).">
 <link rel="icon" type="image/png" href="https://lumenexamen.com/images/logo.png">
 <style>
   :root {
-    --bg-primary: #0a0a0a;
-    --bg-card: #1a1a1a;
-    --gold: #b8964e;
-    --gold-light: #d4b574;
-    --text-primary: #f0ece4;
-    --text-secondary: #a09888;
-    --text-muted: #6b6358;
-    --green: #4ade80;
+    --bg-primary: #0a0a0a; --bg-card: #1a1a1a;
+    --gold: #b8964e; --gold-light: #d4b574;
+    --text-primary: #f0ece4; --text-secondary: #a09888; --text-muted: #6b6358;
+    --green: #4ade80; --blue: #7aa2d6;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     background: var(--bg-primary); color: var(--text-primary);
-    -webkit-font-smoothing: antialiased; min-height: 100vh;
-    display: flex; flex-direction: column;
+    -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column;
   }
   .header { padding: 2.5rem 1.5rem 0; max-width: 760px; margin: 0 auto; text-align: center; }
   .header a { text-decoration: none; color: var(--text-primary); }
@@ -32,24 +27,26 @@
   h1 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.6rem; font-weight: 400; margin-bottom: 0.4rem; }
   .subtitle { color: var(--text-secondary); font-size: 0.9rem; font-weight: 300; margin-bottom: 2.5rem; }
   .wrap { max-width: 680px; margin: 0 auto; padding: 0 1.5rem 3rem; flex: 1; width: 100%; }
-  .status-banner {
+  .banner {
     display: flex; align-items: center; gap: 0.7rem; justify-content: center;
     background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.25);
-    border-radius: 12px; padding: 14px 18px; margin-bottom: 2rem;
+    border-radius: 12px; padding: 14px 18px; margin-bottom: 2rem; text-align: center;
   }
-  .status-banner .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
-  .status-banner span { color: var(--text-primary); font-size: 0.95rem; }
-  .card {
-    background: var(--bg-card); border: 1px solid rgba(255,255,255,0.05);
-    border-radius: 14px; padding: 22px 24px; margin-bottom: 16px;
-  }
-  .card h2 { font-family: Georgia, serif; font-size: 1.1rem; font-weight: 400; color: var(--gold-light); margin-bottom: 0.6rem; }
+  .banner .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+  .banner span { color: var(--text-primary); font-size: 0.95rem; }
+  .card { background: var(--bg-card); border: 1px solid rgba(255,255,255,0.05); border-radius: 14px; padding: 22px 24px; margin-bottom: 16px; }
+  .card.ai { border-color: rgba(122,162,214,0.3); }
+  .card h2 { font-family: Georgia, serif; font-size: 1.1rem; font-weight: 400; color: var(--gold-light); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem; }
+  .card.ai h2 { color: var(--blue); }
+  .badge { font-size: 0.6rem; font-family: -apple-system, sans-serif; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 7px; border-radius: 6px; font-weight: 700; }
+  .badge.no { background: rgba(74,222,128,0.14); color: var(--green); }
+  .badge.yes { background: rgba(122,162,214,0.16); color: var(--blue); }
   .card p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
   .card p + p { margin-top: 0.6rem; }
   .card strong { color: var(--text-primary); font-weight: 600; }
   footer { padding: 2rem 1.5rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); }
   footer p { color: var(--text-muted); font-size: 0.8rem; font-weight: 300; }
-  footer a { color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+  footer a { color: var(--text-secondary); text-decoration: none; }
   footer a:hover { color: var(--gold-light); }
   .footer-sep { margin: 0 0.5rem; color: var(--text-muted); }
   @media (max-width: 600px) { h1 { font-size: 1.3rem; } }
@@ -64,30 +61,31 @@
       <span>LUMEN</span>
     </div>
   </a>
-  <h1>Systemstatus</h1>
-  <p class="subtitle">Datenschutz &amp; Verarbeitung</p>
+  <h1>KI-Transparenz</h1>
+  <p class="subtitle">Wo KI vorkommt – und wo bewusst nicht</p>
 </div>
 
 <div class="wrap">
-  <div class="status-banner">
+  <div class="banner">
     <span class="dot"></span>
-    <span><strong>Lumen arbeitet ohne KI.</strong> Alles auf dem Gerät, nichts in der Cloud.</span>
+    <span><strong>Deine Daten werden nie von KI verarbeitet.</strong> Alles bleibt auf deinem Gerät.</span>
   </div>
 
   <div class="card">
-    <h2>Keine künstliche Intelligenz</h2>
-    <p>Lumen erzeugt <strong>keine</strong> Inhalte mit KI und sendet <strong>keine</strong> Ihrer Eingaben an externe Dienste. Es gibt kein KI-Modell, das Ihre Gebete, Gewissenserforschung oder Notizen verarbeitet.</p>
-    <p>Die frühere zentrale Impuls-Pipeline wurde am <strong>1. Juni 2026</strong> stillgelegt.</p>
+    <h2>Deine Inhalte <span class="badge no">Keine KI</span></h2>
+    <p>Gewissenserforschung, Gebete, Journal, Vorsätze: Es gibt <strong>kein</strong> KI-Modell, das deine Eingaben liest, analysiert oder verarbeitet. Kein Tracking, kein Cloud-Profil.</p>
+    <p>Auch <strong>keine KI-geschriebenen Meditationen/Reflexionen</strong> mehr — die frühere automatische Impuls-Generierung wurde am <strong>1. Juni 2026</strong> abgeschaltet.</p>
   </div>
 
   <div class="card">
-    <h2>Tägliches Evangelium</h2>
-    <p>Das Tagesevangelium stammt aus der <strong>Heiligen Schrift</strong> über öffentliche, kirchliche Quellen (z.&nbsp;B. Evangelizo, USCCB). Der Bibeltext wird unverändert dargestellt — ohne automatisch erzeugte Auslegung.</p>
+    <h2>Tagesevangelium <span class="badge no">Keine KI</span></h2>
+    <p>Der Bibeltext stammt <strong>wortgetreu aus der Heiligen Schrift</strong> über öffentliche, kirchliche Quellen (Evangelizo, USCCB). Keine automatisch erzeugte Auslegung.</p>
   </div>
 
-  <div class="card">
-    <h2>Verarbeitung auf dem Gerät</h2>
-    <p>Persönliche Bezüge (etwa zu Ihren Vorsätzen) werden <strong>ausschließlich lokal auf Ihrem Gerät</strong> berechnet. Es verlassen keine personenbezogenen Daten Ihr Telefon.</p>
+  <div class="card ai">
+    <h2>Vorlese-Stimmen <span class="badge yes">KI / TTS</span></h2>
+    <p>Die <strong>optionale Audio-Vorlesung</strong> nutzt synthetische Stimmen (Text-to-Speech, Microsoft Neural Voices). Das ist die einzige Stelle mit KI.</p>
+    <p>Wichtig: Die KI <strong>spricht</strong> nur den <strong>unveränderten</strong> Text (z.&nbsp;B. das Evangelium) — sie <strong>schreibt keine Inhalte</strong> und bekommt nichts von deinen Daten zu sehen. Audio mit synthetischer Stimme ist in der App entsprechend gekennzeichnet.</p>
   </div>
 </div>
 

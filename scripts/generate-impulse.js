@@ -497,11 +497,9 @@ async function callMagisterium(gospelRef, lang) {
 // ── Main ───────────────────────────────────────────────────────────
 
 async function main() {
-  if (!API_KEY) {
-    console.error('❌ MAGISTERIUM_API_KEY environment variable is not set');
-    process.exit(1);
-  }
-
+  // Seit 01.06.2026: KEINE KI-Reflexion mehr (Magisterium entfernt).
+  // Dieses Script erzeugt nur noch das Tagesevangelium (Referenz + Bibeltext)
+  // aus öffentlichen Quellen — Grundlage für die TTS-Audio-Generierung.
   const today = getLocalIsoDate();
   console.log(`\n📅 Generating impulse for ${today}\n`);
 
@@ -524,26 +522,7 @@ async function main() {
     console.warn('⚠️ Bible text fetch failed (non-critical):', err.message);
   }
 
-  // 3. Generate impulses for all languages (Magisterium AI)
-  const impulses = {};
-  for (const lang of LANGUAGES) {
-    try {
-      impulses[lang] = await callMagisterium(gospel.referenceDisplay, lang);
-    } catch (err) {
-      console.error(`❌ Failed for ${lang}:`, err.message);
-      // Don't fail the whole run — partial results are better than none
-      impulses[lang] = null;
-    }
-  }
-
-  // Check that at least one language succeeded
-  const successCount = Object.values(impulses).filter(Boolean).length;
-  if (successCount === 0) {
-    console.error('❌ All API calls failed. No impulse generated.');
-    process.exit(1);
-  }
-
-  // 4. Write JSON files
+  // 3. Write JSON files (nur Evangelium — keine KI-Reflexion)
   const gospelRefs = {};
   for (const lang of LANGUAGES) {
     gospelRefs[lang] = toLocalizedDisplayReference(gospel.reference, lang);
@@ -556,7 +535,6 @@ async function main() {
     gospelRefs, // per-language: { de: "Matthäus 6,1-6", en: "Matthew 6,1-6", pl: "Mateusz 6,1-6" }
     generatedAt: new Date().toISOString(),
     gospelTexts: gospelTexts || null,
-    impulses,
   };
 
   const impulsesDir = path.join(__dirname, '..', 'impulses');
@@ -569,9 +547,8 @@ async function main() {
   fs.writeFileSync(datePath, jsonStr, 'utf-8');
   fs.writeFileSync(latestPath, jsonStr, 'utf-8');
 
-  console.log(`\n✅ Written: impulses/${today}.json`);
-  console.log(`✅ Written: impulses/latest.json`);
-  console.log(`✅ ${successCount}/${LANGUAGES.length} languages generated successfully\n`);
+  console.log(`\n✅ Written: impulses/${today}.json (Tagesevangelium, ohne KI)`);
+  console.log(`✅ Written: impulses/latest.json\n`);
 }
 
 main().catch((err) => {
