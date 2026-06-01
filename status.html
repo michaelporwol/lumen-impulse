@@ -4,223 +4,55 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lumen – Systemstatus</title>
-<meta name="description" content="Systemstatus der Lumen Impulse-Pipeline. Täglicher Status von Evangelium, KI-Impulsen und Audio.">
+<meta name="description" content="Systemstatus von Lumen. Lumen arbeitet ohne KI: alle Inhalte stammen aus der Heiligen Schrift und werden auf dem Gerät verarbeitet.">
 <link rel="icon" type="image/png" href="https://lumenexamen.com/images/logo.png">
 <style>
   :root {
     --bg-primary: #0a0a0a;
-    --bg-secondary: #141414;
     --bg-card: #1a1a1a;
     --gold: #b8964e;
     --gold-light: #d4b574;
-    --gold-dark: #8a6f3a;
     --text-primary: #f0ece4;
     --text-secondary: #a09888;
     --text-muted: #6b6358;
     --green: #4ade80;
-    --red: #f87171;
-    --yellow: #facc15;
   }
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background: var(--bg-primary);
-    color: var(--text-primary);
-    -webkit-font-smoothing: antialiased;
-    min-height: 100vh;
+    background: var(--bg-primary); color: var(--text-primary);
+    -webkit-font-smoothing: antialiased; min-height: 100vh;
+    display: flex; flex-direction: column;
   }
-
-  /* Header */
-  .header {
-    padding: 2rem 1.5rem 0;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  .header { padding: 2.5rem 1.5rem 0; max-width: 760px; margin: 0 auto; text-align: center; }
+  .header a { text-decoration: none; color: var(--text-primary); }
+  .header-logo { display: inline-flex; align-items: center; gap: 0.6rem; margin-bottom: 1.5rem; }
+  .header-logo img { width: 32px; height: 32px; border-radius: 8px; }
+  .header-logo span { font-size: 1.1rem; font-weight: 600; letter-spacing: 0.04em; color: var(--gold-light); }
+  h1 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.6rem; font-weight: 400; margin-bottom: 0.4rem; }
+  .subtitle { color: var(--text-secondary); font-size: 0.9rem; font-weight: 300; margin-bottom: 2.5rem; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 1.5rem 3rem; flex: 1; width: 100%; }
+  .status-banner {
+    display: flex; align-items: center; gap: 0.7rem; justify-content: center;
+    background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.25);
+    border-radius: 12px; padding: 14px 18px; margin-bottom: 2rem;
   }
-  .header a {
-    text-decoration: none;
-    color: var(--text-primary);
+  .status-banner .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+  .status-banner span { color: var(--text-primary); font-size: 0.95rem; }
+  .card {
+    background: var(--bg-card); border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 14px; padding: 22px 24px; margin-bottom: 16px;
   }
-  .header-logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin-bottom: 1.5rem;
-  }
-  .header-logo img {
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-  }
-  .header-logo span {
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    color: var(--gold-light);
-  }
-  h1 {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--text-primary);
-    margin-bottom: 0.4rem;
-  }
-  .subtitle {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-  }
-
-  /* Summary Cards */
-  .summary {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    max-width: 800px;
-    margin: 0 auto 2rem;
-    padding: 0 1.5rem;
-  }
-  .summary-card {
-    background: var(--bg-card);
-    border: 1px solid rgba(255,255,255,0.05);
-    border-radius: 12px;
-    padding: 16px 12px;
-    text-align: center;
-  }
-  .summary-card .num {
-    font-size: 1.6rem;
-    font-weight: 600;
-    font-family: Georgia, serif;
-  }
-  .summary-card .label {
-    color: var(--text-muted);
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin-top: 2px;
-  }
-
-  /* Legend */
-  .legend {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 1rem;
-    padding: 0 1.5rem;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-  }
-  .legend span {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  .legend .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  /* Table */
-  .table-wrap {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1.5rem 3rem;
-    overflow-x: auto;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: var(--bg-card);
-    border-radius: 12px;
-    overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.05);
-  }
-  thead { background: var(--bg-secondary); }
-  th {
-    text-align: left;
-    padding: 10px 14px;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--text-muted);
-    font-weight: 600;
-    white-space: nowrap;
-  }
-  td {
-    padding: 9px 14px;
-    border-top: 1px solid rgba(255,255,255,0.03);
-    font-size: 0.85rem;
-  }
-  tr:hover td { background: rgba(184,150,78,0.03); }
-  .date-cell { font-weight: 500; white-space: nowrap; font-size: 0.8rem; }
-  .today td { background: rgba(184,150,78,0.06); }
-
-  /* Status Dots */
-  .status-row { display: flex; gap: 3px; }
-  .dot-status {
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.6rem;
-    font-weight: 700;
-    cursor: default;
-    transition: transform 0.15s;
-  }
-  .dot-status:hover { transform: scale(1.15); }
-  .dot-status.ok { background: rgba(74,222,128,0.12); color: var(--green); }
-  .dot-status.fail { background: rgba(248,113,113,0.12); color: var(--red); }
-  .dot-status.warn { background: rgba(250,204,21,0.12); color: var(--yellow); }
-  .dot-status.unknown { background: rgba(255,255,255,0.04); color: var(--text-muted); }
-
-  .gospel-ref {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    max-width: 180px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  /* Loading */
-  .loading { text-align: center; padding: 4rem 1.5rem; color: var(--text-muted); }
-  .spinner {
-    width: 20px;
-    height: 20px;
-    border: 2px solid rgba(255,255,255,0.06);
-    border-top-color: var(--gold);
-    border-radius: 50%;
-    animation: spin 0.7s linear infinite;
-    margin: 0 auto 10px;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
-
-  /* Footer */
-  footer {
-    padding: 2rem 1.5rem;
-    text-align: center;
-    border-top: 1px solid rgba(255,255,255,0.05);
-  }
+  .card h2 { font-family: Georgia, serif; font-size: 1.1rem; font-weight: 400; color: var(--gold-light); margin-bottom: 0.6rem; }
+  .card p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
+  .card p + p { margin-top: 0.6rem; }
+  .card strong { color: var(--text-primary); font-weight: 600; }
+  footer { padding: 2rem 1.5rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); }
   footer p { color: var(--text-muted); font-size: 0.8rem; font-weight: 300; }
   footer a { color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
   footer a:hover { color: var(--gold-light); }
   .footer-sep { margin: 0 0.5rem; color: var(--text-muted); }
-
-  /* Responsive */
-  @media (max-width: 600px) {
-    .summary { grid-template-columns: repeat(2, 1fr); }
-    h1 { font-size: 1.3rem; }
-    .gospel-ref { max-width: 100px; }
-    th, td { padding: 7px 10px; }
-  }
+  @media (max-width: 600px) { h1 { font-size: 1.3rem; } }
 </style>
 </head>
 <body>
@@ -233,24 +65,29 @@
     </div>
   </a>
   <h1>Systemstatus</h1>
-  <p class="subtitle">Impulse-Pipeline der letzten 30 Tage</p>
+  <p class="subtitle">Datenschutz &amp; Verarbeitung</p>
 </div>
 
-<div class="summary" id="summary"></div>
+<div class="wrap">
+  <div class="status-banner">
+    <span class="dot"></span>
+    <span><strong>Lumen arbeitet ohne KI.</strong> Alles auf dem Gerät, nichts in der Cloud.</span>
+  </div>
 
-<div class="legend">
-  <span><span class="dot" style="background:var(--green)"></span> OK</span>
-  <span><span class="dot" style="background:var(--red)"></span> Fehlt</span>
-  <span><span class="dot" style="background:var(--yellow)"></span> Teilweise</span>
-  <span><span class="dot" style="background:var(--text-muted)"></span> Unbekannt</span>
-</div>
+  <div class="card">
+    <h2>Keine künstliche Intelligenz</h2>
+    <p>Lumen erzeugt <strong>keine</strong> Inhalte mit KI und sendet <strong>keine</strong> Ihrer Eingaben an externe Dienste. Es gibt kein KI-Modell, das Ihre Gebete, Gewissenserforschung oder Notizen verarbeitet.</p>
+    <p>Die frühere zentrale Impuls-Pipeline wurde am <strong>1. Juni 2026</strong> stillgelegt.</p>
+  </div>
 
-<div class="table-wrap">
-  <div id="content">
-    <div class="loading">
-      <div class="spinner"></div>
-      Lade Daten...
-    </div>
+  <div class="card">
+    <h2>Tägliches Evangelium</h2>
+    <p>Das Tagesevangelium stammt aus der <strong>Heiligen Schrift</strong> über öffentliche, kirchliche Quellen (z.&nbsp;B. Evangelizo, USCCB). Der Bibeltext wird unverändert dargestellt — ohne automatisch erzeugte Auslegung.</p>
+  </div>
+
+  <div class="card">
+    <h2>Verarbeitung auf dem Gerät</h2>
+    <p>Persönliche Bezüge (etwa zu Ihren Vorsätzen) werden <strong>ausschließlich lokal auf Ihrem Gerät</strong> berechnet. Es verlassen keine personenbezogenen Daten Ihr Telefon.</p>
   </div>
 </div>
 
@@ -265,144 +102,5 @@
   </p>
 </footer>
 
-<script>
-const BASE = 'https://michaelporwol.github.io/lumen-impulse';
-const IMPULSE_BASE = `${BASE}/impulses`;
-const AUDIO_STATUS_BASE = `${BASE}/audio-status`;
-const DAYS = 30;
-const LANGS = ['de', 'en', 'pl'];
-
-function getDates(count) {
-  const dates = [];
-  const now = new Date();
-  for (let i = 0; i < count; i++) {
-    const d = new Date(now);
-    d.setDate(d.getDate() - i);
-    dates.push(d.toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' }));
-  }
-  return dates;
-}
-
-function dot(ok, title) {
-  const cls = ok === true ? 'ok' : ok === false ? 'fail' : ok === 'warn' ? 'warn' : 'unknown';
-  const sym = ok === true ? '\u2713' : ok === false ? '\u2717' : ok === 'warn' ? '!' : '?';
-  return `<span class="dot-status ${cls}" title="${title || ''}">${sym}</span>`;
-}
-
-async function fetchJson(url, timeout = 5000) {
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), timeout);
-  try {
-    const r = await fetch(url, { signal: ctrl.signal });
-    if (!r.ok) return null;
-    return await r.json();
-  } catch { return null; }
-  finally { clearTimeout(timer); }
-}
-
-async function checkDate(date) {
-  const [impulseData, audioManifest] = await Promise.all([
-    fetchJson(`${IMPULSE_BASE}/${date}.json`),
-    fetchJson(`${AUDIO_STATUS_BASE}/${date}.json`, 3000),
-  ]);
-
-  const result = { date, impulseData, audioManifest };
-  result.hasJson = !!impulseData;
-  result.gospelRef = impulseData?.gospelRef || null;
-  result.gospelText = {};
-  result.impulse = {};
-  result.audio = {};
-
-  for (const lang of LANGS) {
-    result.gospelText[lang] = !!(impulseData?.gospelTexts?.[lang]?.text);
-    result.impulse[lang] = !!(impulseData?.impulses?.[lang]?.impuls?.text);
-    result.audio[lang] = audioManifest?.audio?.[lang] ? Object.keys(audioManifest.audio[lang]) : null;
-  }
-  return result;
-}
-
-function allLangs(obj) { return LANGS.every(l => obj[l]); }
-
-function langDetail(obj, labelFn) {
-  return LANGS.map(l => dot(obj[l], labelFn ? labelFn(l) : l.toUpperCase())).join('');
-}
-
-function renderSummary(results) {
-  const total = results.length;
-  const perfect = results.filter(r =>
-    r.hasJson && allLangs(r.gospelText) && allLangs(r.impulse) &&
-    r.audioManifest && LANGS.every(l => (r.audio[l]?.length || 0) >= 4)
-  ).length;
-  const withIssues = results.filter(r => !r.hasJson || !allLangs(r.impulse)).length;
-  const audioOk = results.filter(r =>
-    r.audioManifest && LANGS.every(l => (r.audio[l]?.length || 0) >= 4)
-  ).length;
-
-  document.getElementById('summary').innerHTML = `
-    <div class="summary-card"><div class="num" style="color:var(--green)">${perfect}</div><div class="label">Perfekt</div></div>
-    <div class="summary-card"><div class="num" style="color:var(--gold-light)">${total - withIssues}</div><div class="label">Impulse OK</div></div>
-    <div class="summary-card"><div class="num" style="color:var(--gold-light)">${audioOk}</div><div class="label">Audio OK</div></div>
-    <div class="summary-card"><div class="num" style="color:${withIssues > 0 ? 'var(--red)' : 'var(--green)'}">${withIssues}</div><div class="label">Probleme</div></div>
-  `;
-}
-
-function renderTable(results) {
-  const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' });
-
-  let html = `<table>
-    <thead><tr>
-      <th>Datum</th>
-      <th>JSON</th>
-      <th>Evangelium</th>
-      <th>KI-Impulse</th>
-      <th>Audio</th>
-      <th>Tagesevangelium</th>
-    </tr></thead><tbody>`;
-
-  for (const r of results) {
-    const isToday = r.date === today;
-    const trClass = isToday ? ' class="today"' : '';
-
-    const audioDetail = LANGS.map(l => {
-      const tracks = r.audio[l];
-      if (!tracks) return dot(null, `${l.toUpperCase()}: ?`);
-      const ok = tracks.length >= 4 ? true : tracks.length > 0 ? 'warn' : false;
-      return dot(ok, `${l.toUpperCase()}: ${tracks.join(', ')}`);
-    }).join('');
-
-    const dayLabel = isToday
-      ? `<strong>${r.date}</strong> <span style="color:var(--gold);font-size:0.65rem">heute</span>`
-      : r.date;
-
-    html += `<tr${trClass}>
-      <td class="date-cell">${dayLabel}</td>
-      <td>${dot(r.hasJson, r.hasJson ? 'JSON vorhanden' : 'JSON fehlt')}</td>
-      <td><div class="status-row">${langDetail(r.gospelText, l => `Bibeltext ${l.toUpperCase()}`)}</div></td>
-      <td><div class="status-row">${langDetail(r.impulse, l => `KI-Impuls ${l.toUpperCase()}`)}</div></td>
-      <td><div class="status-row">${audioDetail}</div></td>
-      <td class="gospel-ref" title="${r.gospelRef || ''}">${r.gospelRef || '\u2013'}</td>
-    </tr>`;
-  }
-
-  html += '</tbody></table>';
-  document.getElementById('content').innerHTML = html;
-}
-
-async function main() {
-  const dates = getDates(DAYS);
-  const results = [];
-  const batchSize = 10;
-
-  for (let i = 0; i < dates.length; i += batchSize) {
-    const batch = dates.slice(i, i + batchSize);
-    const batchResults = await Promise.all(batch.map(checkDate));
-    results.push(...batchResults);
-    renderSummary(results);
-    renderTable(results);
-  }
-}
-
-main();
-</script>
 </body>
 </html>
