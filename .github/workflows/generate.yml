@@ -23,16 +23,20 @@ jobs:
         with:
           ref: main
 
-      - name: Check if today's gospel already exists
+      - name: Check if today's gospel already exists AND is valid
         id: check
         run: |
           TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
-          if [ -f "impulses/${TODAY}.json" ]; then
+          F="impulses/${TODAY}.json"
+          # Nur überspringen, wenn die Datei existiert UND gültige gospelTexts hat.
+          # Eine kaputte null-Datei (z. B. nach transientem Quellenausfall) darf den
+          # Backup-Lauf NICHT blockieren — sonst keine Selbstheilung (Vorfall 17.06.2026).
+          if [ -f "$F" ] && python3 -c "import json,sys; d=json.load(open('$F')); gt=d.get('gospelTexts') or {}; sys.exit(0 if (gt.get('de') or {}).get('text') else 1)"; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Gospel for ${TODAY} already exists — skipping."
+            echo "Gospel for ${TODAY} already complete — skipping."
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "Generating gospel for ${TODAY}..."
+            echo "Generating gospel for ${TODAY} (fehlt oder gospelTexts leer)..."
           fi
 
       - uses: actions/setup-node@v4
