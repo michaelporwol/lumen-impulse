@@ -262,9 +262,10 @@ function parseReference(reference) {
     return null;
   }
 
-  // Parse verse ranges: "1-6, 16-18" → [{1,6}, {16,18}]
+  // Parse verse ranges: "1-6, 16-18" or "1-6.16-18" → [{1,6}, {16,18}]
+  // Separators: comma, semicolon, AND period (European citation style, e.g. "Matt 6:1-6.16-18")
   const ranges = [];
-  for (const segment of versePart.split(/[,;]\s*/)) {
+  for (const segment of versePart.split(/[,;.]\s*/)) {
     const rangeMatch = segment.trim().match(/^(\d+)[a-z]?(?:\s*[-–]\s*(\d+)[a-z]?)?$/);
     if (rangeMatch) {
       const start = parseInt(rangeMatch[1], 10);
