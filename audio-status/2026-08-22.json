@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T01:48:55Z",
+  "audio": {
+    "de": {
+      "gospel": {
+        "url": "gospel-de.mp3",
+        "size": 533520,
+        "duration": 88
+      },
+      "lectio": {
+        "url": "gospel-de-lectio.mp3",
+        "size": 594720,
+        "duration": 99,
+        "alignment_url": "gospel-de-lectio-alignment.json",
+        "original_text_url": "gospel-de-lectio-original.txt"
+      }
+    },
+    "en": {
+      "gospel": {
+        "url": "gospel-en.mp3",
+        "size": 512640,
+        "duration": 85
+      },
+      "lectio": {
+        "url": "gospel-en-lectio.mp3",
+        "size": 578880,
+        "duration": 96,
+        "alignment_url": "gospel-en-lectio-alignment.json",
+        "original_text_url": "gospel-en-lectio-original.txt"
+      }
+    },
+    "pl": {
+      "gospel": {
+        "url": "gospel-pl.mp3",
+        "size": 493776,
+        "duration": 82
+      },
+      "lectio": {
+        "url": "gospel-pl-lectio.mp3",
+        "size": 554400,
+        "duration": 92,
+        "alignment_url": "gospel-pl-lectio-alignment.json",
+        "original_text_url": "gospel-pl-lectio-original.txt"
+      }
+    }
+  }
+}
