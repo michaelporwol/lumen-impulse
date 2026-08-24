@@ -501,7 +501,20 @@ async function main() {
   // Seit 01.06.2026: KEINE KI-Reflexion mehr (Magisterium entfernt).
   // Dieses Script erzeugt nur noch das Tagesevangelium (Referenz + Bibeltext)
   // aus öffentlichen Quellen — Grundlage für die TTS-Audio-Generierung.
-  const today = getLocalIsoDate();
+  //
+  // Zieldatum ist per Argument setzbar (YYYY-MM-DD), damit der Tag im VORAUS
+  // erzeugt werden kann. Grund (24.08.2026): Nutzer östlich von Europa haben
+  // ihren Kalendertag schon Stunden vor uns — bei einem Nutzer in UTC+8 war um
+  // 06:49 Ortszeit weder Impuls noch Audio des Tages da (beides entsteht erst
+  // gegen 01:15/01:45 UTC). Evangelizo und USCCB liefern kommende Tage bereits
+  // aus, deshalb kostet die Vorproduktion nichts.
+  const argDate = (process.argv[2] || '').trim();
+  if (argDate && !/^\d{4}-\d{2}-\d{2}$/.test(argDate)) {
+    console.error(`❌ Ungültiges Datum: ${argDate} (erwartet YYYY-MM-DD)`);
+    process.exit(2);
+  }
+  const berlinToday = getLocalIsoDate();
+  const today = argDate || berlinToday;
   console.log(`\n📅 Generating impulse for ${today}\n`);
 
   // 1. Fetch Gospel reference
@@ -546,10 +559,18 @@ async function main() {
   const jsonStr = JSON.stringify(output, null, 2);
 
   fs.writeFileSync(datePath, jsonStr, 'utf-8');
-  fs.writeFileSync(latestPath, jsonStr, 'utf-8');
-
   console.log(`\n✅ Written: impulses/${today}.json (Tagesevangelium, ohne KI)`);
-  console.log(`✅ Written: impulses/latest.json\n`);
+
+  // latest.json bedeutet unverändert "der heutige Berliner Tag" — ein
+  // vorproduzierter Folgetag darf sie NICHT überschreiben, sonst zieht
+  // ~/bin/lumen-tts-generate (das latest.json gegen das Berliner Datum prüft)
+  // den falschen Tag und bricht ab.
+  if (today === berlinToday) {
+    fs.writeFileSync(latestPath, jsonStr, 'utf-8');
+    console.log(`✅ Written: impulses/latest.json\n`);
+  } else {
+    console.log(`↷ latest.json unverändert (${today} ist nicht der heutige Berliner Tag)\n`);
+  }
 }
 
 main().catch((err) => {

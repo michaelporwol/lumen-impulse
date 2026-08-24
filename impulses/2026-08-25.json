@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-25",
+  "gospelRef": "Matthäus 23,23-26",
+  "gospelRefOriginal": "Matt 23:23-26",
+  "gospelRefs": {
+    "de": "Matthäus 23,23-26",
+    "en": "Matthew 23,23-26",
+    "pl": "Mateusz 23,23-26"
+  },
+  "generatedAt": "2026-08-24T05:08:05.255Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr verzehntet die Krausemünze und den Anis und den Kümmel, und habt die wichtigeren Dinge des Gesetzes beiseite gelassen: das Gericht und die Barmherzigkeit und den Glauben; diese hättet ihr tun und jene nicht lassen sollen. Blinde Leiter, die ihr die Mücke seihet, das Kamel aber verschlucket! Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr reiniget das Äußere des Bechers und der Schüssel, inwendig aber sind sie voll von Raub und Unenthaltsamkeit. Blinder Pharisäer! reinige zuerst das Inwendige des Bechers und der Schüssel, auf daß auch das Auswendige derselben rein werde.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and anise and cummin, and have omitted the weightier matters of the law, judgment, mercy, and faith: these ought ye to have done, and not to leave the other undone. anise: Gr. dill Ye blind guides, which strain at a gnat, and swallow a camel. Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess. Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iż dawacie dziesięcinę z miętki i z anyżu i z kminu, a opuszczacie poważniejsze rzeczy w zakonie, sąd i miłosierdzie i wiarę; te rzeczy mieliście czynić, a onych nie opuszczać. Wodzowie ślepi! którzy przecedzacie komara, i wielbłąda połykacie. Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iż oczyszczacie kubek z wierzchu i misę, a wewnątrz pełne są drapiestwa i zbytku. Faryzeuszu ślepy! oczyść pierwej to, co jest wewnątrz w kubku i w misie, aby i to, co jest z wierzchu, czystem było.",
+      "reference": "Biblia Gdańska 1881"
+    }
+  }
+}

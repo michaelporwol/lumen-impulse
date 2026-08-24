@@ -1,8 +1,16 @@
 name: Generate Daily Gospel
 
-# Erzeugt täglich das Tagesevangelium (Referenz + Bibeltext) aus öffentlichen
-# Quellen (Evangelizo/USCCB/Bolls). KEINE KI — Grundlage für die TTS-Audio-Generierung.
+# Erzeugt das Tagesevangelium (Referenz + Bibeltext) aus öffentlichen Quellen
+# (Evangelizo/USCCB/Bolls). KEINE KI — Grundlage für die TTS-Audio-Generierung.
 # (Magisterium-AI-Reflexion am 01.06.2026 entfernt.)
+#
+# Seit 24.08.2026 wird IMMER auch der FOLGETAG mit erzeugt. Grund: Nutzer
+# östlich von Europa haben ihren Kalendertag Stunden vor uns. Ein Nutzer in
+# UTC+8 öffnete die Lectio um 06:49 Ortszeit = 22:49 UTC des Vortags — da gab
+# es weder Impuls (~23:15 UTC) noch Audio (~01:45 UTC) für seinen Tag, die App
+# zeigte "Tagesevangelium konnte nicht geladen werden". Mit der Vorproduktion
+# steht der Tag D spätestens am Abend (UTC) des Tages D-1 bereit, also vor
+# Mitternacht in jeder Zeitzone bis UTC+14.
 
 on:
   schedule:
@@ -23,36 +31,44 @@ jobs:
         with:
           ref: main
 
-      - name: Check if today's gospel already exists AND is valid
-        id: check
-        run: |
-          TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
-          F="impulses/${TODAY}.json"
-          # Nur überspringen, wenn die Datei existiert UND gültige gospelTexts hat.
-          # Eine kaputte null-Datei (z. B. nach transientem Quellenausfall) darf den
-          # Backup-Lauf NICHT blockieren — sonst keine Selbstheilung (Vorfall 17.06.2026).
-          if [ -f "$F" ] && python3 -c "import json,sys; d=json.load(open('$F')); gt=d.get('gospelTexts') or {}; sys.exit(0 if (gt.get('de') or {}).get('text') else 1)"; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Gospel for ${TODAY} already complete — skipping."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "Generating gospel for ${TODAY} (fehlt oder gospelTexts leer)..."
-          fi
-
       - uses: actions/setup-node@v4
-        if: steps.check.outputs.skip != 'true'
         with:
           node-version: 20
 
-      - name: Generate daily gospel (no AI)
-        if: steps.check.outputs.skip != 'true'
-        run: node scripts/generate-impulse.js
+      - name: Generate gospel for today and tomorrow
+        run: |
+          set -uo pipefail
+          TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
+          TOMORROW=$(TZ=Europe/Berlin date -d '+1 day' +%Y-%m-%d)
+          RC=0
+          for D in "$TODAY" "$TOMORROW"; do
+            F="impulses/${D}.json"
+            # Nur überspringen, wenn die Datei existiert UND gültige gospelTexts hat.
+            # Eine kaputte null-Datei (z. B. nach transientem Quellenausfall) darf den
+            # Backup-Lauf NICHT blockieren — sonst keine Selbstheilung (Vorfall 17.06.2026).
+            if [ -f "$F" ] && python3 -c "import json,sys; d=json.load(open('$F')); gt=d.get('gospelTexts') or {}; sys.exit(0 if (gt.get('de') or {}).get('text') else 1)"; then
+              echo "✓ ${D} bereits vollständig — übersprungen."
+              continue
+            fi
+            echo "→ Erzeuge ${D}..."
+            if ! node scripts/generate-impulse.js "$D"; then
+              # Der heutige Tag ist Pflicht, der Folgetag ist Vorproduktion:
+              # scheitert nur der Folgetag, holt ihn der nächste Lauf nach.
+              if [ "$D" = "$TODAY" ]; then
+                echo "::error::Tagesevangelium für ${D} konnte nicht erzeugt werden"
+                RC=1
+              else
+                echo "::warning::Vorproduktion für ${D} fehlgeschlagen — nächster Lauf holt sie nach"
+              fi
+            fi
+          done
+          exit $RC
 
       - name: Commit and push
-        if: steps.check.outputs.skip != 'true'
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add impulses/
-          git diff --cached --quiet || git commit -m "gospel: $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "gospel: $(TZ=Europe/Berlin date +%Y-%m-%d) (+Folgetag)"
           git push
