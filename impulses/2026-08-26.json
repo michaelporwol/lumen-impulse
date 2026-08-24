@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-26",
+  "gospelRef": "Matthäus 23,27-32",
+  "gospelRefOriginal": "Matt 23:27-32",
+  "gospelRefs": {
+    "de": "Matthäus 23,27-32",
+    "en": "Matthew 23,27-32",
+    "pl": "Mateusz 23,27-32"
+  },
+  "generatedAt": "2026-08-24T23:19:29.038Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr gleichet übertünchten Gräbern, die von außen zwar schön scheinen, inwendig aber voll Totengebeine und aller Unreinigkeit sind. Also scheinet auch ihr von außen zwar gerecht vor den Menschen, von innen aber seid ihr voll Heuchelei und Gesetzlosigkeit. Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr bauet die Gräber der Propheten und schmücket die Grabmäler der Gerechten und saget: Wären wir in den Tagen unserer Väter gewesen, so würden wir nicht ihre Teilhaber an dem Blute der Propheten gewesen sein. Also gebet ihr euch selbst Zeugnis, daß ihr Söhne derer seid, welche die Propheten ermordet haben; und ihr, machet voll das Maß eurer Väter!",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity. Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of the prophets, and garnish the sepulchres of the righteous, And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets. Wherefore ye be witnesses unto yourselves, that ye are the children of them which killed the prophets. Fill ye up then the measure of your fathers.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iżeście podobni grobom pobielanym, które się zdadzą z wierzchu być cudne, ale wewnątrz pełne są kości umarłych i wszelakiej nieczystości. Także i wy z wierzchu zdacie się być ludziom sprawiedliwi; ale wewnątrz jesteście pełni obłudy i nieprawości. Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iż budujecie groby proroków, i zdobicie nagrobki sprawiedliwych, I mówicie: Byśmy byli za dni ojców naszych, nie bylibyśmy uczestnikami ich we krwi proroków. A tak świadczycie sami przeciwko sobie, że jesteście synowie tych, którzy proroki pozabijali. I wy też dopełniacie miary ojców waszych.",
+      "reference": "Biblia Gdańska 1881"
+    }
+  }
+}
