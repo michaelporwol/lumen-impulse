@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-27",
+  "gospelRef": "Matthäus 24,42-51",
+  "gospelRefOriginal": "Matt 24:42-51",
+  "gospelRefs": {
+    "de": "Matthäus 24,42-51",
+    "en": "Matthew 24,42-51",
+    "pl": "Mateusz 24,42-51"
+  },
+  "generatedAt": "2026-08-25T23:22:06.970Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Wachet also, denn ihr wisset nicht, zu welcher Stunde euer Herr kommt. Jenes aber erkennet: wenn der Hausherr gewußt hätte, in welcher Wache der Dieb komme, so würde er wohl gewacht und nicht erlaubt haben, daß sein Haus durchgraben würde. Deshalb auch ihr, seid bereit; denn in der Stunde, in welcher ihr nicht meinet, kommt der Sohn des Menschen. - Wer ist nun der treue und kluge Knecht, (O. Sklave; so auch nachher) den sein Herr über sein Gesinde gesetzt hat, um ihnen die Speise zu geben zur rechten Zeit? Glückselig jener Knecht, den sein Herr, wenn er kommt, also tuend finden wird! Wahrlich, ich sage euch, er wird ihn über seine ganze Habe setzen. Wenn aber jener böse Knecht in seinem Herzen sagt: Mein Herr verzieht zu kommen, und anfängt, seine Mitknechte zu schlagen, und ißt und trinkt mit den Trunkenen, so wird der Herr jenes Knechtes kommen an einem Tage, an welchem er es nicht erwartet, und in einer Stunde, die er nicht weiß, und wird ihn entzweischneiden und ihm sein Teil setzen mit den Heuchlern: da wird sein das Weinen und das Zähneknirschen.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Watch therefore: for ye know not what hour your Lord doth come. But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up. Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh. Who then is a faithful and wise servant, whom his lord hath made ruler over his household, to give them meat in due season? Blessed is that servant, whom his lord when he cometh shall find so doing. Verily I say unto you, That he shall make him ruler over all his goods. But and if that evil servant shall say in his heart, My lord delayeth his coming; And shall begin to smite his fellowservants, and to eat and drink with the drunken; The lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of, And shall cut him asunder, and appoint him his portion with the hypocrites: there shall be weeping and gnashing of teeth. cut: or, cut him off",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Czujcież tedy, ponieważ nie wiecie, której godziny Pan wasz przyjdzie. A to wiedzcie, że, gdyby wiedział gospodarz, o której straży złodziej ma przyjść, wżdyby czuł, i nie dałby podkopać domu swego. Przetoż i wy bądźcie gotowi; bo której się godziny nie spodziejecie, Syn człowieczy przyjdzie. Któryż tedy jest sługa wierny i roztropny, którego postanowił pan jego nad czeladzią swoją, aby im dawał pokarm na czas słuszny? Błogosławiony on sługa, którego by, przyszedłszy Pan jego, znalazł tak czyniącego; Zaprawdę powiadam wam, że go nad wszystkiemi dobrami swemi postanowi. A jeźliby rzekł on zły sługa w sercu swojem: Odwłacza pan mój z przyjściem swojem; I począłby bić spółsługi, a jeść i pić z pijanicami: Przyjdzie pan sługi onego, dnia, którego się nie spodzieje, i godziny, której nie wie; I odłączy go, a część jego położy z obłudnikami; tam będzie płacz i zgrzytanie zębów.",
+      "reference": "Biblia Gdańska 1881"
+    }
+  }
+}
