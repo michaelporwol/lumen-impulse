@@ -112,12 +112,12 @@
   <span><span class="dot" style="background:var(--red)"></span> Fehlt</span>
   <span><span class="dot" style="background:var(--yellow)"></span> Teilweise</span>
   <span><span class="dot" style="background:var(--text-muted)"></span> Unbekannt</span>
-  <span><span class="dot" style="background:var(--gold-dark)"></span> ES/IT/FR: nutzt Englisch</span>
+
 </div>
 
 <div class="note">
   <p>Überwacht wird die tägliche Pipeline: <strong>Tagesevangelium</strong> (Referenz + Bibeltext DE/EN/PL aus öffentlichen Quellen) und <strong>Audio</strong> (synthetische TTS-Vorlesung). Seit 01.06.2026 ohne KI-generierte Reflexionen — die Stimme ist synthetisch, der Text nicht.</p>
-  <p>Die App spricht seit dem 26.08.2026 sechs Sprachen. Eigene Bibeltexte und Stimmen gibt es bisher nur für <strong>DE/EN/PL</strong>; <strong>ES/IT/FR</strong> greifen auf die englische Fassung zurück und stehen deshalb mit <span style="color:var(--gold-dark)">↳</span> in den Spalten. Für Spanisch und Französisch liegen gemeinfreie katholische Bibeltexte bereit (Straubinger, Crampon), für Italienisch ist die CEI-Fassung lizenzpflichtig — das ist der offene Punkt.</p>
+  <p>Seit dem 26.08.2026 laufen <strong>sechs Sprachen</strong> durch dieselbe Pipeline. Die Bibeltexte sind gemeinfrei: Elberfelder 1871 (DE), King James (EN), Biblia Gdańska 1881 (PL), Reina-Valera 1909 (ES), Riveduta 1927 (IT) und Augustin Crampon 1923 (FR, katholisch). Die vier Evangelien liegen dafür als Datei im Repo — die Tageslesung braucht nie mehr. Offen bleibt eine katholische Fassung für Spanisch (Straubinger wird erst am 01.01.2027 gemeinfrei) und für Italienisch (CEI ist lizenzpflichtig).</p>
 </div>
 
 <div class="table-wrap">
@@ -146,13 +146,15 @@ const IMPULSE_BASE = `${BASE}/impulses`;
 const AUDIO_STATUS_BASE = `${BASE}/audio-status`;
 const DAYS = 30;
 // Sprachen, fuer die die Pipeline WIRKLICH Text und Ton erzeugt.
-const LANGS = ['de', 'en', 'pl'];
+// Seit 26.08.2026 sechs: es/it/fr kamen mit eigenen gemeinfreien Bibeltexten
+// (Reina-Valera 1909, Riveduta 1927, Crampon 1923) und eigenen Stimmen dazu.
+const LANGS = ['de', 'en', 'pl', 'es', 'it', 'fr'];
 // Sprachen, die die App seit 26.08.2026 spricht, fuer die es aber (noch) keine
 // eigenen Bibeltexte und Stimmen gibt. Sie holen sich in der App den
 // englischen Text und Ton (hooks/useLectioAudio.ts: inhaltsSprache). Hier
 // werden sie eigens ausgewiesen, damit die Seite nicht so tut, als gaebe es
 // nichts — und auch nicht so, als waere es uebersetzt.
-const LANGS_FALLBACK = ['es', 'it', 'fr'];
+const LANGS_FALLBACK = [];
 
 function getDates(count) {
   const dates = [];
