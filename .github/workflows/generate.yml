@@ -64,6 +64,22 @@ jobs:
           done
           exit $RC
 
+      - name: latest.json auf den heutigen Berliner Tag setzen
+        if: always()
+        run: |
+          # latest.json bedeutet "der heutige Berliner Tag". Der Generator schreibt
+          # sie nur, wenn er diesen Tag WIRKLICH neu erzeugt — seit der
+          # Vorproduktion (24.08.2026) existiert die Datei aber meist schon vom
+          # Vortag, der Schritt oben ueberspringt sie, und latest.json fror ein
+          # (24.–26.08.2026 auf dem 24.). Deshalb hier stumpf nachziehen.
+          TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
+          if [ -f "impulses/${TODAY}.json" ]; then
+            cp "impulses/${TODAY}.json" impulses/latest.json
+            echo "latest.json = ${TODAY}"
+          else
+            echo "::warning::impulses/${TODAY}.json fehlt — latest.json unveraendert"
+          fi
+
       - name: Commit and push
         if: always()
         run: |
