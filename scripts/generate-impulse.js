@@ -20,7 +20,7 @@ const path = require('path');
 const MAGISTERIUM_API_URL = 'https://www.magisterium.com/api/v1/chat/completions';
 const API_KEY = process.env.MAGISTERIUM_API_KEY;
 const BOLLS_API_BASE = 'https://bolls.life';
-const LANGUAGES = ['de', 'en', 'pl'];
+const LANGUAGES = ['de', 'en', 'pl', 'es', 'it', 'fr'];
 const API_TIMEOUT_MS = 120000; // 120s timeout — Magisterium API can be slow
 
 // Bible versions on Bolls.life — ALL public domain, no copyright issues
@@ -29,6 +29,54 @@ const BOLLS_VERSIONS = {
   en: { id: 'KJV', name: 'King James Version' },
   pl: { id: 'BG', name: 'Biblia Gdańska 1881' },
 };
+
+// Spanisch, Italienisch und Franzoesisch kommen NICHT von Bolls.life: dort gibt
+// es fuer diese Sprachen ausschliesslich urheberrechtlich geschuetzte Fassungen
+// (geprueft 26.08.2026: RV1960, NVI, NTV, LBLA, Nuova Riveduta 2006). Statt einer
+// Lizenz liegen die vier Evangelien als gemeinfreie Textdateien im Repo — mehr
+// braucht die Tageslesung nie, und der Lauf wird dadurch unabhaengig von einer
+// fremden API. Erzeugt von scripts/extract-gospels.py.
+const LOCAL_BIBLES = {
+  es: { file: 'bibles/gospels-es.json', name: 'Reina-Valera 1909' },
+  it: { file: 'bibles/gospels-it.json', name: 'Riveduta 1927' },
+  fr: { file: 'bibles/gospels-fr.json', name: 'Augustin Crampon 1923' },
+};
+const localBibleCache = {};
+
+function loadLocalBible(lang) {
+  if (localBibleCache[lang] !== undefined) return localBibleCache[lang];
+  const conf = LOCAL_BIBLES[lang];
+  try {
+    const pfad = path.join(__dirname, '..', conf.file);
+    localBibleCache[lang] = JSON.parse(fs.readFileSync(pfad, 'utf-8'));
+  } catch (err) {
+    console.warn(`  ⚠️ Lokale Bibel [${lang}] nicht lesbar: ${err.message}`);
+    localBibleCache[lang] = null;
+  }
+  return localBibleCache[lang];
+}
+
+/** Verse aus der lokalen Datei zusammensetzen — gleiche Rueckgabe wie Bolls.life. */
+function localBibleText(lang, bookNumber, chapter, ranges) {
+  const bibel = loadLocalBible(lang);
+  if (!bibel) return null;
+  const kapitel = bibel.books?.[String(bookNumber)]?.[String(chapter)];
+  if (!kapitel) {
+    console.warn(`  ⚠️ [${lang}] Buch ${bookNumber} Kapitel ${chapter} fehlt in der lokalen Bibel`);
+    return null;
+  }
+  const teile = [];
+  for (const r of ranges) {
+    for (let v = r.verseStart; v <= r.verseEnd; v++) {
+      const vers = kapitel[String(v)];
+      if (vers) teile.push(vers);
+    }
+  }
+  if (!teile.length) return null;
+  const text = teile.join(' ').replace(/\s+/g, ' ').trim();
+  console.log(`  ✅ Lokal [${lang}] (${bibel.translation}): ${text.substring(0, 80)}...`);
+  return { text, reference: bibel.translation };
+}
 
 // ── USCCB Gospel Parser ────────────────────────────────────────────
 
@@ -47,6 +95,21 @@ const bibleBookMaps = {
     matthew: 'Mateusz', mark: 'Marek', luke: 'Łukasz', john: 'Jan',
     mt: 'Mateusz', mk: 'Marek', lk: 'Łukasz', jn: 'Jan',
     matt: 'Mateusz', mrk: 'Marek', luk: 'Łukasz', joh: 'Jan',
+  },
+  es: {
+    matthew: 'Mateo', mark: 'Marcos', luke: 'Lucas', john: 'Juan',
+    mt: 'Mateo', mk: 'Marcos', lk: 'Lucas', jn: 'Juan',
+    matt: 'Mateo', mrk: 'Marcos', luk: 'Lucas', joh: 'Juan',
+  },
+  it: {
+    matthew: 'Matteo', mark: 'Marco', luke: 'Luca', john: 'Giovanni',
+    mt: 'Matteo', mk: 'Marco', lk: 'Luca', jn: 'Giovanni',
+    matt: 'Matteo', mrk: 'Marco', luk: 'Luca', joh: 'Giovanni',
+  },
+  fr: {
+    matthew: 'Matthieu', mark: 'Marc', luke: 'Luc', john: 'Jean',
+    mt: 'Matthieu', mk: 'Marc', lk: 'Luc', jn: 'Jean',
+    matt: 'Matthieu', mrk: 'Marc', luk: 'Luc', joh: 'Jean',
   },
 };
 // Backwards compat
@@ -363,6 +426,10 @@ async function fetchAllBibleTexts(reference) {
 
   const results = {};
   for (const lang of LANGUAGES) {
+    if (LOCAL_BIBLES[lang]) {
+      results[lang] = localBibleText(lang, bookNumber, chapter, ranges);
+      continue;
+    }
     const version = BOLLS_VERSIONS[lang];
     if (!version) continue;
     results[lang] = await fetchBibleTextMultiRange(version.id, bookNumber, chapter, ranges, lang);
