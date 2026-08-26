@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-24",
-  "gospelRef": "Johannes 1,45-51",
-  "gospelRefOriginal": "John 1:45-51",
+  "date": "2026-08-26",
+  "gospelRef": "Matthäus 23,27-32",
+  "gospelRefOriginal": "Matt 23:27-32",
   "gospelRefs": {
-    "de": "Johannes 1,45-51",
-    "en": "John 1,45-51",
-    "pl": "Jan 1,45-51"
+    "de": "Matthäus 23,27-32",
+    "en": "Matthew 23,27-32",
+    "pl": "Mateusz 23,27-32"
   },
-  "generatedAt": "2026-08-23T23:17:28.390Z",
+  "generatedAt": "2026-08-24T23:19:29.038Z",
   "gospelTexts": {
     "de": {
-      "text": "Philippus findet den Nathanael und spricht zu ihm: Wir haben den gefunden, von welchem Moses in dem Gesetz geschrieben und die Propheten, Jesum, den Sohn des Joseph, den von Nazareth. Und Nathanael sprach zu ihm: Kann aus Nazareth etwas Gutes kommen? (Eig. sein) Philippus spricht zu ihm: Komm und sieh! Jesus sah den Nathanael zu sich kommen und spricht von ihm: Siehe, wahrhaftig ein Israelit, in welchem kein Trug ist. Nathanael spricht zu ihm: Woher kennst du mich? Jesus antwortete und sprach zu ihm: Ehe Philippus dich rief, als du unter dem Feigenbaum warst, sah ich dich. Nathanael antwortete und sprach zu ihm : Rabbi, du bist der Sohn Gottes, du bist der König Israels. Jesus antwortete und sprach zu ihm: Weil ich dir sagte: Ich sah dich unter dem Feigenbaum, glaubst du? du wirst Größeres als dieses sehen. Und er spricht zu ihm: Wahrlich, wahrlich, ich sage euch: Von nun an werdet ihr den Himmel geöffnet sehen und die Engel Gottes auf- und niedersteigen auf den Sohn des Menschen.",
+      "text": "Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr gleichet übertünchten Gräbern, die von außen zwar schön scheinen, inwendig aber voll Totengebeine und aller Unreinigkeit sind. Also scheinet auch ihr von außen zwar gerecht vor den Menschen, von innen aber seid ihr voll Heuchelei und Gesetzlosigkeit. Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr bauet die Gräber der Propheten und schmücket die Grabmäler der Gerechten und saget: Wären wir in den Tagen unserer Väter gewesen, so würden wir nicht ihre Teilhaber an dem Blute der Propheten gewesen sein. Also gebet ihr euch selbst Zeugnis, daß ihr Söhne derer seid, welche die Propheten ermordet haben; und ihr, machet voll das Maß eurer Väter!",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "Philip findeth Nathanael, and saith unto him, We have found him, of whom Moses in the law, and the prophets, did write, Jesus of Nazareth, the son of Joseph. And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see. Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, in whom is no guile! Nathanael saith unto him, Whence knowest thou me? Jesus answered and said unto him, Before that Philip called thee, when thou wast under the fig tree, I saw thee. Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel. Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these. And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.",
+      "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity. Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of the prophets, and garnish the sepulchres of the righteous, And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets. Wherefore ye be witnesses unto yourselves, that ye are the children of them which killed the prophets. Fill ye up then the measure of your fathers.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "Filip znalazł Natanaela i rzekł mu: Znaleźliśmy onego, o którym pisał Mojżesz w zakonie i prorocy, Jezusa, syna Józefowego, z Nazaretu. I rzekł mu Natanael: Możesz z Nazaretu być co dobrego? Rzekł mu Filip: Pójdź, a oglądaj! Ujrzawszy tedy Jezus Natanaela idącego do siebie, rzekł o nim: Oto prawdziwie Izraelczyk, w którym nie masz zdrady. Rzekł mu Natanael: Skądże mię znasz? Odpowiedział Jezus i rzekł mu: Pierwej niż cię Filip zawołał, gdyś był pod figowem drzewem, widziałem cię. Odpowiedział Natanael i rzekł mu: Mistrzu! tyś jest on Syn Boży, tyś jest on król Izraelski. Odpowiedział Jezus i rzekł mu: Iżem ci powiedział: Widziałem cię pod figowem drzewem, wierzysz; większe rzeczy nad te ujrzysz. I rzekł mu: Zaprawdę, zaprawdę powiadam wam: Od tego czasu ujrzycie niebo otworzone i Anioły Boże wstępujące i zstępujące na Syna człowieczego.",
+      "text": "Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iżeście podobni grobom pobielanym, które się zdadzą z wierzchu być cudne, ale wewnątrz pełne są kości umarłych i wszelakiej nieczystości. Także i wy z wierzchu zdacie się być ludziom sprawiedliwi; ale wewnątrz jesteście pełni obłudy i nieprawości. Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iż budujecie groby proroków, i zdobicie nagrobki sprawiedliwych, I mówicie: Byśmy byli za dni ojców naszych, nie bylibyśmy uczestnikami ich we krwi proroków. A tak świadczycie sami przeciwko sobie, że jesteście synowie tych, którzy proroki pozabijali. I wy też dopełniacie miary ojców waszych.",
       "reference": "Biblia Gdańska 1881"
     }
   }
