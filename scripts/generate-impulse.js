@@ -66,11 +66,21 @@ function localBibleText(lang, bookNumber, chapter, ranges) {
     return null;
   }
   const teile = [];
+  const fehlend = [];
   for (const r of ranges) {
     for (let v = r.verseStart; v <= r.verseEnd; v++) {
       const vers = kapitel[String(v)];
-      if (vers) teile.push(vers);
+      if (vers && vers.trim()) teile.push(vers);
+      else fehlend.push(v);
     }
+  }
+  // Nicht stumm kuerzen: Crampon 1923 zaehlt in vier Kapiteln anders als die
+  // uebliche Zaehlung (Mt 17,27 · Mk 4,41 · Mk 9,50 · Joh 11,57 stehen dort im
+  // Vers davor). Inhaltlich fehlt nichts, aber wenn hier etwas ANDERES fehlt,
+  // soll es im Protokoll stehen statt unbemerkt zu verschwinden.
+  if (fehlend.length) {
+    console.warn(`  ⚠️ [${lang}] Verse ohne Text: ${chapter},${fehlend.join('.')} `
+      + `(bei Crampon bekannte Zaehlungsverschiebung, sonst pruefen)`);
   }
   if (!teile.length) return null;
   const text = teile.join(' ').replace(/\s+/g, ' ').trim();
