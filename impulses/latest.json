@@ -1,25 +1,40 @@
 {
-  "date": "2026-08-26",
-  "gospelRef": "Matthäus 23,27-32",
-  "gospelRefOriginal": "Matt 23:27-32",
+  "date": "2026-08-27",
+  "gospelRef": "Matthäus 24,42-51",
+  "gospelRefOriginal": "Matt 24:42-51",
   "gospelRefs": {
-    "de": "Matthäus 23,27-32",
-    "en": "Matthew 23,27-32",
-    "pl": "Mateusz 23,27-32"
+    "de": "Matthäus 24,42-51",
+    "en": "Matthew 24,42-51",
+    "pl": "Mateusz 24,42-51",
+    "es": "Mateo 24,42-51",
+    "it": "Matteo 24,42-51",
+    "fr": "Matthieu 24,42-51"
   },
-  "generatedAt": "2026-08-24T23:19:29.038Z",
+  "generatedAt": "2026-08-26T20:26:07.928Z",
   "gospelTexts": {
     "de": {
-      "text": "Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr gleichet übertünchten Gräbern, die von außen zwar schön scheinen, inwendig aber voll Totengebeine und aller Unreinigkeit sind. Also scheinet auch ihr von außen zwar gerecht vor den Menschen, von innen aber seid ihr voll Heuchelei und Gesetzlosigkeit. Wehe euch, Schriftgelehrte und Pharisäer, Heuchler! denn ihr bauet die Gräber der Propheten und schmücket die Grabmäler der Gerechten und saget: Wären wir in den Tagen unserer Väter gewesen, so würden wir nicht ihre Teilhaber an dem Blute der Propheten gewesen sein. Also gebet ihr euch selbst Zeugnis, daß ihr Söhne derer seid, welche die Propheten ermordet haben; und ihr, machet voll das Maß eurer Väter!",
+      "text": "Wachet also, denn ihr wisset nicht, zu welcher Stunde euer Herr kommt. Jenes aber erkennet: wenn der Hausherr gewußt hätte, in welcher Wache der Dieb komme, so würde er wohl gewacht und nicht erlaubt haben, daß sein Haus durchgraben würde. Deshalb auch ihr, seid bereit; denn in der Stunde, in welcher ihr nicht meinet, kommt der Sohn des Menschen. - Wer ist nun der treue und kluge Knecht, (O. Sklave; so auch nachher) den sein Herr über sein Gesinde gesetzt hat, um ihnen die Speise zu geben zur rechten Zeit? Glückselig jener Knecht, den sein Herr, wenn er kommt, also tuend finden wird! Wahrlich, ich sage euch, er wird ihn über seine ganze Habe setzen. Wenn aber jener böse Knecht in seinem Herzen sagt: Mein Herr verzieht zu kommen, und anfängt, seine Mitknechte zu schlagen, und ißt und trinkt mit den Trunkenen, so wird der Herr jenes Knechtes kommen an einem Tage, an welchem er es nicht erwartet, und in einer Stunde, die er nicht weiß, und wird ihn entzweischneiden und ihm sein Teil setzen mit den Heuchlern: da wird sein das Weinen und das Zähneknirschen.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity. Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of the prophets, and garnish the sepulchres of the righteous, And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets. Wherefore ye be witnesses unto yourselves, that ye are the children of them which killed the prophets. Fill ye up then the measure of your fathers.",
+      "text": "Watch therefore: for ye know not what hour your Lord doth come. But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up. Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh. Who then is a faithful and wise servant, whom his lord hath made ruler over his household, to give them meat in due season? Blessed is that servant, whom his lord when he cometh shall find so doing. Verily I say unto you, That he shall make him ruler over all his goods. But and if that evil servant shall say in his heart, My lord delayeth his coming; And shall begin to smite his fellowservants, and to eat and drink with the drunken; The lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of, And shall cut him asunder, and appoint him his portion with the hypocrites: there shall be weeping and gnashing of teeth. cut: or, cut him off",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iżeście podobni grobom pobielanym, które się zdadzą z wierzchu być cudne, ale wewnątrz pełne są kości umarłych i wszelakiej nieczystości. Także i wy z wierzchu zdacie się być ludziom sprawiedliwi; ale wewnątrz jesteście pełni obłudy i nieprawości. Biada wam, nauczeni w Piśmie i Faryzeuszowie obłudni! iż budujecie groby proroków, i zdobicie nagrobki sprawiedliwych, I mówicie: Byśmy byli za dni ojców naszych, nie bylibyśmy uczestnikami ich we krwi proroków. A tak świadczycie sami przeciwko sobie, że jesteście synowie tych, którzy proroki pozabijali. I wy też dopełniacie miary ojców waszych.",
+      "text": "Czujcież tedy, ponieważ nie wiecie, której godziny Pan wasz przyjdzie. A to wiedzcie, że, gdyby wiedział gospodarz, o której straży złodziej ma przyjść, wżdyby czuł, i nie dałby podkopać domu swego. Przetoż i wy bądźcie gotowi; bo której się godziny nie spodziejecie, Syn człowieczy przyjdzie. Któryż tedy jest sługa wierny i roztropny, którego postanowił pan jego nad czeladzią swoją, aby im dawał pokarm na czas słuszny? Błogosławiony on sługa, którego by, przyszedłszy Pan jego, znalazł tak czyniącego; Zaprawdę powiadam wam, że go nad wszystkiemi dobrami swemi postanowi. A jeźliby rzekł on zły sługa w sercu swojem: Odwłacza pan mój z przyjściem swojem; I począłby bić spółsługi, a jeść i pić z pijanicami: Przyjdzie pan sługi onego, dnia, którego się nie spodzieje, i godziny, której nie wie; I odłączy go, a część jego położy z obłudnikami; tam będzie płacz i zgrzytanie zębów.",
       "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Velad pues, porque no sabéis á qué hora ha de venir vuestro Señor. Esto empero sabed, que si el padre de la familia supiese á cuál vela el ladrón había de venir, velaría, y no dejaría minar su casa. Por tanto, también vosotros estad apercibidos; porque el Hijo del hombre ha de venir á la hora que no pensáis. ¿Quién pues es el siervo fiel y prudente, al cual puso su señor sobre su familia para que les dé alimento á tiempo? Bienaventurado aquel siervo, al cual, cuando su señor viniere, le hallare haciendo así. De cierto os digo, que sobre todos sus bienes le pondrá. Y si aquel siervo malo dijere en su corazón: Mi señor se tarda en venir: Y comenzare á herir á sus consiervos, y aun á comer y á beber con los borrachos; Vendrá el señor de aquel siervo en el día que no espera, y á la hora que no sabe, Y le cortará por medio, y pondrá su parte con los hipócritas: allí será el lloro y el crujir de dientes.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Vegliate, dunque, perché non sapete in qual giorno il vostro Signore sia per venire. Ma sappiate questo, che se il padron di casa sapesse a qual vigilia il ladro deve venire, veglierebbe e non lascerebbe forzar la sua casa. Perciò, anche voi siate pronti; perché, nell’ora che non pensate, il Figliuol dell’uomo verrà. Qual è mai il servitore fedele e prudente che il padrone abbia costituito sui domestici per dar loro il vitto a suo tempo? Beato quel servitore che il padrone, arrivando, troverà così occupato! Io vi dico in verità che lo costituirà su tutti i suoi beni. Ma, s’egli è un malvagio servitore che dica in cuor suo: Il mio padrone tarda a venire; e comincia a battere i suoi conservi, e a mangiare e bere con gli ubriaconi, il padrone di quel servitore verrà nel giorno che non se l’aspetta, e nell’ora che non sa; e lo farà lacerare a colpi di flagello, e gli assegnerà la sorte degl’ipocriti. Ivi sarà il pianto e lo stridor de’ denti.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Veillez donc, puisque vous ne savez à quel moment votre Seigneur doit venir. Sachez-le bien, si le père de famille savait à quelle heure le voleur doit venir, il veillerait et ne laisserait pas percer sa maison. Tenez-vous donc prêts, vous aussi; car le Fils de l'homme viendra à l'heure où vous n'y penserez pas. \" Quel est donc le serviteur fidèle et prudent que son maître a établi sur les gens de sa maison, pour leur distribuer la nourriture en son temps? Heureux ce serviteur que son maître, à son retour, trouvera agissant ainsi! En vérité, je vous le dis, il l'établira sur tous ses biens. Mais, si c'est un méchant serviteur, et que, disant en lui-même: Mon maître tarde à venir, il se mette à battre ses compagnons, à manger et à boire avec des gens adonnés au vin, le maître de ce serviteur viendra le jour où il ne l'attend pas, et à l'heure qu'il ne sait pas, et il le fera déchirer de coups, et lui assignera son lot avec les hypocrites: c'est là qu'il y aura des pleurs et des grincements de dents.",
+      "reference": "Augustin Crampon 1923"
     }
   }
 }
