@@ -362,6 +362,51 @@ function parseReference(reference) {
 }
 
 /**
+ * Uebersetzer-Fussnoten aus dem Bolls.life-Verstext entfernen.
+ *
+ * Zwei Konventionen bei den Fassungen, die wir nutzen (gemessen 28.08.2026 ueber
+ * alle vier Evangelien):
+ *  - KJV steckt JEDE Fussnote in <sup> (231 Stueck, nie etwas anderes) -> pauschal weg.
+ *  - Elberfelder 1871 nutzt <i>, teils verschachtelt (887 Stueck) -- ABER auch fuer
+ *    echte Klammern, die zum Vers gehoeren: Joh 1,15 besteht komplett aus einer.
+ *    Darum wird <i> von innen nach aussen aufgeloest und nur dann verworfen, wenn
+ *    der Inhalt eine erkennbare Anmerkung ist. Sonst faellt nur das Tag, der Text
+ *    bleibt. Einen Vers zu verlieren waere weit schlimmer als eine Notiz zu viel.
+ *  - Biblia gdanska (pl) hat gar keine Tags.
+ * Rest nach dem Filter: ELB 94 Klammern statt 887, KJV 35 (alles echter Text),
+ * kein einziger Vers wird leer.
+ */
+const NOTE_MARKER = /^\(?\s*(?:O\.|o\.|Eig\.|W\.|And\.|and\.|d\.\s*[hi]\.|Vergl\.|vergl\.|S\.\s|s\.\s|Nach\s+and|od\.|Griech\.|Hebr\.|Anm\.|Woertl\.|Wörtl\.|Buchst\.|Im\s+Griech|A\.\s*L\.)/;
+// Querverweise wie "(Jes. 7,14)", "(Micha 5,1)", "(5. Mose 6,5)"
+const CROSS_REF = /^\(?\s*(?:\d\.\s*)?[A-ZÄÖÜ][a-zäöüA-ZÄÖÜ]{1,12}\.?\s*\d+\s*,\s*\d+[\d.,\-–;\s]*\)?$/;
+// Metasprache, die es nur in einer Anmerkung gibt: Elberfelder zitiert das
+// glossierte Wort mit ''…'' und argumentiert ueber Handschriften und Grundtext.
+const NOTE_TELL = /''|\bViell\.|\bwahrsch\.|\bHandschrift|\bvergl\.|\bgriech\.|\bhebr\.|\bLesart/;
+
+function istAnmerkung(inhalt) {
+  const s = inhalt.trim();
+  return NOTE_MARKER.test(s) || CROSS_REF.test(s) || NOTE_TELL.test(s);
+}
+
+function stripVerseNotes(html) {
+  let out = String(html).replace(/<sup\b[^>]*>[\s\S]*?<\/sup>/gi, '');
+  // innerstes <i>…</i> zuerst, bis keines mehr da ist
+  const innerstes = /<i\b[^>]*>((?:(?!<i\b)[\s\S])*?)<\/i>/i;
+  for (let schutz = 0; schutz < 50; schutz++) {
+    const m = out.match(innerstes);
+    if (!m) break;
+    out = out.slice(0, m.index) + (istAnmerkung(m[1]) ? ' ' : ` ${m[1]} `) + out.slice(m.index + m[0].length);
+  }
+  return out
+    .replace(/<S>\d+<\/S>/gi, '')
+    .replace(/<[^>]*>/g, '')
+    .replace(/\s+([,.;:!?])/g, '$1')
+    .replace(/\(\s*\)/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
  * Fetch Bible text for a single language, supporting multi-range references.
  * Fetches the full chapter once and filters by all verse ranges.
  */
@@ -397,11 +442,7 @@ async function fetchBibleTextMultiRange(translation, bookNumber, chapter, ranges
     }
 
     const text = filtered
-      .map((v) => v.text
-        .replace(/<S>\d+<\/S>/gi, '')
-        .replace(/<[^>]*>/g, '')
-        .trim()
-      )
+      .map((v) => stripVerseNotes(v.text))
       .filter(Boolean)
       .join(' ')
       .replace(/\s+/g, ' ')
