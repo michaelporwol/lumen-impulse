@@ -11,13 +11,25 @@ name: Generate Daily Gospel
 # zeigte "Tagesevangelium konnte nicht geladen werden". Mit der Vorproduktion
 # steht der Tag D spätestens am Abend (UTC) des Tages D-1 bereit, also vor
 # Mitternacht in jeder Zeitzone bis UTC+14.
+#
+# Seit 28.08.2026 sind es DREI Folgetage statt einem, und der Lauf startet
+# viermal täglich. Grund: GitHub verschluckt geplante Läufe. Am 27.08. lief
+# zuletzt um 15:24 UTC (da war der 29.08. noch nicht "morgen"), beide
+# Nachtläufe fielen aus — und weil nur EIN Tag Vorlauf existierte, fehlte
+# sofort das Tagesevangelium für den 29.08. und damit dessen Audio. Ein Puffer
+# von drei Tagen übersteht mehrere ausgefallene Läufe; die Läufe selbst sind
+# no-ops (~13s), solange nichts fehlt.
 
 on:
   schedule:
-    # Primary: 23:01 UTC = 00:01 CET (generate for next CET day)
+    # Primary: 23:01 UTC = 01:01 CEST (generate for next Berlin day)
     - cron: '1 23 * * *'
-    # Backup: 04:30 UTC = 05:30 CET (catch up if primary was skipped by GitHub)
+    # Backup: 04:30 UTC = 06:30 CEST (catch up if primary was skipped by GitHub)
     - cron: '30 4 * * *'
+    # Zwei weitere Netze über den Tag. GitHub garantiert keinen einzigen
+    # geplanten Lauf; vier Chancen täglich machen einen Ausfall folgenlos.
+    - cron: '17 10 * * *'
+    - cron: '47 16 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -35,13 +47,18 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate gospel for today and tomorrow
+      - name: Generate gospel for today and the next three days
         run: |
           set -uo pipefail
           TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
-          TOMORROW=$(TZ=Europe/Berlin date -d '+1 day' +%Y-%m-%d)
+          # Vorrat: heute + 3 Folgetage. Nur heute ist Pflicht, der Rest ist
+          # Puffer gegen ausgefallene Läufe.
+          TAGE="$TODAY"
+          for I in 1 2 3; do
+            TAGE="$TAGE $(TZ=Europe/Berlin date -d "+$I day" +%Y-%m-%d)"
+          done
           RC=0
-          for D in "$TODAY" "$TOMORROW"; do
+          for D in $TAGE; do
             F="impulses/${D}.json"
             # Nur überspringen, wenn die Datei existiert UND gültige gospelTexts hat.
             # Eine kaputte null-Datei (z. B. nach transientem Quellenausfall) darf den
@@ -86,5 +103,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add impulses/
-          git diff --cached --quiet || git commit -m "gospel: $(TZ=Europe/Berlin date +%Y-%m-%d) (+Folgetag)"
+          git diff --cached --quiet || git commit -m "gospel: $(TZ=Europe/Berlin date +%Y-%m-%d) (+3 Folgetage)"
           git push
