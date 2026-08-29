@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-01",
+  "gospelRef": "Lukas 4,31-37",
+  "gospelRefOriginal": "Luke 4:31-37",
+  "gospelRefs": {
+    "de": "Lukas 4,31-37",
+    "en": "Luke 4,31-37",
+    "pl": "Łukasz 4,31-37",
+    "es": "Lucas 4,31-37",
+    "it": "Luca 4,31-37",
+    "fr": "Luc 4,31-37"
+  },
+  "generatedAt": "2026-08-29T00:41:52.574Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Und er kam nach Kapernaum hinab, einer Stadt in Galiläa, und lehrte sie an den Sabbathen. Und sie erstaunten sehr über seine Lehre, denn sein Wort war mit Gewalt. Und es war in der Synagoge ein Mensch, der einen Geist eines unreinen Dämons hatte, und er schrie auf mit lauter Stimme und sprach: Laß ab! was haben wir mit dir zu schaffen, Jesu, Nazarener? Bist du gekommen, uns zu verderben? Ich kenne dich, wer du bist: der Heilige Gottes. Und Jesus bedrohte ihn und sprach: Verstumme und fahre aus von ihm! Und als der Dämon ihn mitten unter sie geworfen hatte, fuhr er von ihm aus, ohne ihn zu beschädigen. Und Entsetzen kam über alle, und sie redeten untereinander und sprachen: Was ist dies für ein Wort? denn mit Gewalt und Kraft gebietet er den unreinen Geistern, und sie fahren aus. Und das Gerücht über ihn ging aus in jeden Ort der Umgegend.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And came down to Capernaum, a city of Galilee, and taught them on the sabbath days. And they were astonished at his doctrine: for his word was with power. And in the synagogue there was a man, which had a spirit of an unclean devil, and cried out with a loud voice, Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art; the Holy One of God. And Jesus rebuked him, saying, Hold thy peace, and come out of him. And when the devil had thrown him in the midst, he came out of him, and hurt him not. And they were all amazed, and spake among themselves, saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out. And the fame of him went out into every place of the country round about.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I zstąpił do Kapernaum, miasta Galilejskiego, a tam je nauczał w sabaty. I zdumiewali się nad nauką jego; bo była mocna mowa jego. A w bóżnicy był człowiek, który miał ducha dyjabła nieczystego, i zawołał głosem wielkim, Mówiąc: Ach! Cóż my z tobą mamy, Jezusie Nazareński? Przyszedłeś, abyś nas wytracił; znam cię, ktoś jest, żeś on Święty Boży. I zgromił go Jezus, mówiąc: Umilknij, a wynijdź z niego. Tedy dyjabeł porzuciwszy go w pośrodek, wyszedł z niego, nic mu nie zaszkodziwszy. I przyszedł strach na wszystkie, i rozmawiali między sobą, mówiąc: Cóż to za słowo, że z władzą i z mocą rozkazuje duchom nieczystym, a wychodzą? I rozeszła się o nim wieść na wszystkie miejsca okolicznej krainy.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y descendió á Capernaum, ciudad de Galilea. Y los enseñaba en los sábados. Y se maravillaban de su doctrina, porque su palabra era con potestad. Y estaba en la sinagoga un hombre que tenía un espíritu de un demonio inmundo, el cual exclamó á gran voz, Diciendo: Déjanos, ¿qué tenemos contigo, Jesús Nazareno? ¿has venido á destruirnos? Yo te conozco quién eres, el Santo de Dios. Y Jesús le increpó, diciendo: Enmudece, y sal de él. Entonces el demonio, derribándole en medio, salió de él, y no le hizo daño alguno. Y hubo espanto en todos, y hablaban unos á otros, diciendo: ¿Qué palabra es ésta, que con autoridad y potencia manda á los espíritus inmundos, y salen? Y la fama de él se divulgaba de todas partes por todos los lugares de la comarca.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "E scese a Capernaum città di Galilea; e vi stava ammaestrando la gente nei giorni di sabato. Ed essi stupivano della sua dottrina perché parlava con autorità. Or nella sinagoga si trovava un uomo posseduto da uno spirito d’immondo demonio, il quale gridò con gran voce: Ahi! Che v’è fra noi e te, o Gesù Nazareno? Se’ tu venuto per perderci? Io so chi tu sei: il Santo di Dio! E Gesù lo sgridò, dicendo: Ammutolisci, ed esci da quest’uomo! E il demonio, gettatolo a terra in mezzo alla gente, uscì da lui senza fargli alcun male. E tutti furon presi da sbigottimento e ragionavan fra loro, dicendo: Qual parola è questa? Egli comanda con autorità e potenza agli spiriti immondi, ed essi escono. E la sua fama si spargeva in ogni parte della circostante contrada.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Il descendit à Capharnaüm, ville de Galilée, et là il enseignait les jours de sabbat. Et sa doctrine les frappait d'étonnement, parce qu'il parlait avec autorité. Il y avait dans la synagogue un homme possédé d'un démon impur, lequel jeta un grand cri, disant: \" Laissez-moi, qu'avons-nous à faire avec vous, Jésus de Nazareth? Etes-vous venu pour nous perdre? Je sais qui vous êtes: le Saint de Dieu. \" Mais Jésus lui dit d'un ton sévère: \" Tais-toi, et sors de cet homme. \" Et le démon l'ayant jeté par terre au milieu de l'assemblée, sortit de lui sans lui avoir fait aucun mal. Et tous, saisis de stupeur, se disaient entre eux: \" Quelle est cette parole? Il commande avec autorité et puissance aux esprits impurs, et ils sortent! \" Et sa renommée se répandait de tous côtés dans le pays.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
