@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-05",
+  "gospelRef": "Lukas 6,1-5",
+  "gospelRefOriginal": "Luke 6:1-5",
+  "gospelRefs": {
+    "de": "Lukas 6,1-5",
+    "en": "Luke 6,1-5",
+    "pl": "Łukasz 6,1-5",
+    "es": "Lucas 6,1-5",
+    "it": "Luca 6,1-5",
+    "fr": "Luc 6,1-5"
+  },
+  "generatedAt": "2026-09-02T00:47:53.136Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Und es geschah am zweitersten Sabbath, daß er durch die Saaten ging, und seine Jünger die Ähren abpflückten und aßen, indem sie sie mit den Händen zerrieben. Einige der Pharisäer aber sprachen zu ihnen: Warum tut ihr, was nicht erlaubt ist, am Sabbath zu tun? Und Jesus antwortete und sprach zu ihnen: Habt ihr auch dieses nicht gelesen, was David tat, als ihn und die bei ihm waren hungerte? wie er in das Haus Gottes ging und die Schaubrote nahm und aß, und auch denen gab, die bei ihm waren, welche niemand essen darf, als nur die Priester allein? Und er sprach zu ihnen: Der Sohn des Menschen ist Herr auch des Sabbaths.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands. And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days? And Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him; How he went into the house of God, and did take and eat the shewbread, and gave also to them that were with him; which it is not lawful to eat but for the priests alone? And he said unto them, That the Son of man is Lord also of the sabbath.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I stało się w drugi sabat, że szedł Jezus przez zboża; i rwali uczniowie jego kłosy, a rękami wycierając jedli. Ale niektórzy z Faryzeuszów rzekli do nich: Przeczże czynicie to, czego się nie godzi czynić w sabat? A odpowiadając Jezus, rzekł do nich: Azaście tego nie czytali, co uczynił Dawid, gdy łaknął sam, i ci, którzy z nim byli? Jako wszedł do domu Bożego, a wziął chleby pokładne, i jadł, a dał i tym, którzy z nim byli; których się nie godziło jeść, tylko samym kapłanom? I rzekł im: Syn człowieczy jestci Panem i sabatu.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y ACONTECIÓ que pasando él por los sembrados en un sábado segundo del primero, sus discípulos arrancaban espigas, y comían, restregándolas con las manos. Y algunos de los Fariseos les dijeron: ¿Por qué hacéis lo que no es lícito hacer en los sábados? Y respondiendo Jesús les dijo: ¿Ni aun esto habéis leído, qué hizo David cuando tuvo hambre, él, y los que con él estaban; Cómo entró en la casa de Dios, y tomó los panes de la proposición, y comió, y dió también á los que estaban con él, los cuales no era lícito comer, sino á solos los sacerdotes? Y les decía: El Hijo del hombre es Señor aun del sábado.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or avvenne che in un giorno di sabato egli passava per i seminati; e i suoi discepoli svellevano delle spighe, e sfregandole con le mani, mangiavano. Ed alcuni de’ Farisei dissero: Perché fate quel che non è lecito nel giorno del sabato? E Gesù, rispondendo, disse loro: Non avete letto neppure quel che fece Davide, quand’ebbe fame, egli e coloro ch’eran con lui? Com’entrò nella casa di Dio, e prese i pani di presentazione, e ne mangiò e ne diede anche a coloro che eran con lui, quantunque non sia lecito mangiarne se non ai soli sacerdoti? E diceva loro: Il Figliuol dell’uomo è Signore del sabato.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Un jour de sabbat, dit le second-premier, comme Jésus traversait des champs de blé, ses disciples cueillaient des épis, et, les froissant dans leurs mains, les mangeaient. Quelques Pharisiens leur dirent: \" Pourquoi faites-vous ce qui n'est pas permis le jour du sabbat? \" Jésus leur répondit: \" Vous n'avez donc pas lu ce que fit David, lorsqu'il eut faim, lui et ceux qui l'accompagnaient: comment il entra dans la maison de Dieu, et prit les pains de proposition, en mangea et en donna à ceux qui étaient avec lui, bien qu'il ne soit permis d'en manger qu'aux prêtres seuls? \" Et il ajouta: \" Le Fils de l'homme est maître même du sabbat. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
