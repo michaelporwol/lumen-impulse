@@ -1,39 +1,39 @@
 {
-  "date": "2026-09-04",
-  "gospelRef": "Lukas 5,33-39",
-  "gospelRefOriginal": "Luke 5:33-39",
+  "date": "2026-09-05",
+  "gospelRef": "Lukas 6,1-5",
+  "gospelRefOriginal": "Luke 6:1-5",
   "gospelRefs": {
-    "de": "Lukas 5,33-39",
-    "en": "Luke 5,33-39",
-    "pl": "Łukasz 5,33-39",
-    "es": "Lucas 5,33-39",
-    "it": "Luca 5,33-39",
-    "fr": "Luc 5,33-39"
+    "de": "Lukas 6,1-5",
+    "en": "Luke 6,1-5",
+    "pl": "Łukasz 6,1-5",
+    "es": "Lucas 6,1-5",
+    "it": "Luca 6,1-5",
+    "fr": "Luc 6,1-5"
   },
-  "generatedAt": "2026-09-01T01:36:29.951Z",
+  "generatedAt": "2026-09-02T00:47:53.136Z",
   "gospelTexts": {
     "de": {
-      "text": "Sie aber sprachen zu ihm: Warum fasten die Jünger Johannes oft und verrichten Gebete, gleicherweise auch die der Pharisäer; die deinigen aber essen und trinken? Jesus aber sprach zu ihnen: Ihr könnt doch nicht die Söhne des Brautgemachs fasten lassen, während der Bräutigam bei ihnen ist? Es werden aber Tage kommen, und wann der Bräutigam von ihnen weggenommen sein wird, dann, in jenen Tagen, werden sie fasten. Er sagte aber auch ein Gleichnis zu ihnen: Niemand setzt einen Flicken von einem neuen Kleide auf ein altes Kleid; sonst wird er sowohl das neue zerschneiden, als auch der Flicken von dem neuen zum alten nicht passen wird. Und niemand tut neuen Wein in alte Schläuche; sonst wird der neue Wein die Schläuche zerreißen, und er selbst wird verschüttet werden, und die Schläuche werden verderben; sondern neuen Wein tut man in neue Schläuche, und beide werden zusammen erhalten. Und niemand will, wenn er alten getrunken hat, alsbald neuen, denn er spricht: Der alte ist besser.",
+      "text": "Und es geschah am zweitersten Sabbath, daß er durch die Saaten ging, und seine Jünger die Ähren abpflückten und aßen, indem sie sie mit den Händen zerrieben. Einige der Pharisäer aber sprachen zu ihnen: Warum tut ihr, was nicht erlaubt ist, am Sabbath zu tun? Und Jesus antwortete und sprach zu ihnen: Habt ihr auch dieses nicht gelesen, was David tat, als ihn und die bei ihm waren hungerte? wie er in das Haus Gottes ging und die Schaubrote nahm und aß, und auch denen gab, die bei ihm waren, welche niemand essen darf, als nur die Priester allein? Und er sprach zu ihnen: Der Sohn des Menschen ist Herr auch des Sabbaths.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "And they said unto him, Why do the disciples of John fast often, and make prayers, and likewise the disciples of the Pharisees; but thine eat and drink? And he said unto them, Can ye make the children of the bridechamber fast, while the bridegroom is with them? But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days. And he spake also a parable unto them; No man putteth a piece of a new garment upon an old; if otherwise, then both the new maketh a rent, and the piece that was taken out of the new agreeth not with the old. And no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall perish. But new wine must be put into new bottles; and both are preserved. No man also having drunk old wine straightway desireth new: for he saith, The old is better.",
+      "text": "And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands. And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days? And Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him; How he went into the house of God, and did take and eat the shewbread, and gave also to them that were with him; which it is not lawful to eat but for the priests alone? And he said unto them, That the Son of man is Lord also of the sabbath.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "A oni mu rzekli: Przecz uczniowie Janowi często poszczą i modlą się, także i Faryzejscy, a twoi jedzą i piją? A on im rzekł: Izali możecie uczynić, żeby synowie łożnicy małżeńskiej pościli, póki z nimi jest oblubieniec? Lecz przyjdą dni, gdy oblubieniec odjęty będzie od nich; tedy w one dni pościć będą. Powiedział im też podobieństwo: Iż żaden łaty z szaty nowej nie przyprawia do szaty wiotchej; bo inaczej to, co jest nowego, drze wiotche, a do wiotchego nie zgadza się łata z nowego. I nikt nie leje wina nowego w stare statki; bo inaczej wino młode rozsadzi statki, i samo wyciecze, i statki się popsują. Ale młode wino ma być wlewane w statki nowe; a tak oboje bywają zachowane. A nikt, kto się napił starego, nie zaraz chce młodego; ale mówi: Lepsze jest stare.",
+      "text": "I stało się w drugi sabat, że szedł Jezus przez zboża; i rwali uczniowie jego kłosy, a rękami wycierając jedli. Ale niektórzy z Faryzeuszów rzekli do nich: Przeczże czynicie to, czego się nie godzi czynić w sabat? A odpowiadając Jezus, rzekł do nich: Azaście tego nie czytali, co uczynił Dawid, gdy łaknął sam, i ci, którzy z nim byli? Jako wszedł do domu Bożego, a wziął chleby pokładne, i jadł, a dał i tym, którzy z nim byli; których się nie godziło jeść, tylko samym kapłanom? I rzekł im: Syn człowieczy jestci Panem i sabatu.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Entonces ellos le dijeron: ¿Por qué los discípulos de Juan ayunan muchas veces y hacen oraciones, y asimismo los de los Fariseos, y tus discípulos comen y beben? Y él les dijo: ¿Podéis hacer que los que están de bodas ayunen, entre tanto que el esposo está con ellos? Empero vendrán días cuando el esposo les será quitado: entonces ayunarán en aquellos días. Y les decía también una parábola: Nadie mete remiendo de paño nuevo en vestido viejo; de otra manera el nuevo rompe, y al viejo no conviene remiendo nuevo. Y nadie echa vino nuevo en cueros viejos; de otra manera el vino nuevo romperá los cueros, y el vino se derramará, y los cueros se perderán. Mas el vino nuevo en cueros nuevos se ha de echar; y lo uno y lo otro se conserva. Y ninguno que bebiere del añejo, quiere luego el nuevo; porque dice: El añejo es mejor.",
+      "text": "Y ACONTECIÓ que pasando él por los sembrados en un sábado segundo del primero, sus discípulos arrancaban espigas, y comían, restregándolas con las manos. Y algunos de los Fariseos les dijeron: ¿Por qué hacéis lo que no es lícito hacer en los sábados? Y respondiendo Jesús les dijo: ¿Ni aun esto habéis leído, qué hizo David cuando tuvo hambre, él, y los que con él estaban; Cómo entró en la casa de Dios, y tomó los panes de la proposición, y comió, y dió también á los que estaban con él, los cuales no era lícito comer, sino á solos los sacerdotes? Y les decía: El Hijo del hombre es Señor aun del sábado.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Ed essi gli dissero: I discepoli di Giovanni digiunano spesso e fanno orazioni; così pure i discepoli de’ Farisei; mentre i tuoi mangiano e bevono. E Gesù disse loro: Potete voi far digiunare gli amici dello sposo, mentre lo sposo è con loro? Ma verranno i giorni per questo; e quando lo sposo sarà loro tolto, allora, in que’ giorni, digiuneranno. Disse loro anche una parabola: Nessuno strappa un pezzo da un vestito nuovo per metterlo ad un vestito vecchio; altrimenti strappa il nuovo, e il pezzo tolto dal nuovo non adatta al vecchio. E nessuno mette vin nuovo in otri vecchi; altrimenti vin nuovo rompe gli otri, il vino si spande, e gli otri vanno perduti. Ma il vin nuovo va messo in otri nuovi. E nessuno che abbia bevuto del vin vecchio, ne desidera del nuovo, perché dice: Il vecchio è buono.",
+      "text": "Or avvenne che in un giorno di sabato egli passava per i seminati; e i suoi discepoli svellevano delle spighe, e sfregandole con le mani, mangiavano. Ed alcuni de’ Farisei dissero: Perché fate quel che non è lecito nel giorno del sabato? E Gesù, rispondendo, disse loro: Non avete letto neppure quel che fece Davide, quand’ebbe fame, egli e coloro ch’eran con lui? Com’entrò nella casa di Dio, e prese i pani di presentazione, e ne mangiò e ne diede anche a coloro che eran con lui, quantunque non sia lecito mangiarne se non ai soli sacerdoti? E diceva loro: Il Figliuol dell’uomo è Signore del sabato.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Alors ils lui dirent: \" Pourquoi, tandis que les disciples de Jean et ceux des Pharisiens jeûnent et prient souvent, les vôtres mangent-ils et boivent-ils? \" Il leur répondit: \" Pouvez-vous faire jeûner les amis de l'Epoux, pendant que l'Epoux est avec eux? Viendront des jours où l'Epoux leur sera enlevé: ils jeûneront ces jours-là. \" Il leur proposa encore cette comparaison: \" Personne ne met à un vieux vêtement un morceau pris à un vêtement neuf: autrement on déchire le neuf, et le morceau du neuf convient mal au vêtement vieux. Personne non plus ne met du vin nouveau dans de vieilles outres: autrement, le vin nouveau rompant les outres, il se répandra, et les outres seront perdues. Mais il faut mettre le vin nouveau dans des outres neuves, et tous les deux se conservent. Et personne après avoir bu du vieux vin, ne veut aussitôt du nouveau; car on dit: Le vieux vin est meilleur. \"",
+      "text": "Un jour de sabbat, dit le second-premier, comme Jésus traversait des champs de blé, ses disciples cueillaient des épis, et, les froissant dans leurs mains, les mangeaient. Quelques Pharisiens leur dirent: \" Pourquoi faites-vous ce qui n'est pas permis le jour du sabbat? \" Jésus leur répondit: \" Vous n'avez donc pas lu ce que fit David, lorsqu'il eut faim, lui et ceux qui l'accompagnaient: comment il entra dans la maison de Dieu, et prit les pains de proposition, en mangea et en donna à ceux qui étaient avec lui, bien qu'il ne soit permis d'en manger qu'aux prêtres seuls? \" Et il ajouta: \" Le Fils de l'homme est maître même du sabbat. \"",
       "reference": "Augustin Crampon 1923"
     }
   }
