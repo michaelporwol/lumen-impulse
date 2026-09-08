@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-11",
+  "gospelRef": "Lukas 6,39-42",
+  "gospelRefOriginal": "Luke 6:39-42",
+  "gospelRefs": {
+    "de": "Lukas 6,39-42",
+    "en": "Luke 6,39-42",
+    "pl": "Łukasz 6,39-42",
+    "es": "Lucas 6,39-42",
+    "it": "Luca 6,39-42",
+    "fr": "Luc 6,39-42"
+  },
+  "generatedAt": "2026-09-08T00:53:26.029Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Er sagte aber auch ein Gleichnis zu ihnen: Kann etwa ein Blinder einen Blinden leiten? werden nicht beide in eine Grube fallen? Ein Jünger ist nicht über den Lehrer; jeder aber, der vollendet ist, wird sein wie sein Lehrer. Was aber siehst du den Splitter, der in deines Bruders Auge ist, den Balken aber, der in deinem eigenen Auge ist, nimmst du nicht wahr? Oder wie kannst du zu deinem Bruder sagen: Bruder, erlaube, ich will den Splitter herausziehen, der in deinem Auge ist, während du selbst den Balken in deinem Auge nicht siehst? Heuchler, ziehe zuerst den Balken aus deinem Auge, und dann wirst du klar sehen, um den Splitter herauszuziehen, der in deines Bruders Auge ist.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And he spake a parable unto them, Can the blind lead the blind? shall they not both fall into the ditch? The disciple is not above his master: but every one that is perfect shall be as his master. And why beholdest thou the mote that is in thy brother's eye, but perceivest not the beam that is in thine own eye? Either how canst thou say to thy brother, Brother, let me pull out the mote that is in thine eye, when thou thyself beholdest not the beam that is in thine own eye? Thou hypocrite, cast out first the beam out of thine own eye, and then shalt thou see clearly to pull out the mote that is in thy brother's eye.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I powiedział im podobieństwo: Izali może ślepy ślepego prowadzić? azaż nie obadwaj w dół wpadną? Nie jestci uczeń nad mistrza swego; lecz doskonały będzie każdy, będzieli jako mistrz jego. A czemuż widzisz źdźbło w oku brata twego, a balki, która jest w oku twojem, nie baczysz? Albo jakoż możesz rzec bratu twemu: Bracie! dopuść, iż wyjmę źdźbło, które jest w oku twojem, a sam balki, która jest w oku twojem, nie widzisz? Obłudniku! wyjmij pierwej balkę z oka twego, a tedy przejrzysz, abyś wyjął źdźbło, które jest w oku brata twego.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y les decía una parábola: ¿Puede el ciego guiar al ciego? ¿No caerán ambos en el hoyo? El discípulo no es sobre su maestro; mas cualquiera que fuere como el maestro, será perfecto. ¿Por qué miras la paja que está en el ojo de tu hermano, y la viga que está en tu propio ojo no consideras? ¿O cómo puedes decir á tu hermano: Hermano, deja, echaré fuera la paja que está en tu ojo, no mirando tú la viga que está en tu ojo? Hipócrita, echa primero fuera de tu ojo la viga, y entonces verás bien para sacar la paja que está en el ojo de tu hermano.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Poi disse loro anche una parabola: Un cieco può egli guidare un cieco? Non cadranno tutti e due nella fossa? Un discepolo non è da più del maestro; ma ogni discepolo perfetto sarà come il suo maestro. Or perché guardi tu il bruscolo che è nell’occhio del tuo fratello, mentre non iscorgi la trave che è nell’occhio tuo proprio? Come puoi dire al tuo fratello: Fratello, lascia ch’io ti tragga il bruscolo che hai nell’occhio, mentre tu stesso non vedi la trave ch’è nell’occhio tuo? Ipocrita, trai prima dall’occhio tuo la trave, e allora ci vedrai bene per trarre il bruscolo che è nell’occhio del tuo fratello.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Il leur fit encore cette comparaison: \" Un aveugle peut-il conduire un aveugle? Ne tomberont-ils pas tous les deux dans la fosse? Le disciple n'est pas au-dessus du maître; mais tout disciple, son instruction achevée, sera comme son maître. Pourquoi regardes-tu la paille qui est dans l'œil de ton frère, et ne remarques-tu pas la poutre qui est dans ton œil? Ou comment peux-tu dire à ton frère: Mon frère, laisse-moi ôter cette paille de ton œil, toi qui ne vois pas la poutre qui est dans le tien? Hypocrite, ôte d'abord la poutre de ton œil, et tu verras ensuite à ôter la paille qui est dans l'œil de ton frère.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
