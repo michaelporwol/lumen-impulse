@@ -1,55 +1,22 @@
 {
   "date": "2026-09-08",
-  "generatedAt": "2026-09-08T02:40:22Z",
+  "generatedAt": "2026-09-08T18:10:31Z",
   "audio": {
     "de": {
       "gospel": {
         "url": "gospel-de.mp3",
-        "size": 1124352,
+        "size": 1124064,
         "duration": 187
-      },
-      "lectio": {
-        "url": "gospel-de-lectio.mp3",
-        "size": 1292400,
-        "duration": 215,
-        "alignment_url": "gospel-de-lectio-alignment.json",
-        "original_text_url": "gospel-de-lectio-original.txt"
       }
     },
     "en": {
       "gospel": {
         "url": "gospel-en.mp3",
-        "size": 1046016,
-        "duration": 174
-      },
-      "lectio": {
-        "url": "gospel-en-lectio.mp3",
-        "size": 1207728,
-        "duration": 201,
-        "alignment_url": "gospel-en-lectio-alignment.json",
-        "original_text_url": "gospel-en-lectio-original.txt"
-      }
-    },
-    "pl": {
-      "gospel": {
-        "url": "gospel-pl.mp3",
-        "size": 1012896,
-        "duration": 168
-      },
-      "lectio": {
-        "url": "gospel-pl-lectio.mp3",
-        "size": 1167264,
-        "duration": 194,
-        "alignment_url": "gospel-pl-lectio-alignment.json",
-        "original_text_url": "gospel-pl-lectio-original.txt"
+        "size": 1043136,
+        "duration": 173
       }
     },
     "es": {
-      "gospel": {
-        "url": "gospel-es.mp3",
-        "size": 1065168,
-        "duration": 177
-      },
       "lectio": {
         "url": "gospel-es-lectio.mp3",
         "size": 1238256,
@@ -59,11 +26,6 @@
       }
     },
     "it": {
-      "gospel": {
-        "url": "gospel-it.mp3",
-        "size": 994320,
-        "duration": 165
-      },
       "lectio": {
         "url": "gospel-it-lectio.mp3",
         "size": 1148976,
@@ -73,11 +35,6 @@
       }
     },
     "fr": {
-      "gospel": {
-        "url": "gospel-fr.mp3",
-        "size": 825840,
-        "duration": 137
-      },
       "lectio": {
         "url": "gospel-fr-lectio.mp3",
         "size": 954144,
