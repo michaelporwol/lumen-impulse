@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-15",
+  "gospelRef": "Johannes 19,25-27",
+  "gospelRefOriginal": "John 19:25-27",
+  "gospelRefs": {
+    "de": "Johannes 19,25-27",
+    "en": "John 19,25-27",
+    "pl": "Jan 19,25-27",
+    "es": "Juan 19,25-27",
+    "it": "Giovanni 19,25-27",
+    "fr": "Jean 19,25-27"
+  },
+  "generatedAt": "2026-09-12T00:53:19.017Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es standen aber bei dem Kreuze Jesu seine Mutter und die Schwester seiner Mutter, Maria, des Kleopas Weib, und Maria Magdalene. Als nun Jesus die Mutter sah und den Jünger, welchen er liebte, dabeistehen, spricht er zu seiner Mutter: Weib, siehe, dein Sohn! Dann spricht er zu dem Jünger: Siehe, deine Mutter! Und von jener Stunde an nahm sie der Jünger zu sich.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Now there stood by the cross of Jesus his mother, and his mother's sister, Mary the wife of Cleophas, and Mary Magdalene. When Jesus therefore saw his mother, and the disciple standing by, whom he loved, he saith unto his mother, Woman, behold thy son! Then saith he to the disciple, Behold thy mother! And from that hour that disciple took her unto his own home.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "A stały podle krzyża Jezusowego matka jego i siostra matki jego, Maryja, żona Kleofaszowa, i Maryja Magdalena. Tedy Jezus ujrzawszy matkę i ucznia, którego miłował, tuż stojącego, rzekł matce swojej: Niewiasto, oto syn twój! Potem rzekł uczniowi: Oto matka twoja! a od onej godziny wziął ją on uczeń do siebie.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y estaban junto á la cruz de Jesús su madre, y la hermana de su madre, María mujer de Cleofas, y María Magdalena. Y como vió Jesús á la madre, y al discípulo que él amaba, que estaba presente, dice á su madre: Mujer, he ahí tu hijo. Después dice al discípulo: He ahí tu madre. Y desde aquella hora el discípulo la recibió consigo.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or presso la croce di Gesù stavano sua madre e la sorella di sua madre, Maria moglie di Cleopa, e Maria Maddalena. Gesù dunque, vedendo sua madre e presso a lei il discepolo ch’egli amava, disse a sua madre: Donna, ecco il tuo figlio! Poi disse al discepolo: Ecco tua madre! E da quel momento, il discepolo la prese in casa sua.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Près de la croix de Jésus se tenaient sa mère et la sœur de sa mère, Marie, femme de Clopas, et Marie-Madeleine. Jésus, ayant vu sa mère, et auprès d'elle le disciple qu'il aimait, dit à sa mère: \" Femme, voilà votre fils. \" Ensuite il dit au disciple: \" Voilà votre mère. \" Et depuis cette heure-là, le disciple la prit chez lui.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
