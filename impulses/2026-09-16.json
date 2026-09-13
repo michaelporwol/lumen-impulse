@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-16",
+  "gospelRef": "Lukas 7,31-35",
+  "gospelRefOriginal": "Luke 7:31-35",
+  "gospelRefs": {
+    "de": "Lukas 7,31-35",
+    "en": "Luke 7,31-35",
+    "pl": "Łukasz 7,31-35",
+    "es": "Lucas 7,31-35",
+    "it": "Luca 7,31-35",
+    "fr": "Luc 7,31-35"
+  },
+  "generatedAt": "2026-09-13T00:35:29.258Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Wem soll ich nun die Menschen dieses Geschlechts vergleichen? und wem sind sie gleich? Sie sind Kindern gleich, die auf dem Markte sitzen und einander zurufen und sagen: Wir haben euch gepfiffen, und ihr habt nicht getanzt; wir haben euch Klagelieder gesungen, und ihr habt nicht geweint. Denn Johannes der Täufer ist gekommen, der weder Brot aß, noch Wein trank, und ihr saget: Er hat einen Dämon. Der Sohn des Menschen ist gekommen, der da ißt und trinkt, und ihr saget: Siehe, ein Fresser und Weinsäufer, ein Freund von Zöllnern und Sündern; - und die Weisheit ist gerechtfertigt worden von allen ihren Kindern.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And the Lord said, Whereunto then shall I liken the men of this generation? and to what are they like? They are like unto children sitting in the marketplace, and calling one to another, and saying, We have piped unto you, and ye have not danced; we have mourned to you, and ye have not wept. For John the Baptist came neither eating bread nor drinking wine; and ye say, He hath a devil. The Son of man is come eating and drinking; and ye say, Behold a gluttonous man, and a winebibber, a friend of publicans and sinners! But wisdom is justified of all her children.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I rzekł Pan: Komuż tedy przypodobam ludzi rodzaju tego, a komu są podobni? Podobni są dzieciom, które siedzą na rynku, a jedne na drugie wołają, mówiąc: Grałyśmy wam na piszczałkach, a nie tańcowaliście; śpiewałyśmy żałobne pieśni, a nie płakaliście. Albowiem przyszedł Jan Chrzciciel, i chleba nie jedząc i wina nie pijąc, a mówicie: Dyjabelstwo ma. Przyszedł Syn człowieczy jedząc i pijąc, a mówicie: Oto człowiek obżerca i pijanica wina, przyjaciel celników i grzeszników. Ale usprawiedliwiona jest mądrość od wszystkich synów swoich.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y dice el Señor: ¿A quién, pues, compararé los hombres de esta generación, y á qué son semejantes? Semejantes son á los muchachos sentados en la plaza, y que dan voces los unos á los otros, y dicen: Os tañimos con flautas, y no bailasteis: os endechamos, y no llorasteis. Porque vino Juan el Bautista, que ni comía pan, ni bebía vino, y decís: Demonio tiene. Vino el Hijo del hombre, que come y bebe, y decís: He aquí un hombre comilón, y bebedor de vino, amigo de publicanos y de pecadores. Mas la sabiduría es justificada de todos sus hijos.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "A chi dunque assomiglierò gli uomini di questa generazione? E a chi sono simili? Sono simili ai fanciulli che stanno a sedere in piazza, e gridano gli uni agli altri: Vi abbiam sonato il flauto e non avete ballato; abbiam cantato dei lamenti e non avete pianto. Difatti è venuto Giovanni Battista non mangiando pane ne bevendo vino, e voi dite: Ha un demonio. E’ venuto il Figliuol dell’uomo mangiando e bevendo, e voi dite: Ecco un mangiatore ed un beone, un amico dei pubblicani e de’ peccatori! Ma alla sapienza è stata resa giustizia da tutti i suoi figliuoli.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "\" A qui donc, dit encore le Seigneur, comparerai-je les hommes de cette génération? A qui sont-ils semblables? Ils sont semblables à des enfants assis dans la place publique, qui s'interpellent entre eux et se disent les uns aux autres: Nous vous avons joué de la flûte, et vous n'avez pas dansé; nous vous avons chanté des complaintes, et vous n'avez point pleuré. Car Jean-Baptiste est venu, ne mangeant point de pain et ne buvant point de vin, et vous dites: Il est possédé du démon. Le Fils de l'homme est venu mangeant et buvant, et vous dites: C'est un homme de bonne chère et un buveur, un ami des publicains et des gens de mauvaise vie. Mais la Sagesse a été justifiée par tous ses enfants. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
