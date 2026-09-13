@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-13T01:46:47Z",
+  "audio": {
+    "de": {
+      "gospel": {
+        "url": "gospel-de.mp3",
+        "size": 282240,
+        "duration": 47
+      },
+      "lectio": {
+        "url": "gospel-de-lectio.mp3",
+        "size": 296784,
+        "duration": 49,
+        "alignment_url": "gospel-de-lectio-alignment.json",
+        "original_text_url": "gospel-de-lectio-original.txt"
+      }
+    },
+    "en": {
+      "gospel": {
+        "url": "gospel-en.mp3",
+        "size": 264816,
+        "duration": 44
+      },
+      "lectio": {
+        "url": "gospel-en-lectio.mp3",
+        "size": 281376,
+        "duration": 46,
+        "alignment_url": "gospel-en-lectio-alignment.json",
+        "original_text_url": "gospel-en-lectio-original.txt"
+      }
+    },
+    "pl": {
+      "gospel": {
+        "url": "gospel-pl.mp3",
+        "size": 230832,
+        "duration": 38
+      },
+      "lectio": {
+        "url": "gospel-pl-lectio.mp3",
+        "size": 241632,
+        "duration": 40,
+        "alignment_url": "gospel-pl-lectio-alignment.json",
+        "original_text_url": "gospel-pl-lectio-original.txt"
+      }
+    },
+    "es": {
+      "gospel": {
+        "url": "gospel-es.mp3",
+        "size": 243072,
+        "duration": 40
+      },
+      "lectio": {
+        "url": "gospel-es-lectio.mp3",
+        "size": 262512,
+        "duration": 43,
+        "alignment_url": "gospel-es-lectio-alignment.json",
+        "original_text_url": "gospel-es-lectio-original.txt"
+      }
+    },
+    "it": {
+      "gospel": {
+        "url": "gospel-it.mp3",
+        "size": 249984,
+        "duration": 41
+      },
+      "lectio": {
+        "url": "gospel-it-lectio.mp3",
+        "size": 263808,
+        "duration": 43,
+        "alignment_url": "gospel-it-lectio-alignment.json",
+        "original_text_url": "gospel-it-lectio-original.txt"
+      }
+    },
+    "fr": {
+      "gospel": {
+        "url": "gospel-fr.mp3",
+        "size": 188064,
+        "duration": 31
+      },
+      "lectio": {
+        "url": "gospel-fr-lectio.mp3",
+        "size": 197136,
+        "duration": 32,
+        "alignment_url": "gospel-fr-lectio-alignment.json",
+        "original_text_url": "gospel-fr-lectio-original.txt"
+      }
+    }
+  }
+}
