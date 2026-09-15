@@ -1,39 +1,39 @@
 {
-  "date": "2026-09-14",
-  "gospelRef": "Johannes 3,13-17",
-  "gospelRefOriginal": "John 3:13-17",
+  "date": "2026-09-15",
+  "gospelRef": "Johannes 19,25-27",
+  "gospelRefOriginal": "John 19:25-27",
   "gospelRefs": {
-    "de": "Johannes 3,13-17",
-    "en": "John 3,13-17",
-    "pl": "Jan 3,13-17",
-    "es": "Juan 3,13-17",
-    "it": "Giovanni 3,13-17",
-    "fr": "Jean 3,13-17"
+    "de": "Johannes 19,25-27",
+    "en": "John 19,25-27",
+    "pl": "Jan 19,25-27",
+    "es": "Juan 19,25-27",
+    "it": "Giovanni 19,25-27",
+    "fr": "Jean 19,25-27"
   },
-  "generatedAt": "2026-09-11T00:48:57.295Z",
+  "generatedAt": "2026-09-12T00:53:19.017Z",
   "gospelTexts": {
     "de": {
-      "text": "Und niemand ist hinaufgestiegen in den Himmel, als nur der aus dem Himmel herabgestiegen ist, der Sohn des Menschen, der im Himmel ist. Und gleichwie Moses in der Wüste die Schlange erhöhte, also muß der Sohn des Menschen erhöht werden, auf daß jeder, der an ihn glaubt, nicht verloren gehe, sondern ewiges Leben habe. Denn also hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gab, auf daß jeder, der an ihn glaubt, nicht verloren gehe, sondern ewiges Leben habe. Denn Gott hat seinen Sohn nicht in die Welt gesandt, auf daß er die Welt richte, sondern auf daß die Welt durch ihn errettet werde.",
+      "text": "Es standen aber bei dem Kreuze Jesu seine Mutter und die Schwester seiner Mutter, Maria, des Kleopas Weib, und Maria Magdalene. Als nun Jesus die Mutter sah und den Jünger, welchen er liebte, dabeistehen, spricht er zu seiner Mutter: Weib, siehe, dein Sohn! Dann spricht er zu dem Jünger: Siehe, deine Mutter! Und von jener Stunde an nahm sie der Jünger zu sich.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "And no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven. And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up: That whosoever believeth in him should not perish, but have eternal life. For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
+      "text": "Now there stood by the cross of Jesus his mother, and his mother's sister, Mary the wife of Cleophas, and Mary Magdalene. When Jesus therefore saw his mother, and the disciple standing by, whom he loved, he saith unto his mother, Woman, behold thy son! Then saith he to the disciple, Behold thy mother! And from that hour that disciple took her unto his own home.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "A nikt nie wstąpił do nieba, tylko ten, który zstąpił z nieba, Syn człowieczy, który jest w niebie. A jako Mojżesz węża na puszczy wywyższył, tak musi być wywyższony Syn człowieczy. Aby każdy, kto weń wierzy, nie zginął, ale miał żywot wieczny. Albowiem tak Bóg umiłował świat, że Syna swego jednorodzonego dał, aby każdy, kto weń wierzy, nie zginął, ale miał żywot wieczny. Boć nie posłał Bóg Syna swego na świat, aby sądził świat, ale aby świat był zbawiony przezeń.",
+      "text": "A stały podle krzyża Jezusowego matka jego i siostra matki jego, Maryja, żona Kleofaszowa, i Maryja Magdalena. Tedy Jezus ujrzawszy matkę i ucznia, którego miłował, tuż stojącego, rzekł matce swojej: Niewiasto, oto syn twój! Potem rzekł uczniowi: Oto matka twoja! a od onej godziny wziął ją on uczeń do siebie.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y nadie subió al cielo, sino el que descendió del cielo, el Hijo del hombre, que está en el cielo. Y como Moisés levantó la serpiente en el desierto, así es necesario que el Hijo del hombre sea levantado; Para que todo aquel que en él creyere, no se pierda, sino que tenga vida eterna. Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna. Porque no envió Dios á su Hijo al mundo para que condene al mundo, mas para que el mundo sea salvo por él.",
+      "text": "Y estaban junto á la cruz de Jesús su madre, y la hermana de su madre, María mujer de Cleofas, y María Magdalena. Y como vió Jesús á la madre, y al discípulo que él amaba, que estaba presente, dice á su madre: Mujer, he ahí tu hijo. Después dice al discípulo: He ahí tu madre. Y desde aquella hora el discípulo la recibió consigo.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "E nessuno è salito in cielo, se non colui che è disceso dal cielo: il Figliuol dell’uomo che è nel cielo. E come Mosè innalzò il serpente nel deserto, così bisogna che il Figliuol dell’uomo sia innalzato, affinché chiunque crede in lui abbia vita eterna. Poiché Iddio ha tanto amato il mondo, che ha dato il suo unigenito Figliuolo, affinché chiunque crede in lui non perisca, ma abbia vita eterna. Infatti Iddio non ha mandato il suo Figliuolo nel mondo per giudicare il mondo, ma perché il mondo sia salvato per mezzo di lui.",
+      "text": "Or presso la croce di Gesù stavano sua madre e la sorella di sua madre, Maria moglie di Cleopa, e Maria Maddalena. Gesù dunque, vedendo sua madre e presso a lei il discepolo ch’egli amava, disse a sua madre: Donna, ecco il tuo figlio! Poi disse al discepolo: Ecco tua madre! E da quel momento, il discepolo la prese in casa sua.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Et nul n'est monté au ciel si ce n'est celui qui est descendu du ciel, le Fils de l'homme qui est dans le ciel. Comme Moïse a élevé le serpent dans le désert, il faut de même que le Fils de l'homme soit élevé, Afin que tout homme qui croit en lui [ne périsse point, mais qu'il] ait la vie éternelle. En effet, Dieu a tellement aimé le monde, qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle. Car Dieu n'a pas envoyé le Fils dans le monde pour juger le monde, mais pour que le monde soit sauvé par lui.",
+      "text": "Près de la croix de Jésus se tenaient sa mère et la sœur de sa mère, Marie, femme de Clopas, et Marie-Madeleine. Jésus, ayant vu sa mère, et auprès d'elle le disciple qu'il aimait, dit à sa mère: \" Femme, voilà votre fils. \" Ensuite il dit au disciple: \" Voilà votre mère. \" Et depuis cette heure-là, le disciple la prit chez lui.",
       "reference": "Augustin Crampon 1923"
     }
   }

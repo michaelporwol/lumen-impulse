@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-18",
+  "gospelRef": "Lukas 8,1-3",
+  "gospelRefOriginal": "Luke 8:1-3",
+  "gospelRefs": {
+    "de": "Lukas 8,1-3",
+    "en": "Luke 8,1-3",
+    "pl": "Łukasz 8,1-3",
+    "es": "Lucas 8,1-3",
+    "it": "Luca 8,1-3",
+    "fr": "Luc 8,1-3"
+  },
+  "generatedAt": "2026-09-15T01:09:08.028Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Und es geschah danach, daß er nacheinander Stadt und Dorf durchzog, indem er predigte und das Evangelium vom Reiche Gottes verkündigte; und die Zwölfe mit ihm, und gewisse Weiber, die von bösen Geistern und Krankheiten geheilt worden waren: Maria, genannt Magdalene, von welcher sieben Dämonen ausgefahren waren, und Johanna, das Weib Chusas, des Verwalters Herodes, und Susanna und viele andere, die ihm dienten mit ihrer Habe.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him, And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils, And Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I stało się potem, że on chodził po miastach i po miasteczkach każąc i opowiadając królestwo Boże, a oni dwunastu byli z nim, I niektóre niewiasty, które był uzdrowił od duchów złych i od niemocy ich, jako Maryja, którą zwano Magdaleną, z której było siedm dyjabłów wyszło; I Joanna, żona Chuzego, urzędnika Herodowego, i Zuzanna, i inszych wiele, które mu służyły z majętności swoich.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y ACONTECIÓ después, que él caminaba por todas las ciudades y aldeas, predicando y anunciando el evangelio del reino de Dios, y los doce con él, Y algunas mujeres que habían sido curadas de malos espíritus y de enfermedades: María, que se llamaba Magdalena, de la cual habían salido siete demonios, Y Juana, mujer de Chuza, procurador de Herodes, y Susana, y otras muchas que le servían de sus haciendas.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Ed avvenne in appresso che egli andava attorno di città in città e di villaggio in villaggio, predicando ed annunziando la buona novella del regno di Dio; e con lui erano i dodici e certe donne che erano state guarite da spiriti maligni e da infermità: Maria, detta Maddalena, dalla quale erano usciti sette demoni, e Giovanna, moglie di Cuza, amministratore d’Erode, e Susanna ed altre molte che assistevano Gesù ed i suoi coi loro beni.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Ensuite Jésus cheminait par les villes et par les villages, prêchant et annonçant la bonne nouvelle du royaume de Dieu. Les Douze étaient avec lui, ainsi que quelques femmes qui avaient été guéries d'esprits malins et de maladies: Marie, dite de Magdala, de laquelle étaient sortis sept démons; Jeanne, femme de Chusa, intendant d'Hérode, Suzanne et plusieurs autres, qui l'assistaient de leurs biens.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
