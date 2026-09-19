@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-22",
+  "gospelRef": "Lukas 8,19-21",
+  "gospelRefOriginal": "Luke 8:19-21",
+  "gospelRefs": {
+    "de": "Lukas 8,19-21",
+    "en": "Luke 8,19-21",
+    "pl": "Łukasz 8,19-21",
+    "es": "Lucas 8,19-21",
+    "it": "Luca 8,19-21",
+    "fr": "Luc 8,19-21"
+  },
+  "generatedAt": "2026-09-19T00:56:09.937Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es kamen aber seine Mutter und seine Brüder zu ihm; und sie konnten wegen der Volksmenge nicht zu ihm gelangen. Und es wurde ihm berichtet, indem man sagte: Deine Mutter und deine Brüder stehen draußen und wollen dich sehen. Er aber antwortete und sprach zu ihnen: Meine Mutter und meine Brüder sind diese, welche das Wort Gottes hören und tun.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Then came to him his mother and his brethren, and could not come at him for the press. And it was told him by certain which said, Thy mother and thy brethren stand without, desiring to see thee. And he answered and said unto them, My mother and my brethren are these which hear the word of God, and do it.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Tedy przyszli do niego matka i bracia jego; ale do niego przystąpić nie mogli dla ludu. I dano mu znać, mówiąc: Matka twoja i bracia twoi stoją przed domem, chcąc cię widzieć. A on odpowiadając, rzekł do nich: Matka moja i bracia moi są ci, którzy słowa Bożego słuchają i czynią je.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y vinieron á él su madre y hermanos; y no podían llegar á él por causa de la multitud. Y le fué dado aviso, diciendo: Tu madre y tus hermanos están fuera, que quieren verte. El entonces respondiendo, les dijo: Mi madre y mis hermanos son los que oyen la palabra de Dios, y la ejecutan.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or sua madre e i suoi fratelli vennero a lui; e non poteano avvicinarglisi a motivo della folla. E gli fu riferito: Tua madre e i tuoi fratelli son là fuori, che ti voglion vedere. Ma egli, rispondendo, disse loro: Mia madre e miei fratelli son quelli che ascoltano la parola di Dio e la mettono in pratica.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "La mère et les frères de Jésus vinrent le trouver, mais ils ne purent pénétrer jusqu'à lui à cause de la foule. On vint lui dire: \" Votre mère et vos frères sont là dehors, et ils désirent vous voir. \" Il leur répondit: \" Ma mère et mes frères sont ceux qui écoutent la parole de Dieu et qui la mettent en pratique. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
