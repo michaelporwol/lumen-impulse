@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-23",
+  "gospelRef": "Lukas 9,1-6",
+  "gospelRefOriginal": "Luke 9:1-6",
+  "gospelRefs": {
+    "de": "Lukas 9,1-6",
+    "en": "Luke 9,1-6",
+    "pl": "Łukasz 9,1-6",
+    "es": "Lucas 9,1-6",
+    "it": "Luca 9,1-6",
+    "fr": "Luc 9,1-6"
+  },
+  "generatedAt": "2026-09-20T00:36:45.821Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Als er aber die Zwölfe zusammengerufen hatte, gab er ihnen Kraft und Gewalt über alle Dämonen, und Krankheiten zu heilen; und er sandte sie, das Reich Gottes zu predigen und die Kranken gesund zu machen. Und er sprach zu ihnen: Nehmet nichts mit auf den Weg: weder Stab, noch Tasche, noch Brot, noch Geld, noch soll jemand zwei Leibröcke haben. Und in welches Haus irgend ihr eintretet, daselbst bleibet, und von dannen gehet aus. Und so viele euch etwa nicht aufnehmen werden-gehet fort aus jener Stadt und schüttelt auch den Staub von euren Füßen, zum Zeugnis wider sie. Sie gingen aber aus und durchzogen die Dörfer nacheinander, indem sie das Evangelium verkündigten und überall heilten.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases. And he sent them to preach the kingdom of God, and to heal the sick. And he said unto them, Take nothing for your journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece. And whatsoever house ye enter into, there abide, and thence depart. And whosoever will not receive you, when ye go out of that city, shake off the very dust from your feet for a testimony against them. And they departed, and went through the towns, preaching the gospel, and healing every where.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "A zwoławszy Jezus dwunastu uczniów swoich, dał im moc i władzę nad wszystkimi dyjabły, i aby uzdrawiali choroby. I rozesłał je, żeby kazali królestwo Boże, i uzdrawiali niemocne. Tedy rzekł do nich: Nie bierzcie nic na drogę, ani laski, ani taistry, ani chleba, ani pieniędzy, ani dwóch sukien miejcie. A do któregokolwiek domu wnijdziecie, tamże zostańcie, i stamtąd wynijdźcie. A którzybykolwiek was nie przyjęli, wychodząc z miasta onego, i proch z nóg waszych otrząśnijcie na świadectwo przeciwko nim. Wyszedłszy tedy, obchodzili wszystkie miasteczka, opowiadając Ewangieliję, a wszędzie chore uzdrawiając.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y JUNTANDO á sus doce discípulos, les dió virtud y potestad sobre todos los demonios, y que sanasen enfermedades. Y los envió á que predicasen el reino de Dios, y que sanasen á los enfermos. Y les dice: No toméis nada para el camino, ni báculo, ni alforja, ni pan, ni dinero; ni tengáis dos vestidos cada uno. Y en cualquiera casa en que entrareis, quedad allí, y de allí salid. Y todos los que no os recibieren, saliéndoos de aquella ciudad, aun el polvo sacudid de vuestros pies en testimonio contra ellos. Y saliendo, rodeaban por todas las aldeas, anunciando el evangelio, y sanando por todas partes.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Ora Gesù, chiamati assieme i dodici, diede loro potestà ed autorità su tutti i demoni e di guarir le malattie. E li mandò a predicare il regno di Dio e a guarire gl’infermi. E disse loro: Non prendete nulla per viaggio: né bastone, né sacca, né pane, né danaro, e non abbiate tunica di ricambio. E in qualunque casa sarete entrati, in quella dimorate e da quella ripartite. E quant’è a quelli che non vi riceveranno, uscendo dalla loro città, scotete la polvere dai vostri piedi, in testimonianza contro a loro. Ed essi, partitisi, andavano attorno di villaggio in villaggio, evangelizzando e facendo guarigioni per ogni dove.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Ayant assemblé les Douze, Jésus leur donna puissance et autorité sur tous les démons, et le pouvoir de guérir les maladies. Et il les envoya prêcher le royaume de Dieu et guérir les malades, et il leur dit: \" Ne prenez rien pour le voyage, ni bâton, ni sac, ni pain, ni argent, et n'ayez point deux tuniques. Dans quelque maison que vous entriez, demeurez-y jusqu'à ce que vous partiez de ce lieu. Si l'on refuse de vous recevoir, sortez de cette ville et secouez même la poussière de vos pieds en témoignage contre eux. \" Les disciples étant partis allèrent de village en village, prêchant l'Evangile et opérant partout des guérisons.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
