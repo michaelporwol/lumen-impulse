@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-24",
+  "gospelRef": "Lukas 9,7-9",
+  "gospelRefOriginal": "Luke 9:7-9",
+  "gospelRefs": {
+    "de": "Lukas 9,7-9",
+    "en": "Luke 9,7-9",
+    "pl": "Łukasz 9,7-9",
+    "es": "Lucas 9,7-9",
+    "it": "Luca 9,7-9",
+    "fr": "Luc 9,7-9"
+  },
+  "generatedAt": "2026-09-21T00:48:38.088Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es hörte aber Herodes, der Vierfürst, alles was durch ihn geschehen war, und er war in Verlegenheit, weil von etlichen gesagt wurde, daß Johannes aus den Toten auferweckt worden sei; von etlichen aber, daß Elias erschienen, von anderen aber, daß einer der alten Propheten auferstanden sei. Und Herodes sprach: Johannes habe ich enthauptet; wer aber ist dieser, von dem ich solches höre? Und er suchte ihn zu sehen.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Now Herod the tetrarch heard of all that was done by him: and he was perplexed, because that it was said of some, that John was risen from the dead; And of some, that Elias had appeared; and of others, that one of the old prophets was risen again. And Herod said, John have I beheaded: but who is this, of whom I hear such things? And he desired to see him.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I usłyszał Herod, Tetrarcha, o wszystkiem, co się działo od niego, i był wątpliwym dla tego, że niektórzy powiadali, iż Jan zmartwychwstał. A niektórzy zasię: Iż się Elijasz ukazał; a drudzy, iż prorok jeden z onych starych zmartwychwstał. Tedy rzekł Herod: Janamci ja ściął; któż wżdy ten jest, o którym ja takie rzeczy słyszę? i pragnął go widzieć.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y oyó Herodes el tetrarca todas las cosas que hacía; y estaba en duda, porque decían algunos: Juan ha resucitado de los muertos; Y otros: Elías ha aparecido; y otros: Algún profeta de los antiguos ha resucitado. Y dijo Herodes: A Juan yo degollé: ¿quién pues será éste, de quien yo oigo tales cosas? Y procuraba verle.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Ora, Erode il tetrarca udì parlare di tutti que’ fatti; e n’era perplesso, perché taluni dicevano: Giovanni è risuscitato dai morti; altri dicevano: E’ apparso Elia; ed altri: E’ risuscitato uno degli antichi profeti. Ma Erode disse: Giovanni l’ho fatto decapitare; chi è dunque costui del quale sento dir tali cose? E cercava di vederlo.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Cependant Hérode le tétrarque entendit parler de tout ce que faisait Jésus, et il ne savait que penser; car les uns disaient: \" Jean est ressuscité des morts \"; d'autres: \" Elie a paru \"; d'autres: \" Un des anciens prophètes est ressuscité. \" Hérode dit: \" Quant à Jean, je l'ai fait décapiter. Quel est donc cet homme, de qui j'entends dire de telles choses? \" Et il cherchait à le voir.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
