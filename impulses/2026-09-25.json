@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-25",
+  "gospelRef": "Lukas 9,18-22",
+  "gospelRefOriginal": "Luke 9:18-22",
+  "gospelRefs": {
+    "de": "Lukas 9,18-22",
+    "en": "Luke 9,18-22",
+    "pl": "Łukasz 9,18-22",
+    "es": "Lucas 9,18-22",
+    "it": "Luca 9,18-22",
+    "fr": "Luc 9,18-22"
+  },
+  "generatedAt": "2026-09-22T01:24:51.969Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Und es geschah, als er allein betete, waren die Jünger bei ihm; und er fragte sie und sprach: Wer sagt die Volksmenge, daß ich sei? Sie aber antworteten und sprachen: Johannes der Täufer; andere aber: Elias; andere aber, daß einer der alten Propheten auferstanden sei. Er sprach aber zu ihnen: Ihr aber, wer saget ihr, daß ich sei? Petrus aber antwortete und sprach: Der Christus Gottes. Er aber bedrohte sie und gebot ihnen, dies niemandem zu sagen, und sprach: Der Sohn des Menschen muß vieles leiden und verworfen werden von den Ältesten und Hohenpriestern und Schriftgelehrten, und getötet und am dritten Tage auferweckt werden.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And it came to pass, as he was alone praying, his disciples were with him: and he asked them, saying, Whom say the people that I am? They answering said, John the Baptist; but some say, Elias; and others say, that one of the old prophets is risen again. He said unto them, But whom say ye that I am? Peter answering said, The Christ of God. And he straitly charged them, and commanded them to tell no man that thing; Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I stało się, gdy się on sam osobno modlił, że z nim byli uczniowie; i pytał ich mówiąc: Kimże mię być powiadają ludzie? A oni odpowiadając rzekli: Janem Chrzcicielem, a drudzy Elijaszem, a drudzy mówią, iż prorok niektóry z onych starych zmartwychwstał. I rzekł im: A wy kim mię być powiadacie? A odpowiadając Piotr rzekł: Chrystusem, onym Bożym. Ale on przygroziwszy im, rozkazał, aby tego nikomu nie powiadali, Mówiąc: Że Syn człowieczy musi wiele cierpieć, a być odrzuconym od starszych ludu i od przedniejszych kapłanów i od nauczonych w Piśmie, i być zabitym, a trzeciego dnia zmartwychwstać.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y aconteció que estando él solo orando, estaban con él los discípulos; y les preguntó diciendo: ¿Quién dicen las gentes que soy? Y ellos respondieron, y dijeron: Juan el Bautista; y otros, Elías; y otros, que algún profeta de los antiguos ha resucitado. Y les dijo: ¿Y vosotros, quién decís que soy? Entonces respondiendo Simón Pedro, dijo: El Cristo de Dios. Mas él, conminándolos, mandó que á nadie dijesen esto; Diciendo: Es necesario que el Hijo del hombre padezca muchas cosas, y sea desechado de los ancianos, y de los príncipes de los sacerdotes, y de los escribas, y que sea muerto, y resucite al tercer día.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or avvenne che mentr’egli stava pregando in disparte, i discepoli erano con lui; ed egli domandò loro: Chi dicono le turbe ch’io sia? E quelli risposero: Gli uni dicono Giovanni Battista; altri, Elia; ed altri, uno dei profeti antichi risuscitato. Ed egli disse loro: E voi, chi dite ch’io sia? E Pietro, rispondendo, disse: Il Cristo di Dio. Ed egli vietò loro severamente di dirlo ad alcuno, e aggiunse: Bisogna che il Figliuol dell’uomo soffra molte cose, e sia reietto dagli anziani e dai capi sacerdoti e dagli scribi, e sia ucciso, e risusciti il terzo giorno.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Un jour qu'il priait dans un lieu solitaire, ayant ses disciples avec lui, il leur fit cette question: \" Qui suis-je, au dire des foules? \" Ils répondirent: \" Les uns disent Jean Baptiste; d'autres Elie; d'autres, qu'un des anciens prophètes est ressuscité. — Et vous, leur demanda-t-il, qui dites-vous que je suis? \" Pierre répondit: \" Le Christ de Dieu. \" Mais il leur enjoignit d'un ton sévère de ne le dire à personne. \" Il faut, ajouta-t-il, que le Fils de l'homme souffre beaucoup, qu'il soit rejeté par les Anciens, par les Princes des prêtres et par les Scribes, qu'il soit mis à mort et qu'il ressuscite le troisième jour. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
