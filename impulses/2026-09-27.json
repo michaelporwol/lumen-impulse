@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-27",
+  "gospelRef": "Matthäus 21,28-32",
+  "gospelRefOriginal": "Matt 21:28-32",
+  "gospelRefs": {
+    "de": "Matthäus 21,28-32",
+    "en": "Matthew 21,28-32",
+    "pl": "Mateusz 21,28-32",
+    "es": "Mateo 21,28-32",
+    "it": "Matteo 21,28-32",
+    "fr": "Matthieu 21,28-32"
+  },
+  "generatedAt": "2026-09-24T01:02:18.239Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Was dünkt euch aber? Ein Mensch hatte zwei Kinder; und er trat hin zu dem ersten und sprach: Kind, gehe heute hin, arbeite in meinem Weinberge. Er aber antwortete und sprach: Ich will nicht; danach aber gereute es ihn, und er ging hin. Und er trat hin zu dem zweiten und sprach desgleichen. Der aber antwortete und sprach: Ich gehe, Herr, und ging nicht. Welcher von den beiden hat den Willen des Vaters getan? Sie sagen zu ihm: Der erste. Jesus spricht zu ihnen: Wahrlich, ich sage euch, daß die Zöllner und die Huren euch vorangehen in das Reich Gottes. Denn Johannes kam zu euch im Wege der Gerechtigkeit, und ihr glaubtet ihm nicht; die Zöllner aber und die Huren glaubten ihm; euch aber, als ihr es sahet, gereute es danach nicht, um ihm zu glauben.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard. He answered and said, I will not: but afterward he repented, and went. And he came to the second, and said likewise. And he answered and said, I go, sir: and went not. Whether of them twain did the will of his father? They say unto him, The first. Jesus saith unto them, Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you. For John came unto you in the way of righteousness, and ye believed him not: but the publicans and the harlots believed him: and ye, when ye had seen it, repented not afterward, that ye might believe him.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Ale cóż się wam zda? Człowiek niektóry miał dwóch synów; a przystąpiwszy do pierwszego, rzekł: Synu! idź, rób dziś na winnicy mojej. Ale on odpowiadając rzekł: Nie chcę, a potem obaczywszy się, poszedł. A przystąpiwszy do drugiego, rzekł także; a on odpowiadając rzekł: Ja idę, panie! ale nie szedł. Któryż z tych dwóch uczynił wolę ojcowską? Rzekli mu: On pierwszy. Rzekł im Jezus: Zaprawdę powiadam wam, że was celnicy i wszetecznice uprzedzają do królestwa Bożego. Albowiem przyszedł do was Jan drogą sprawiedliwości, a nie uwierzyliście mu, ale celnicy i wszetecznice uwierzyli mu: a wy widząc to, przecież się nie obaczyliście, abyście mu uwierzyli.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Mas, ¿qué os parece? Un hombre tenía dos hijos, y llegando al primero, le dijo: Hijo, ve hoy á trabajar en mi viña. Y respondiendo él, dijo: No quiero; mas después, arrepentido, fué. Y llegando al otro, le dijo de la misma manera; y respondiendo él, dijo: Yo, señor, voy. Y no fué. ¿Cuál de los dos hizo la voluntad de su padre? Dicen ellos: El primero. Díceles Jesús: De cierto os digo, que los publicanos y las rameras os van delante al reino de Dios. Porque vino á vosotros Juan en camino de justicia, y no le creísteis; y los publicanos y las rameras le creyeron; y vosotros, viendo esto, no os arrepentisteis después para creerle.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or che vi par egli? Un uomo avea due figliuoli. Accostatosi al primo disse: Figliuolo, va’ oggi a lavorare nella vigna. Ed egli, rispondendo, disse: Vado, signore; ma non vi andò. E accostatosi al secondo, gli disse lo stesso. Ma egli, rispondendo, disse: Non voglio; ma poi, pentitosi, v’andò. Qual de’ due fece la volontà del padre? Essi gli dissero: L’ultimo. E Gesù a loro: Io vi dico in verità: I pubblicani e le meretrici vanno innanzi a voi nel regno di Dio. Poiché Giovanni è venuto a voi per la via della giustizia, e voi non gli avete creduto; ma i pubblicani e le meretrici gli hanno creduto; e voi, che avete veduto questo, neppur poi vi siete pentiti per credere a lui.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "\" Mais que vous en semble? Un homme avait deux fils; s'adressant au premier, il lui dit: Mon fils, va travailler aujourd'hui à ma vigne. Celui-ci répondit: Je ne veux pas; mais ensuite, touché de repentir, il y alla. Puis, s'adressant à l'autre, il lui fit le même commandement. Celui-ci répondit: J'y vais, seigneur; et il n'y alla point. Lequel des deux a fait la volonté de son père? — Le premier, \" lui dirent-ils. Alors Jésus: \" Je vous le dis en vérité, les publicains et les courtisanes vous devancent dans le royaume de Dieu. Car Jean est venu à vous dans la voie de la justice, et vous n'avez pas cru en lui; mais les publicains et les courtisanes ont cru en lui, et vous, qui avez vu cela, vous ne vous êtes pas encore repentis pour croire en lui.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
