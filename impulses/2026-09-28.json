@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-28",
+  "gospelRef": "Lukas 9,46-50",
+  "gospelRefOriginal": "Luke 9:46-50",
+  "gospelRefs": {
+    "de": "Lukas 9,46-50",
+    "en": "Luke 9,46-50",
+    "pl": "Łukasz 9,46-50",
+    "es": "Lucas 9,46-50",
+    "it": "Luca 9,46-50",
+    "fr": "Luc 9,46-50"
+  },
+  "generatedAt": "2026-09-25T01:07:30.738Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es entstand aber unter ihnen eine Überlegung, wer wohl der Größte unter ihnen wäre. Als Jesus aber die Überlegung ihres Herzens sah, nahm er ein Kindlein und stellte es neben sich und sprach zu ihnen: Wer irgend dieses Kindlein aufnehmen wird in meinem Namen, nimmt mich auf; und wer irgend mich aufnehmen wird, nimmt den auf, der mich gesandt hat; denn wer der Kleinste ist unter euch allen, der ist groß. Johannes aber antwortete und sprach: Meister, wir sahen jemanden Dämonen austreiben in deinem Namen, und wir wehrten ihm, weil er dir nicht mit uns nachfolgt. Und Jesus sprach zu ihm: Wehret nicht; denn wer nicht wider euch ist, ist für euch.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Then there arose a reasoning among them, which of them should be greatest. And Jesus, perceiving the thought of their heart, took a child, and set him by him, And said unto them, Whosoever shall receive this child in my name receiveth me: and whosoever shall receive me receiveth him that sent me: for he that is least among you all, the same shall be great. And John answered and said, Master, we saw one casting out devils in thy name; and we forbad him, because he followeth not with us. And Jesus said unto him, Forbid him not: for he that is not against us is for us.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I wszczęła się gadka między nimi, kto by z nich był największym. A Jezus widząc myśl serca ich, wziąwszy dziecię, postawił je podle siebie, I rzekł im: Ktobykolwiek przyjął to dzieciątko w imieniu mojem, mnie przyjmuje; a ktobykolwiek mnie przyjął, przyjmuje onego, który mię posłał: albowiem kto jest najmniejszy między wszystkimi wami, tenci będzie wielkim. A Jan odpowiadając, rzekł: Mistrzu! widzieliśmy niektórego w imieniu twojem dyjabły wyganiającego, i zabranialiśmy mu, przeto że za tobą z nami nie chodzi. I rzekł do niego Jezus: Nie zabraniajcie mu; bo kto nie jest przeciwko nam, za nami jest.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Entonces entraron en disputa, cuál de ellos sería el mayor. Mas Jesús, viendo los pensamientos del corazón de ellos, tomó un niño, y púsole junto á sí, Y les dice: Cualquiera que recibiere este niño en mi nombre, á mí recibe; y cualquiera que me recibiere á mí, recibe al que me envió; porque el que fuere el menor entre todos vosotros, éste será el grande. Entonces respondiendo Juan, dijo: Maestro, hemos visto á uno que echaba fuera demonios en tu nombre; y se lo prohibimos, porque no sigue con nosotros. Jesús le dijo: No se lo prohibáis; porque el que no es contra nosotros, por nosotros es.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Poi sorse fra loro una disputa sul chi di loro fosse il maggiore. Ma Gesù, conosciuto il pensiero del loro cuore, prese un piccolo fanciullo, se lo pose accanto, e disse loro: Chi riceve questo piccolo fanciullo nel nome mio, riceve me; e chi riceve me, riceve Colui che m’ha mandato. Poiché chi è il minimo fra tutti voi, quello è grande. Or Giovanni prese a dirgli: Maestro, noi abbiam veduto un tale che cacciava i demoni nel tuo nome, e glielo abbiamo vietato perché non ti segue con noi. Ma Gesù gli disse: Non glielo vietate, perché chi non è contro voi è per voi.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Or, une pensée se glissa dans leur esprit, savoir lequel d'entre eux était le plus grand. Jésus, voyant les pensées de leur cœur, prit un petit enfant, le mit près de lui, et leur dit: \" Quiconque reçoit en mon nom ce petit enfant, me reçoit; et quiconque me reçoit, reçoit Celui qui m'a envoyé. Car celui d'entre vous tous qui est le plus petit, c'est celui-là qui est grand. \" Jean, prenant la parole, dit: \" Maître, nous avons vu un homme qui chasse les démons en votre nom, et nous l'en avons empêché, parce qu'il ne va pas avec nous. — Ne l'en empêchez pas, lui répondit Jésus, car celui qui n'est pas contre vous est pour vous. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}

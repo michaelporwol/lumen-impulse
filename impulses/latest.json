@@ -1,39 +1,39 @@
 {
-  "date": "2026-09-24",
-  "gospelRef": "Lukas 9,7-9",
-  "gospelRefOriginal": "Luke 9:7-9",
+  "date": "2026-09-25",
+  "gospelRef": "Lukas 9,18-22",
+  "gospelRefOriginal": "Luke 9:18-22",
   "gospelRefs": {
-    "de": "Lukas 9,7-9",
-    "en": "Luke 9,7-9",
-    "pl": "Łukasz 9,7-9",
-    "es": "Lucas 9,7-9",
-    "it": "Luca 9,7-9",
-    "fr": "Luc 9,7-9"
+    "de": "Lukas 9,18-22",
+    "en": "Luke 9,18-22",
+    "pl": "Łukasz 9,18-22",
+    "es": "Lucas 9,18-22",
+    "it": "Luca 9,18-22",
+    "fr": "Luc 9,18-22"
   },
-  "generatedAt": "2026-09-21T00:48:38.088Z",
+  "generatedAt": "2026-09-22T01:24:51.969Z",
   "gospelTexts": {
     "de": {
-      "text": "Es hörte aber Herodes, der Vierfürst, alles was durch ihn geschehen war, und er war in Verlegenheit, weil von etlichen gesagt wurde, daß Johannes aus den Toten auferweckt worden sei; von etlichen aber, daß Elias erschienen, von anderen aber, daß einer der alten Propheten auferstanden sei. Und Herodes sprach: Johannes habe ich enthauptet; wer aber ist dieser, von dem ich solches höre? Und er suchte ihn zu sehen.",
+      "text": "Und es geschah, als er allein betete, waren die Jünger bei ihm; und er fragte sie und sprach: Wer sagt die Volksmenge, daß ich sei? Sie aber antworteten und sprachen: Johannes der Täufer; andere aber: Elias; andere aber, daß einer der alten Propheten auferstanden sei. Er sprach aber zu ihnen: Ihr aber, wer saget ihr, daß ich sei? Petrus aber antwortete und sprach: Der Christus Gottes. Er aber bedrohte sie und gebot ihnen, dies niemandem zu sagen, und sprach: Der Sohn des Menschen muß vieles leiden und verworfen werden von den Ältesten und Hohenpriestern und Schriftgelehrten, und getötet und am dritten Tage auferweckt werden.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "Now Herod the tetrarch heard of all that was done by him: and he was perplexed, because that it was said of some, that John was risen from the dead; And of some, that Elias had appeared; and of others, that one of the old prophets was risen again. And Herod said, John have I beheaded: but who is this, of whom I hear such things? And he desired to see him.",
+      "text": "And it came to pass, as he was alone praying, his disciples were with him: and he asked them, saying, Whom say the people that I am? They answering said, John the Baptist; but some say, Elias; and others say, that one of the old prophets is risen again. He said unto them, But whom say ye that I am? Peter answering said, The Christ of God. And he straitly charged them, and commanded them to tell no man that thing; Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "I usłyszał Herod, Tetrarcha, o wszystkiem, co się działo od niego, i był wątpliwym dla tego, że niektórzy powiadali, iż Jan zmartwychwstał. A niektórzy zasię: Iż się Elijasz ukazał; a drudzy, iż prorok jeden z onych starych zmartwychwstał. Tedy rzekł Herod: Janamci ja ściął; któż wżdy ten jest, o którym ja takie rzeczy słyszę? i pragnął go widzieć.",
+      "text": "I stało się, gdy się on sam osobno modlił, że z nim byli uczniowie; i pytał ich mówiąc: Kimże mię być powiadają ludzie? A oni odpowiadając rzekli: Janem Chrzcicielem, a drudzy Elijaszem, a drudzy mówią, iż prorok niektóry z onych starych zmartwychwstał. I rzekł im: A wy kim mię być powiadacie? A odpowiadając Piotr rzekł: Chrystusem, onym Bożym. Ale on przygroziwszy im, rozkazał, aby tego nikomu nie powiadali, Mówiąc: Że Syn człowieczy musi wiele cierpieć, a być odrzuconym od starszych ludu i od przedniejszych kapłanów i od nauczonych w Piśmie, i być zabitym, a trzeciego dnia zmartwychwstać.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y oyó Herodes el tetrarca todas las cosas que hacía; y estaba en duda, porque decían algunos: Juan ha resucitado de los muertos; Y otros: Elías ha aparecido; y otros: Algún profeta de los antiguos ha resucitado. Y dijo Herodes: A Juan yo degollé: ¿quién pues será éste, de quien yo oigo tales cosas? Y procuraba verle.",
+      "text": "Y aconteció que estando él solo orando, estaban con él los discípulos; y les preguntó diciendo: ¿Quién dicen las gentes que soy? Y ellos respondieron, y dijeron: Juan el Bautista; y otros, Elías; y otros, que algún profeta de los antiguos ha resucitado. Y les dijo: ¿Y vosotros, quién decís que soy? Entonces respondiendo Simón Pedro, dijo: El Cristo de Dios. Mas él, conminándolos, mandó que á nadie dijesen esto; Diciendo: Es necesario que el Hijo del hombre padezca muchas cosas, y sea desechado de los ancianos, y de los príncipes de los sacerdotes, y de los escribas, y que sea muerto, y resucite al tercer día.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Ora, Erode il tetrarca udì parlare di tutti que’ fatti; e n’era perplesso, perché taluni dicevano: Giovanni è risuscitato dai morti; altri dicevano: E’ apparso Elia; ed altri: E’ risuscitato uno degli antichi profeti. Ma Erode disse: Giovanni l’ho fatto decapitare; chi è dunque costui del quale sento dir tali cose? E cercava di vederlo.",
+      "text": "Or avvenne che mentr’egli stava pregando in disparte, i discepoli erano con lui; ed egli domandò loro: Chi dicono le turbe ch’io sia? E quelli risposero: Gli uni dicono Giovanni Battista; altri, Elia; ed altri, uno dei profeti antichi risuscitato. Ed egli disse loro: E voi, chi dite ch’io sia? E Pietro, rispondendo, disse: Il Cristo di Dio. Ed egli vietò loro severamente di dirlo ad alcuno, e aggiunse: Bisogna che il Figliuol dell’uomo soffra molte cose, e sia reietto dagli anziani e dai capi sacerdoti e dagli scribi, e sia ucciso, e risusciti il terzo giorno.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Cependant Hérode le tétrarque entendit parler de tout ce que faisait Jésus, et il ne savait que penser; car les uns disaient: \" Jean est ressuscité des morts \"; d'autres: \" Elie a paru \"; d'autres: \" Un des anciens prophètes est ressuscité. \" Hérode dit: \" Quant à Jean, je l'ai fait décapiter. Quel est donc cet homme, de qui j'entends dire de telles choses? \" Et il cherchait à le voir.",
+      "text": "Un jour qu'il priait dans un lieu solitaire, ayant ses disciples avec lui, il leur fit cette question: \" Qui suis-je, au dire des foules? \" Ils répondirent: \" Les uns disent Jean Baptiste; d'autres Elie; d'autres, qu'un des anciens prophètes est ressuscité. — Et vous, leur demanda-t-il, qui dites-vous que je suis? \" Pierre répondit: \" Le Christ de Dieu. \" Mais il leur enjoignit d'un ton sévère de ne le dire à personne. \" Il faut, ajouta-t-il, que le Fils de l'homme souffre beaucoup, qu'il soit rejeté par les Anciens, par les Princes des prêtres et par les Scribes, qu'il soit mis à mort et qu'il ressuscite le troisième jour. \"",
       "reference": "Augustin Crampon 1923"
     }
   }
