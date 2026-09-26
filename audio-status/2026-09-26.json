@@ -1,16 +1,16 @@
 {
   "date": "2026-09-26",
-  "generatedAt": "2026-09-25T01:43:16Z",
+  "generatedAt": "2026-09-26T05:08:44Z",
   "audio": {
     "de": {
       "gospel": {
         "url": "gospel-de.mp3",
-        "size": 204912,
-        "duration": 34
+        "size": 222768,
+        "duration": 37
       },
       "lectio": {
         "url": "gospel-de-lectio.mp3",
-        "size": 207360,
+        "size": 208656,
         "duration": 34,
         "alignment_url": "gospel-de-lectio-alignment.json",
         "original_text_url": "gospel-de-lectio-original.txt"
@@ -19,8 +19,8 @@
     "en": {
       "gospel": {
         "url": "gospel-en.mp3",
-        "size": 183600,
-        "duration": 30
+        "size": 198288,
+        "duration": 33
       },
       "lectio": {
         "url": "gospel-en-lectio.mp3",
@@ -33,8 +33,8 @@
     "pl": {
       "gospel": {
         "url": "gospel-pl.mp3",
-        "size": 176256,
-        "duration": 29
+        "size": 189792,
+        "duration": 31
       },
       "lectio": {
         "url": "gospel-pl-lectio.mp3",
@@ -47,8 +47,8 @@
     "es": {
       "gospel": {
         "url": "gospel-es.mp3",
-        "size": 186912,
-        "duration": 31
+        "size": 204912,
+        "duration": 34
       },
       "lectio": {
         "url": "gospel-es-lectio.mp3",
@@ -61,8 +61,8 @@
     "it": {
       "gospel": {
         "url": "gospel-it.mp3",
-        "size": 202896,
-        "duration": 33
+        "size": 214848,
+        "duration": 35
       },
       "lectio": {
         "url": "gospel-it-lectio.mp3",
@@ -75,13 +75,13 @@
     "fr": {
       "gospel": {
         "url": "gospel-fr.mp3",
-        "size": 177264,
-        "duration": 29
+        "size": 191376,
+        "duration": 31
       },
       "lectio": {
         "url": "gospel-fr-lectio.mp3",
-        "size": 180000,
-        "duration": 30,
+        "size": 178848,
+        "duration": 29,
         "alignment_url": "gospel-fr-lectio-alignment.json",
         "original_text_url": "gospel-fr-lectio-original.txt"
       }
