@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-29",
+  "gospelRef": "Johannes 1,47-51",
+  "gospelRefOriginal": "John 1:47-51",
+  "gospelRefs": {
+    "de": "Johannes 1,47-51",
+    "en": "John 1,47-51",
+    "pl": "Jan 1,47-51",
+    "es": "Juan 1,47-51",
+    "it": "Giovanni 1,47-51",
+    "fr": "Jean 1,47-51"
+  },
+  "generatedAt": "2026-09-26T01:10:01.079Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Jesus sah den Nathanael zu sich kommen und spricht von ihm: Siehe, wahrhaftig ein Israelit, in welchem kein Trug ist. Nathanael spricht zu ihm: Woher kennst du mich? Jesus antwortete und sprach zu ihm: Ehe Philippus dich rief, als du unter dem Feigenbaum warst, sah ich dich. Nathanael antwortete und sprach zu ihm: Rabbi, du bist der Sohn Gottes, du bist der König Israels. Jesus antwortete und sprach zu ihm: Weil ich dir sagte: Ich sah dich unter dem Feigenbaum, glaubst du? du wirst Größeres als dieses sehen. Und er spricht zu ihm: Wahrlich, wahrlich, ich sage euch: Von nun an werdet ihr den Himmel geöffnet sehen und die Engel Gottes auf- und niedersteigen auf den Sohn des Menschen.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, in whom is no guile! Nathanael saith unto him, Whence knowest thou me? Jesus answered and said unto him, Before that Philip called thee, when thou wast under the fig tree, I saw thee. Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel. Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these. And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Ujrzawszy tedy Jezus Natanaela idącego do siebie, rzekł o nim: Oto prawdziwie Izraelczyk, w którym nie masz zdrady. Rzekł mu Natanael: Skądże mię znasz? Odpowiedział Jezus i rzekł mu: Pierwej niż cię Filip zawołał, gdyś był pod figowem drzewem, widziałem cię. Odpowiedział Natanael i rzekł mu: Mistrzu! tyś jest on Syn Boży, tyś jest on król Izraelski. Odpowiedział Jezus i rzekł mu: Iżem ci powiedział: Widziałem cię pod figowem drzewem, wierzysz; większe rzeczy nad te ujrzysz. I rzekł mu: Zaprawdę, zaprawdę powiadam wam: Od tego czasu ujrzycie niebo otworzone i Anioły Boże wstępujące i zstępujące na Syna człowieczego.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Jesús vió venir á sí á Natanael, y dijo de él: He aquí un verdadero Israelita, en el cual no hay engaño. Dícele Natanael: ¿De dónde me conoces? Respondió Jesús, y díjole: Antes que Felipe te llamara, cuando estabas debajo de la higuera te vi. Respondió Natanael, y díjole: Rabbí, tú eres el Hijo de Dios; tú eres el Rey de Israel. Respondió Jesús y díjole: ¿Porque te dije, te vi debajo de la higuera, crees? cosas mayores que éstas verás. Y dícele: De cierto, de cierto os digo: De aquí adelante veréis el cielo abierto, y los ángeles de Dios que suben y descienden sobre el Hijo del hombre.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Gesù vide Natanaele che gli veniva incontro, e disse di lui: Ecco un vero israelita in cui non c’è frode. Natanaele gli chiese: Da che mi conosci? Gesù gli rispose: Prima che Filippo ti chiamasse, quand’eri sotto il fico, io t’ho veduto. Natanaele gli rispose: Maestro, tu sei il Figliuol di Dio, tu sei il Re d’Israele. Gesù rispose e gli disse: Perché t’ho detto che t’avevo visto sotto il fico, tu credi? Tu vedrai cose maggiori di queste. Poi gli disse: In verità, in verità vi dico che vedrete il cielo aperto e gli angeli di Dio salire e scendere sopra il Figliuol dell’uomo.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Jésus vit venir vers lui Nathanaël, et dit en parlant de lui: \" Voici vraiment un Israélite, en qui il n'y a nul artifice. \" Nathanaël lui dit: \" D'où me connaissez-vous? \" Jésus repartit et lui dit: \" Avant que Philippe t'appelât, lorsque tu étais sous le figuier, je t'ai vu. \" Nathanaël lui répondit: \" Rabbi, vous êtes le Fils de Dieu, vous êtes le Roi d'Israël. \" Jésus lui repartit: \" Parce que je t'ai dit: Je t'ai vu sous le figuier, tu crois! Tu verras de plus grandes choses que celle-là. \" Et il ajouta: \" En vérité, en vérité, je vous le dis, vous verrez désormais le ciel ouvert, et les anges de Dieu montant et descendant sur le Fils de l'homme. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
