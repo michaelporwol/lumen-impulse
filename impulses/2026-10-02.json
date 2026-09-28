@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-02",
+  "gospelRef": "Matthäus 18,1-5.10",
+  "gospelRefOriginal": "Matt 18:1-5.10",
+  "gospelRefs": {
+    "de": "Matthäus 18,1-5.10",
+    "en": "Matthew 18,1-5.10",
+    "pl": "Mateusz 18,1-5.10",
+    "es": "Mateo 18,1-5.10",
+    "it": "Matteo 18,1-5.10",
+    "fr": "Matthieu 18,1-5.10"
+  },
+  "generatedAt": "2026-09-28T22:16:38.022Z",
+  "gospelTexts": {
+    "de": {
+      "text": "In jener Stunde traten die Jünger zu Jesu und sprachen: Wer ist denn der Größte im Reiche der Himmel? Und als Jesus ein Kindlein herzugerufen hatte, stellte er es in ihre Mitte und sprach: Wahrlich, ich sage euch, wenn ihr nicht umkehret und werdet wie die Kindlein, so werdet ihr nicht in das Reich der Himmel eingehen. Darum, wer irgend sich selbst erniedrigen wird wie dieses Kindlein, dieser ist der Größte im Reiche der Himmel; und wer irgend ein solches Kindlein aufnehmen wird in meinem Namen, nimmt mich auf. Sehet zu, daß ihr nicht eines dieser Kleinen verachtet; denn ich sage euch, daß ihre Engel in den Himmeln allezeit das Angesicht meines Vaters schauen, der in den Himmeln ist.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "At the same time came the disciples unto Jesus, saying, Who is the greatest in the kingdom of heaven? And Jesus called a little child unto him, and set him in the midst of them, And said, Verily I say unto you, Except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven. Whosoever therefore shall humble himself as this little child, the same is greatest in the kingdom of heaven. And whoso shall receive one such little child in my name receiveth me. Take heed that ye despise not one of these little ones; for I say unto you, That in heaven their angels do always behold the face of my Father which is in heaven.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Onej godziny przystąpili uczniowie do Jezusa, mówiąc: Któż wżdy największy jest w królestwie niebieskiem? A zawoławszy Jezus dziecięcia, postawił je w pośrodku ich, I rzekł: Zaprawdę powiadam wam: Jeźli się nie nawrócicie i nie staniecie się jako dzieci, żadnym sposobem nie wnijdziecie do królestwa niebieskiego. Kto się tedy uniży jako to dziecię, tenci jest największym w królestwie niebieskiem. A kto by przyjął jedno dziecię takie w imieniu mojem, mnie przyjmuje. Patrzajcież, abyście nie gardzili żadnym z tych maluczkich; albowiem wam powiadam, iż Aniołowie ich w niebiesiech zawsze patrzą na oblicze Ojca mojego, który jest w niebiesiech.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "EN aquel tiempo se llegaron los discípulos á Jesús, diciendo: ¿Quién es el mayor en el reino de los cielos? Y llamando Jesús á un niño, le puso en medio de ellos, Y dijo: De cierto os digo, que si no os volviereis, y fuereis como niños, no entraréis en el reino de los cielos. Así que, cualquiera que se humillare como este niño, éste es el mayor en el reino de los cielos. Y cualquiera que recibiere á un tal niño en mi nombre, á mí recibe. Mirad no tengáis en poco á alguno de estos pequeños; porque os digo que sus ángeles en los cielos ven siempre la faz de mi Padre que está en los cielos.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "In quel mentre i discepoli s’accostarono a Gesù, dicendo: Chi è dunque il maggiore nel regno de’ cieli? Ed egli, chiamato a sé un piccolo fanciullo, lo pose in mezzo a loro e disse: In verità io vi dico: Se non mutate e non diventate come i piccoli fanciulli, non entrerete punto nel regno de’ cieli. Chi pertanto si abbasserà come questo piccolo fanciullo, è lui il maggiore nel regno de’ cieli. E chiunque riceve un cotal piccolo fanciullo nel nome mio, riceve me. Guardatevi dal disprezzare alcuno di questi piccoli; perché io vi dico che gli angeli loro, ne’ cieli, vedono del continuo la faccia del Padre mio che è ne’ cieli.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "En ce moment-là, les disciples s'approchèrent de Jésus et lui dirent: \" Qui donc est le plus grand dans le royaume des cieux? \" Jésus, faisant venir un petit enfant, le plaça au milieu d'eux et leur dit: \" Je vous le dis, en vérité, si vous ne vous changez de façon à devenir comme les petits enfants, vous n'entrerez point dans le royaume des cieux. Celui donc qui se fera humble comme ce petit enfant, est le plus grand dans le royaume des cieux. Et celui qui reçoit en mon nom un petit enfant comme celui-ci, c'est moi qu'il reçoit. \" Prenez garde de mépriser aucun de ces petits, car je vous dis que leurs anges dans le ciel voient sans cesse la face de mon Père qui est dans les cieux.",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
