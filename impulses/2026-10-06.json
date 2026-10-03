@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-06",
+  "gospelRef": "Lukas 10,38-42",
+  "gospelRefOriginal": "Luke 10:38-42",
+  "gospelRefs": {
+    "de": "Lukas 10,38-42",
+    "en": "Luke 10,38-42",
+    "pl": "Łukasz 10,38-42",
+    "es": "Lucas 10,38-42",
+    "it": "Luca 10,38-42",
+    "fr": "Luc 10,38-42"
+  },
+  "generatedAt": "2026-10-03T01:42:13.738Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es geschah aber, als sie ihres Weges zogen, daß er in ein gewisses Dorf kam; und ein gewisses Weib, mit Namen Martha, nahm ihn in ihr Haus auf. Und diese hatte eine Schwester, genannt Maria, die sich auch zu den Füßen Jesu niedersetzte und seinem Worte zuhörte. Martha aber war sehr beschäftigt mit vielem Dienen; sie trat aber hinzu und sprach: Herr, kümmert es dich nicht, daß meine Schwester mich allein gelassen hat zu dienen? Sage ihr nun, daß sie mir helfe. Jesus aber antwortete und sprach zu ihr: Martha, Martha! du bist besorgt und beunruhigt um viele Dinge; eines aber ist not. Maria aber hat das gute Teil erwählt, welches nicht von ihr genommen werden wird.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house. And she had a sister called Mary, which also sat at Jesus' feet, and heard his word. But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me. And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I stało się, gdy oni szli, że on wszedł do niektórego miasteczka, a niewiasta niektóra, imieniem Marta, przyjęła go do domu swego. A ta miała siostrę, którą zwano Maryją, która usiadłszy u nóg Jezusowych, słuchała słów jego. Ale Marta roztargniona była około rozmaitej posługi; która przystąpiwszy, rzekła: Panie! i nie dbasz, że siostra moja mnie samą zostawiła, abym posługiwała? Rzeczże jej, aby mi pomogła. A odpowiadając Jezus rzekł jej: Marto, Marto! troszczysz się i kłopoczesz się około wielu rzeczy; Aleć jednego potrzeba. Lecz Maryja dobrą cząstkę obrała, która od niej odjęta nie będzie.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y aconteció que yendo, entró él en una aldea: y una mujer llamada Marta, le recibió en su casa. Y ésta tenía una hermana que se llamaba María, la cual sentándose á los pies de Jesús, oía su palabra. Empero Marta se distraía en muchos servicios; y sobreviniendo, dice: Señor, ¿no tienes cuidado que mi hermana me deja servir sola? Dile pues, que me ayude. Pero respondiendo Jesús, le dijo: Marta, Marta, cuidadosa estás, y con las muchas cosas estás turbada: Empero una cosa es necesaria; y María escogió la buena parte, la cual no le será quitada.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or mentre essi erano in cammino, egli entrò in un villaggio; e una certa donna, per nome Marta, lo ricevette in casa sua. Ell’avea una sorella chiamata Maria la quale, postasi a sedere a’ piedi di Gesù, ascoltava la sua parola. Ma Marta era affaccendata intorno a molti servigi; e venne e disse: Signore, non t’importa che mia sorella m’abbia lasciata sola a servire? Dille dunque che m’aiuti. Ma il Signore, rispondendo, le disse: Marta, Marta, tu ti affanni e t’inquieti di molte cose, ma di una cosa sola fa bisogno. E Maria ha scelto la buona parte che non le sarà tolta.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Pendant qu'ils étaient en chemin, Jésus entra dans un village, et une femme, nommée Marthe, le reçut dans sa maison. Elle avait une sœur, nommée Marie, qui, s'étant assise aux pieds du Seigneur, écoutait sa parole, tandis que Marthe s'empressait aux divers soins du service. S'étant donc arrêtée: \" Seigneur, dit-elle, ne vous mettez-vous pas en peine que ma sœur m'ait laissée servir seule? Dites-lui donc de m'aider. \" Le Seigneur lui répondit: \" Marthe, Marthe, vous vous inquiétez et vous agitez pour beaucoup de choses. Une seule est nécessaire. Marie a choisi la bonne part, qui ne lui sera point ôtée. \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
