@@ -20,7 +20,7 @@ const path = require('path');
 const MAGISTERIUM_API_URL = 'https://www.magisterium.com/api/v1/chat/completions';
 const API_KEY = process.env.MAGISTERIUM_API_KEY;
 const BOLLS_API_BASE = 'https://bolls.life';
-const LANGUAGES = ['de', 'en', 'pl', 'es', 'it', 'fr'];
+const LANGUAGES = ['de', 'en', 'pl', 'es', 'it', 'fr', 'pt'];
 const API_TIMEOUT_MS = 120000; // 120s timeout — Magisterium API can be slow
 
 // Bible versions on Bolls.life — ALL public domain, no copyright issues
@@ -40,6 +40,10 @@ const LOCAL_BIBLES = {
   es: { file: 'bibles/gospels-es.json', name: 'Reina-Valera 1909' },
   it: { file: 'bibles/gospels-it.json', name: 'Riveduta 1927' },
   fr: { file: 'bibles/gospels-fr.json', name: 'Augustin Crampon 1923' },
+  // Portugiesisch (Brasilien), 07.10.2026: Bíblia Portuguesa Mundial, laut
+  // ebible.org/porbrbsl/copyright.htm "Public Domain". Erzeugt von
+  // scripts/extract-gospels-pt.py (dort Herkunft und Grenzen der Fassung).
+  pt: { file: 'bibles/gospels-pt.json', name: 'Bíblia Portuguesa Mundial' },
 };
 const localBibleCache = {};
 
@@ -120,6 +124,11 @@ const bibleBookMaps = {
     matthew: 'Matthieu', mark: 'Marc', luke: 'Luc', john: 'Jean',
     mt: 'Matthieu', mk: 'Marc', lk: 'Luc', jn: 'Jean',
     matt: 'Matthieu', mrk: 'Marc', luk: 'Luc', joh: 'Jean',
+  },
+  pt: {
+    matthew: 'Mateus', mark: 'Marcos', luke: 'Lucas', john: 'João',
+    mt: 'Mateus', mk: 'Marcos', lk: 'Lucas', jn: 'João',
+    matt: 'Mateus', mrk: 'Marcos', luk: 'Lucas', joh: 'João',
   },
 };
 // Backwards compat
