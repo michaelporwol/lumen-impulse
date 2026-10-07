@@ -8,9 +8,10 @@
     "pl": "Łukasz 11,1-4",
     "es": "Lucas 11,1-4",
     "it": "Luca 11,1-4",
-    "fr": "Luc 11,1-4"
+    "fr": "Luc 11,1-4",
+    "pt": "Lucas 11,1-4"
   },
-  "generatedAt": "2026-10-04T02:22:59.954Z",
+  "generatedAt": "2026-10-07T10:18:34.672Z",
   "gospelTexts": {
     "de": {
       "text": "Und es geschah, als er an einem gewissen Orte war und betete, da sprach, als er aufhörte, einer seiner Jünger zu ihm: Herr, lehre uns beten, wie auch Johannes seine Jünger lehrte. Er sprach aber zu ihnen: Wenn ihr betet, so sprechet: Vater, geheiligt werde dein Name; dein Reich komme; unser nötiges Brot gib uns täglich; und vergib uns unsere Sünden, denn auch wir selbst vergeben jedem, der uns schuldig ist; und führe uns nicht in Versuchung.",
@@ -35,6 +36,10 @@
     "fr": {
       "text": "Un jour que Jésus était en prière en un certain lieu, lorsqu'il eut achevé, un de ses disciples lui dit: \" Seigneur, apprenez-nous à prier, comme Jean l'a appris à ses disciples. \" Il leur dit: \" Lorsque vous priez, dites: Père, que votre nom soit sanctifié, que votre règne arrive. Donnez-nous aujourd'hui le pain nécessaire à notre subsistance, et remettez-nous nos offenses, car nous remettons nous-mêmes à tous ceux qui nous doivent; et ne nous induisez pas en tentation. \"",
       "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Quando ele terminou de orar em certo lugar, um de seus discípulos lhe disse: “Senhor, ensina-nos a orar, assim como João também ensinou aos seus discípulos.” Ele lhes disse: “Quando orarem, digam: 'Pai nosso, que estás nos céus, santificado seja o teu nome. Venha o teu Reino. Seja feita a tua vontade, assim na terra como no céu. Dá-nos dia a dia o nosso pão diário. Perdoa-nos os nossos pecados, pois nós mesmos também perdoamos a todo aquele que nos deve. E não nos deixes cair em tentação, mas livra-nos do maligno.'”",
+      "reference": "Bíblia Portuguesa Mundial"
     }
   }
 }

@@ -8,9 +8,10 @@
     "pl": "Łukasz 11,27-28",
     "es": "Lucas 11,27-28",
     "it": "Luca 11,27-28",
-    "fr": "Luc 11,27-28"
+    "fr": "Luc 11,27-28",
+    "pt": "Lucas 11,27-28"
   },
-  "generatedAt": "2026-10-07T02:03:24.719Z",
+  "generatedAt": "2026-10-07T10:18:36.517Z",
   "gospelTexts": {
     "de": {
       "text": "Es geschah aber, indem er dies sagte, erhob ein gewisses Weib aus der Volksmenge ihre Stimme und sprach zu ihm: Glückselig der Leib, der dich getragen, und die Brüste, die du gesogen hast! Er aber sprach: Ja, vielmehr glückselig, die das Wort Gottes hören und bewahren!",
@@ -35,6 +36,10 @@
     "fr": {
       "text": "Comme il parlait ainsi, une femme élevant la voix du milieu de la foule, lui dit: \" Heureux le sein qui vous a porté, et les mamelles que vous avez sucées! \" Jésus répondit: \" Heureux plutôt ceux qui écoutent la parole de Dieu et qui la gardent! \"",
       "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Aconteceu que, enquanto ele dizia essas coisas, uma certa mulher da multidão levantou a voz e lhe disse: “Bem-aventurado o ventre que te gerou, e os seios que te amamentaram!” Mas ele disse: “Pelo contrário, bem-aventurados são os que ouvem a palavra de Deus e a guardam.”",
+      "reference": "Bíblia Portuguesa Mundial"
     }
   }
 }

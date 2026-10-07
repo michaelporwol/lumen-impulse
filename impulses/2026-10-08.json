@@ -8,9 +8,10 @@
     "pl": "Łukasz 11,5-13",
     "es": "Lucas 11,5-13",
     "it": "Luca 11,5-13",
-    "fr": "Luc 11,5-13"
+    "fr": "Luc 11,5-13",
+    "pt": "Lucas 11,5-13"
   },
-  "generatedAt": "2026-10-05T01:34:42.268Z",
+  "generatedAt": "2026-10-07T10:18:35.296Z",
   "gospelTexts": {
     "de": {
       "text": "Und er sprach zu ihnen: Wer von euch wird einen Freund haben und wird um Mitternacht zu ihm gehen und zu ihm sagen: Freund, leihe mir drei Brote, da mein Freund von der Reise bei mir angelangt ist, und ich nicht habe, was ich ihm vorsetzen soll; - und jener würde von innen antworten und sagen: Mache mir keine Mühe, die Tür ist schon geschlossen, und meine Kinder sind bei mir im Bett; ich kann nicht aufstehen und dir geben? Ich sage euch, wenn er auch nicht aufstehen und ihm geben wird, weil er sein Freund ist, so wird er wenigstens um seiner Unverschämtheit willen aufstehen und ihm geben, so viel er bedarf. Und ich sage euch: Bittet, und es wird euch gegeben werden; suchet, und ihr werdet finden; klopfet an, und es wird euch aufgetan werden. Denn jeder Bittende empfängt, und der Suchende findet, und dem Anklopfenden wird aufgetan werden. Wer aber ist ein Vater unter euch, den der Sohn um Brot bitten wird-er wird ihm doch nicht einen Stein geben? oder auch um einen Fisch-er wird ihm statt des Fisches doch nicht eine Schlange geben? oder auch, wenn er um ein Ei bäte-er wird ihm doch nicht einen Skorpion geben? Wenn nun ihr, die ihr böse seid, euren Kindern gute Gaben zu geben wisset, wieviel mehr wird der Vater, der vom Himmel ist, den Heiligen Geist geben denen, die ihn bitten!",
@@ -35,6 +36,10 @@
     "fr": {
       "text": "Il leur dit encore: \" Si quelqu'un de vous, ayant un ami, va le trouver au milieu de la nuit, disant: Mon ami, prête-moi trois pains, car un de mes ami qui voyage est arrivé chez moi, et je n'ai rien à lui offrir; et que de l'intérieur de la maison, l'autre réponde: Ne m'importune point; la porte est déjà fermée, mes enfants et moi nous sommes au lit; je ne puis me lever pour te rien donner: je vous le dis, quand même il ne se lèverait pas pour lui donner, parce qu'il est son ami, il se lèvera à cause de son importunité, et lui donnera autant de pains qu'il en a besoin. Et moi je vous dis: Demandez, et l'on vous donnera; cherchez, et vous trouverez; frappez, et l'on vous ouvrira. Car quiconque demande, reçoit; et qui cherche, trouve, et l'on ouvrira à celui qui frappe. Quel est parmi vous le père qui, si son fils lui demande du pain, lui donne une pierre? ou, si c'est un poisson, lui donnera-t-il, au lieu de poisson, un serpent? ou, s'il lui demande un œuf, lui donnera-t-il un scorpion? Si donc vous, tout méchants que vous êtes, vous savez donner à vos enfants de bonnes choses, combien plus votre Père céleste donnera-t-il l'Esprit-Saint à ceux qui le lui demandent? \"",
       "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Ele lhes disse: “Qual de vocês, se for a um amigo à meia-noite e lhe disser: 'Amigo, empresta-me três pães, pois um amigo meu chegou de viagem à minha casa, e não tenho nada para lhe oferecer', e ele, lá de dentro, responder e disser: 'Não me incomode. A porta já está fechada, e meus filhos estão comigo na cama. Não posso me levantar para lhe dar nada'? Eu lhes digo: embora ele não se levante para dar-lhe por ser seu amigo, ainda assim, por causa da sua persistência, ele se levantará e lhe dará tudo o que precisar. “Eu lhes digo: continuem pedindo, e lhes será dado. Continuem buscando, e encontrarão. Continuem batendo, e lhes será aberto. Pois todo o que pede, recebe. O que busca, encontra. E àquele que bate, a porta será aberta. “Qual de vocês, pais, se o seu filho pedir pão, lhe dará uma pedra? Ou se pedir um peixe, lhe dará uma cobra em vez de peixe? Ou se pedir um ovo, lhe dará um escorpião? Se vocês, então, sendo maus, sabem dar boas dádivas aos seus filhos, quanto mais o seu Pai celestial dará o Espírito Santo àqueles que lhe pedirem?”",
+      "reference": "Bíblia Portuguesa Mundial"
     }
   }
 }
