@@ -1,39 +1,39 @@
 {
-  "date": "2026-10-06",
-  "gospelRef": "Lukas 10,38-42",
-  "gospelRefOriginal": "Luke 10:38-42",
+  "date": "2026-10-07",
+  "gospelRef": "Lukas 11,1-4",
+  "gospelRefOriginal": "Luke 11:1-4",
   "gospelRefs": {
-    "de": "Lukas 10,38-42",
-    "en": "Luke 10,38-42",
-    "pl": "Łukasz 10,38-42",
-    "es": "Lucas 10,38-42",
-    "it": "Luca 10,38-42",
-    "fr": "Luc 10,38-42"
+    "de": "Lukas 11,1-4",
+    "en": "Luke 11,1-4",
+    "pl": "Łukasz 11,1-4",
+    "es": "Lucas 11,1-4",
+    "it": "Luca 11,1-4",
+    "fr": "Luc 11,1-4"
   },
-  "generatedAt": "2026-10-03T01:42:13.738Z",
+  "generatedAt": "2026-10-04T02:22:59.954Z",
   "gospelTexts": {
     "de": {
-      "text": "Es geschah aber, als sie ihres Weges zogen, daß er in ein gewisses Dorf kam; und ein gewisses Weib, mit Namen Martha, nahm ihn in ihr Haus auf. Und diese hatte eine Schwester, genannt Maria, die sich auch zu den Füßen Jesu niedersetzte und seinem Worte zuhörte. Martha aber war sehr beschäftigt mit vielem Dienen; sie trat aber hinzu und sprach: Herr, kümmert es dich nicht, daß meine Schwester mich allein gelassen hat zu dienen? Sage ihr nun, daß sie mir helfe. Jesus aber antwortete und sprach zu ihr: Martha, Martha! du bist besorgt und beunruhigt um viele Dinge; eines aber ist not. Maria aber hat das gute Teil erwählt, welches nicht von ihr genommen werden wird.",
+      "text": "Und es geschah, als er an einem gewissen Orte war und betete, da sprach, als er aufhörte, einer seiner Jünger zu ihm: Herr, lehre uns beten, wie auch Johannes seine Jünger lehrte. Er sprach aber zu ihnen: Wenn ihr betet, so sprechet: Vater, geheiligt werde dein Name; dein Reich komme; unser nötiges Brot gib uns täglich; und vergib uns unsere Sünden, denn auch wir selbst vergeben jedem, der uns schuldig ist; und führe uns nicht in Versuchung.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house. And she had a sister called Mary, which also sat at Jesus' feet, and heard his word. But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me. And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+      "text": "And it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unto him, Lord, teach us to pray, as John also taught his disciples. And he said unto them, When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth. Give us day by day our daily bread. And forgive us our sins; for we also forgive every one that is indebted to us. And lead us not into temptation; but deliver us from evil.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "I stało się, gdy oni szli, że on wszedł do niektórego miasteczka, a niewiasta niektóra, imieniem Marta, przyjęła go do domu swego. A ta miała siostrę, którą zwano Maryją, która usiadłszy u nóg Jezusowych, słuchała słów jego. Ale Marta roztargniona była około rozmaitej posługi; która przystąpiwszy, rzekła: Panie! i nie dbasz, że siostra moja mnie samą zostawiła, abym posługiwała? Rzeczże jej, aby mi pomogła. A odpowiadając Jezus rzekł jej: Marto, Marto! troszczysz się i kłopoczesz się około wielu rzeczy; Aleć jednego potrzeba. Lecz Maryja dobrą cząstkę obrała, która od niej odjęta nie będzie.",
+      "text": "I stało się, gdy on był na niektórem miejscu, modląc się, że gdy przestał, rzekł do niego jeden z uczniów jego, Panie! naucz nas modlić się, tak jako i Jan nauczył uczniów swoich. I rzekł im: Gdy się modlicie, mówcie: Ojcze nasz, któryś jest w niebiesiech! Święć się imię twoje; przyjdź królestwo twoje; bądź wola twoja, jako w niebie tak i na ziemi. Chleba naszego powszedniego daj nam na każdy dzień. I odpuść nam grzechy nasze; bo też i my odpuszczamy każdemu winowajcy naszemu. A nie wwódź nas na pokuszenie, ale nas zbaw od złego.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y aconteció que yendo, entró él en una aldea: y una mujer llamada Marta, le recibió en su casa. Y ésta tenía una hermana que se llamaba María, la cual sentándose á los pies de Jesús, oía su palabra. Empero Marta se distraía en muchos servicios; y sobreviniendo, dice: Señor, ¿no tienes cuidado que mi hermana me deja servir sola? Dile pues, que me ayude. Pero respondiendo Jesús, le dijo: Marta, Marta, cuidadosa estás, y con las muchas cosas estás turbada: Empero una cosa es necesaria; y María escogió la buena parte, la cual no le será quitada.",
+      "text": "Y ACONTECIÓ que estando él orando en un lugar, como acabó, uno de sus discípulos le dijo: Señor, enséñanos á orar, como también Juan enseñó á sus discípulos. Y les dijo: Cuando orareis, decid: Padre nuestro que estás en los cielos; sea tu nombre santificado. Venga tu reino. Sea hecha tu voluntad, como en el cielo, así también en la tierra. El pan nuestro de cada día, dános lo hoy. Y perdónanos nuestros pecados, porque también nosotros perdonamos á todos los que nos deben. Y no nos metas en tentación, mas líbranos del malo.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Or mentre essi erano in cammino, egli entrò in un villaggio; e una certa donna, per nome Marta, lo ricevette in casa sua. Ell’avea una sorella chiamata Maria la quale, postasi a sedere a’ piedi di Gesù, ascoltava la sua parola. Ma Marta era affaccendata intorno a molti servigi; e venne e disse: Signore, non t’importa che mia sorella m’abbia lasciata sola a servire? Dille dunque che m’aiuti. Ma il Signore, rispondendo, le disse: Marta, Marta, tu ti affanni e t’inquieti di molte cose, ma di una cosa sola fa bisogno. E Maria ha scelto la buona parte che non le sarà tolta.",
+      "text": "Ed avvenne che essendo egli in orazione in un certo luogo, com’ebbe finito, uno de’ suoi discepoli gli disse: Signore, insegnaci a pregare come anche Giovanni ha insegnato ai suoi discepoli Ed egli disse loro: Quando pregate, dite: Padre, sia santificato il tuo nome; venga il tuo regno; dacci di giorno in giorno il nostro pane cotidiano; e perdonaci i nostri peccati, poiché anche noi perdoniamo ad ogni nostro debitore; e non ci esporre alla tentazione.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Pendant qu'ils étaient en chemin, Jésus entra dans un village, et une femme, nommée Marthe, le reçut dans sa maison. Elle avait une sœur, nommée Marie, qui, s'étant assise aux pieds du Seigneur, écoutait sa parole, tandis que Marthe s'empressait aux divers soins du service. S'étant donc arrêtée: \" Seigneur, dit-elle, ne vous mettez-vous pas en peine que ma sœur m'ait laissée servir seule? Dites-lui donc de m'aider. \" Le Seigneur lui répondit: \" Marthe, Marthe, vous vous inquiétez et vous agitez pour beaucoup de choses. Une seule est nécessaire. Marie a choisi la bonne part, qui ne lui sera point ôtée. \"",
+      "text": "Un jour que Jésus était en prière en un certain lieu, lorsqu'il eut achevé, un de ses disciples lui dit: \" Seigneur, apprenez-nous à prier, comme Jean l'a appris à ses disciples. \" Il leur dit: \" Lorsque vous priez, dites: Père, que votre nom soit sanctifié, que votre règne arrive. Donnez-nous aujourd'hui le pain nécessaire à notre subsistance, et remettez-nous nos offenses, car nous remettons nous-mêmes à tous ceux qui nous doivent; et ne nous induisez pas en tentation. \"",
       "reference": "Augustin Crampon 1923"
     }
   }

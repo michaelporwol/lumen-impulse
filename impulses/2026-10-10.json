@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-10",
+  "gospelRef": "Lukas 11,27-28",
+  "gospelRefOriginal": "Luke 11:27-28",
+  "gospelRefs": {
+    "de": "Lukas 11,27-28",
+    "en": "Luke 11,27-28",
+    "pl": "Łukasz 11,27-28",
+    "es": "Lucas 11,27-28",
+    "it": "Luca 11,27-28",
+    "fr": "Luc 11,27-28"
+  },
+  "generatedAt": "2026-10-07T02:03:24.719Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es geschah aber, indem er dies sagte, erhob ein gewisses Weib aus der Volksmenge ihre Stimme und sprach zu ihm: Glückselig der Leib, der dich getragen, und die Brüste, die du gesogen hast! Er aber sprach: Ja, vielmehr glückselig, die das Wort Gottes hören und bewahren!",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And it came to pass, as he spake these things, a certain woman of the company lifted up her voice, and said unto him, Blessed is the womb that bare thee, and the paps which thou hast sucked. But he said, Yea rather, blessed are they that hear the word of God, and keep it.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "I stało się, gdy on to mówił, że wyniósłszy głos niektóra niewiasta z ludu, rzekła mu: Błogosławiony żywot, który cię nosił, i piersi, któreś ssał! Ale on rzekł: Owszem błogosławieni są, którzy słuchają słowa Bożego i strzegą go.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y aconteció que diciendo estas cosas, una mujer de la compañía, levantando la voz, le dijo: Bienaventurado el vientre que te trajo, y los pechos que mamaste. Y él dijo: Antes bienaventurados los que oyen la palabra de Dios, y la guardan.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or avvenne che, mentre egli diceva queste cose, una donna di fra la moltitudine alzò la voce e gli disse: Beato il seno che ti portò e le mammelle che tu poppasti! Ma egli disse: Beati piuttosto quelli che odono la parola di Dio e l’osservano!",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Comme il parlait ainsi, une femme élevant la voix du milieu de la foule, lui dit: \" Heureux le sein qui vous a porté, et les mamelles que vous avez sucées! \" Jésus répondit: \" Heureux plutôt ceux qui écoutent la parole de Dieu et qui la gardent! \"",
+      "reference": "Augustin Crampon 1923"
+    }
+  }
+}
