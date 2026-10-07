@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-07T02:11:06Z",
+  "generatedAt": "2026-10-07T11:44:26Z",
   "audio": {
     "de": {
       "gospel": {
@@ -10,7 +10,7 @@
       },
       "lectio": {
         "url": "gospel-de-lectio.mp3",
-        "size": 621936,
+        "size": 619776,
         "duration": 103,
         "alignment_url": "gospel-de-lectio-alignment.json",
         "original_text_url": "gospel-de-lectio-original.txt"
@@ -84,6 +84,20 @@
         "duration": 81,
         "alignment_url": "gospel-fr-lectio-alignment.json",
         "original_text_url": "gospel-fr-lectio-original.txt"
+      }
+    },
+    "pt": {
+      "gospel": {
+        "url": "gospel-pt.mp3",
+        "size": 457344,
+        "duration": 76
+      },
+      "lectio": {
+        "url": "gospel-pt-lectio.mp3",
+        "size": 508320,
+        "duration": 84,
+        "alignment_url": "gospel-pt-lectio-alignment.json",
+        "original_text_url": "gospel-pt-lectio-original.txt"
       }
     }
   }
