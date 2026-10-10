@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-13",
+  "gospelRef": "Lukas 11,37-41",
+  "gospelRefOriginal": "Luke 11:37-41",
+  "gospelRefs": {
+    "de": "Lukas 11,37-41",
+    "en": "Luke 11,37-41",
+    "pl": "Łukasz 11,37-41",
+    "es": "Lucas 11,37-41",
+    "it": "Luca 11,37-41",
+    "fr": "Luc 11,37-41",
+    "pt": "Lucas 11,37-41"
+  },
+  "generatedAt": "2026-10-10T02:02:48.123Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Indem er aber redete, bat ihn ein gewisser Pharisäer, daß er bei ihm zu Mittag essen möchte; er ging aber hinein und legte sich zu Tische. Als aber der Pharisäer es sah, verwunderte er sich, daß er sich nicht erst vor dem Essen gewaschen hatte. Der Herr aber sprach zu ihm: Jetzt, ihr Pharisäer, reiniget ihr das Äußere des Bechers und der Schüssel, euer Inneres aber ist voller Raub und Bosheit. Toren! hat nicht der, welcher das Äußere gemacht hat, auch das Innere gemacht? Gebet vielmehr Almosen von dem, was ihr habt, und siehe, alles ist euch rein.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And as he spake, a certain Pharisee besought him to dine with him: and he went in, and sat down to meat. And when the Pharisee saw it, he marvelled that he had not first washed before dinner. And the Lord said unto him, Now do ye Pharisees make clean the outside of the cup and the platter; but your inward part is full of ravening and wickedness. Ye fools, did not he that made that which is without make that which is within also? But rather give alms of such things as ye have; and, behold, all things are clean unto you.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "A gdy to mówił, prosił go niektóry Faryzeusz, aby jadł obiad u niego; wszedłszy tedy, usiadł za stołem. A widząc to Faryzeusz, dziwował się, że się nie umył przed obiadem. I rzekł Pan do niego: Teraz wy, Faryzeuszowie! to, co jest zewnątrz kubka i misy, ochędażacie, ale to, co jest wewnątrz w was, pełne jest drapiestwa i złości. Szaleni! izaż ten, który uczynił to, co jest zewnątrz, nie uczynił też tego, co jest wewnątrz? Wszakże i z tego, co jest wewnątrz, dawajcie jałmużnę, a oto wszystkie rzeczy będą wam czyste.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y luego que hubo hablado, rogóle un Fariseo que comiese con él: y entrado Jesús, se sentó á la mesa. Y el Fariseo, como lo vió, maravillóse de que no se lavó antes de comer. Y el Señor le dijo: Ahora vosotros los Fariseos lo de fuera del vaso y del plato limpiáis; mas lo interior de vosotros está lleno de rapiña y de maldad. Necios, ¿el que hizo lo de fuera, no hizo también lo de dentro? Empero de lo que os resta, dad limosna; y he aquí todo os será limpio.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Or mentr’egli parlava, un Fariseo lo invitò a desinare da lui. Ed egli, entrato, si mise a tavola. E il Fariseo, veduto questo, si maravigliò che non si fosse prima lavato, avanti il desinare. E il Signore gli disse: Voi altri Farisei nettate il di fuori della coppa e del piatto, ma l’interno vostro è pieno di rapina e di malvagità. Stolti, Colui che ha fatto il di fuori, non ha anche fatto il di dentro? Date piuttosto in elemosina quel ch’è dentro al piatto; ed ecco, ogni cosa sarà netta per voi.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Pendant qu'il parlait, un Pharisien le pria de dîner chez lui; Jésus entra et se mit à table. Or le Pharisien vit avec étonnement qu'il n'avait point fait l'ablution avant le dîner. Le Seigneur lui dit: \" Vous, Pharisiens, vous nettoyez le dehors de la coupe et du plat; mais au dedans de vous tout est plein de rapine et d'iniquité. Insensés! celui qui a fait le dehors n'a-t-il pas fait aussi le dedans? Toutefois, donnez l'aumône selon vos moyens, et tout sera pur pour vous.",
+      "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Enquanto ele falava, um certo fariseu o convidou para jantar com ele. Ele entrou e sentou-se à mesa. Quando o fariseu viu isso, maravilhou-se de que ele não tivesse se lavado antes do jantar. O Senhor lhe disse: “Agora, vocês, fariseus, limpam o exterior do copo e do prato, mas o interior de vocês está cheio de extorsão e maldade. Insensatos, quem fez o exterior não fez também o interior? Mas deem aos necessitados o que está dentro, e eis que todas as coisas lhes serão limpas.",
+      "reference": "Bíblia Portuguesa Mundial"
+    }
+  }
+}
