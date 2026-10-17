@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-16",
-  "gospelRef": "Lukas 12,1-7",
-  "gospelRefOriginal": "Luke 12:1-7",
+  "date": "2026-10-17",
+  "gospelRef": "Lukas 12,8-12",
+  "gospelRefOriginal": "Luke 12:8-12",
   "gospelRefs": {
-    "de": "Lukas 12,1-7",
-    "en": "Luke 12,1-7",
-    "pl": "Łukasz 12,1-7",
-    "es": "Lucas 12,1-7",
-    "it": "Luca 12,1-7",
-    "fr": "Luc 12,1-7",
-    "pt": "Lucas 12,1-7"
+    "de": "Lukas 12,8-12",
+    "en": "Luke 12,8-12",
+    "pl": "Łukasz 12,8-12",
+    "es": "Lucas 12,8-12",
+    "it": "Luca 12,8-12",
+    "fr": "Luc 12,8-12",
+    "pt": "Lucas 12,8-12"
   },
-  "generatedAt": "2026-10-12T23:13:41.200Z",
+  "generatedAt": "2026-10-14T01:34:22.130Z",
   "gospelTexts": {
     "de": {
-      "text": "Als sich unterdessen viele Tausende der Volksmenge versammelt hatten, so daß sie einander traten, fing er an, zu seinen Jüngern zu sagen, zuerst: Hütet euch vor dem Sauerteig der Pharisäer, welcher Heuchelei ist. Es ist aber nichts verdeckt, was nicht aufgedeckt, und verborgen, was nicht kundwerden wird; deswegen, soviel ihr in der Finsternis gesprochen haben werdet, wird im Lichte gehört werden, und was ihr ins Ohr gesprochen haben werdet in den Kammern, wird auf den Dächern ausgerufen werden. Ich sage aber euch, meinen Freunden: Fürchtet euch nicht vor denen, die den Leib töten und nach diesem nichts weiter zu tun vermögen. Ich will euch aber zeigen, wen ihr fürchten sollt: Fürchtet den, der nach dem Töten Gewalt hat, in die Hölle zu werfen; ja, sage ich euch, diesen fürchtet. Werden nicht fünf Sperlinge um zwei Pfennig verkauft? und nicht einer von ihnen ist vor Gott vergessen. Aber selbst die Haare eures Hauptes sind alle gezählt. So fürchtet euch nun nicht; ihr seid vorzüglicher als viele Sperlinge.",
+      "text": "Ich sage euch aber: Jeder, der irgend mich vor den Menschen bekennen wird, den wird auch der Sohn des Menschen vor den Engeln Gottes bekennen; wer aber mich vor den Menschen verleugnet haben wird, der wird vor den Engeln Gottes verleugnet werden. Und jeder, der ein Wort sagen wird wider den Sohn des Menschen, dem wird vergeben werden; dem aber, der wider den Heiligen Geist lästert, wird nicht vergeben werden. Wenn sie euch aber vor die Synagogen und die Obrigkeiten und die Gewalten führen, so sorget nicht, wie oder womit ihr euch verantworten oder was ihr sagen sollt; denn der Heilige Geist wird euch in selbiger Stunde lehren, was ihr sagen sollt.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy. For there is nothing covered, that shall not be revealed; neither hid, that shall not be known. Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops. And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do. But I will forewarn you whom ye shall fear: Fear him, which after he hath killed hath power to cast into hell; yea, I say unto you, Fear him. Are not five sparrows sold for two farthings, and not one of them is forgotten before God? But even the very hairs of your head are all numbered. Fear not therefore: ye are of more value than many sparrows.",
+      "text": "Also I say unto you, Whosoever shall confess me before men, him shall the Son of man also confess before the angels of God: But he that denieth me before men shall be denied before the angels of God. And whosoever shall speak a word against the Son of man, it shall be forgiven him: but unto him that blasphemeth against the Holy Ghost it shall not be forgiven. And when they bring you unto the synagogues, and unto magistrates, and powers, take ye no thought how or what thing ye shall answer, or what ye shall say: For the Holy Ghost shall teach you in the same hour what ye ought to say.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "Między tem, gdy się zgromadziło wiele tysięcy ludu, tak iż jedni po drugich deptali, począł mówić do uczniów swoich. Naprzód strzeżcie się kwasu Faryzejskiego, który jest obłuda. Boć nie jest nic skrytego, co by objawione być nie miało, ani tajemnego czego by się dowiedzieć nie miano. Przetoż, coście mówili w ciemności, na świetle słyszane będzie, a coście w ucho szeptali w komorach, obwołane będzie na dachach. A mówię wam przyjaciołom moim: Nie bójcie się tych, którzy ciało zabijają, a potem nie mają co by więcej uczynili. Ale wam okażę, kogo się bać macie: Bójcie się tego, który, gdy zabije, ma moc wrzucić do piekielnego ognia; zaiste powiadam wam, tego się bójcie. Izali pięciu wróblików nie sprzedają za dwa pieniążki? Wszakże jeden z nich nie jest w zapamiętaniu przed obliczem Bożem. Owszem i włosy głowy waszej wszystkie są policzone. Przetoż się nie bójcie, nad wiele wróblików wy jesteście zacniejsi.",
+      "text": "A mówię wam: Wszelaki, który by mię wyznał przed ludźmi, i Syn człowieczy wyzna go przed Anioły Bożymi. Ale kto by się mię zaprzał przed ludźmi, zaprę się go przed Anioły Bożymi. I każdemu, kto by mówił słowo przeciwko Synowi człowieczemu, będzie mu odpuszczone: ale temu, kto by przeciwko Duchowi Świętemu bluźnił, nie będzie odpuszczone. A gdy was będą wodzić do bóżnic, i do przełożonych, i do zwierzchności, nie troszczcie się, jako i co byście ku obronie odpowiedzieć, albo co byście mówić mieli. Albowiem Duch Święty nauczy was onejże godziny, co byście mówić mieli.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "EN esto, juntándose muchas gentes, tanto que unos á otros se hollaban, comenzó á decir á sus discípulos, primeramente: Guardaos de la levadura de los Fariseos, que es hipocresía. Porque nada hay encubierto, que no haya de ser descubierto; ni oculto, que no haya de ser sabido. Por tanto, las cosas que dijisteis en tinieblas, á la luz serán oídas; y lo que hablasteis al oído en las cámaras, será pregonado en los terrados. Mas os digo, amigos míos: No temáis de los que matan el cuerpo, y después no tienen más que hacer. Mas os enseñaré á quién temáis: temed á aquel que después de haber quitado la vida, tiene poder de echar en la Gehenna: así os digo: á éste temed. ¿No se venden cinco pajarillos por dos blancas? pues ni uno de ellos está olvidado delante de Dios. Y aun los cabellos de vuestra cabeza están todos contados. No temáis pues: de más estima sois que muchos pajarillos.",
+      "text": "Y os digo que todo aquel que me confesare delante de los hombres, también el Hijo del hombre le confesará delante de los ángeles de Dios; Mas el que me negare delante de los hombres, será negado delante de los ángeles de Dios. Y todo aquel que dice palabra contra el Hijo del hombre, le será perdonado; mas al que blasfemare contra el Espíritu Santo, no le será perdonado. Y cuando os trajeren á las sinagogas, y á los magistrados y potestades, no estéis solícitos cómo ó qué hayáis de responder, ó qué hayáis de decir; Porque el Espíritu Santo os enseñará en la misma hora lo que será necesario decir.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Intanto, essendosi la moltitudine radunata a migliaia, così da calpestarsi gli uni gli altri, Gesù cominciò prima di tutto a dire ai suoi discepoli: Guardatevi dal lievito de’ Farisei, che è ipocrisia. Ma non v’è niente di coperto che non abbia ad essere scoperto, né di occulto che non abbia ad esser conosciuto. Perciò tutto quel che avete detto nelle tenebre, sarà udito nella luce; e quel che avete detto all’orecchio nelle stanze interne, sarà proclamato sui tetti. Ma a voi che siete miei amici, io dico: Non temete coloro che uccidono il corpo, e che dopo ciò, non possono far nulla di più; ma io vi mostrerò chi dovete temere: Temete colui che, dopo aver ucciso, ha potestà di gettar nella geenna. Sì, vi dico, temete Lui. Cinque passeri non si vendon per due soldi? Eppure non uno d’essi è dimenticato dinanzi a Dio; anzi, perfino i capelli del vostro capo son tutti contati. Non temete dunque; voi siete da più di molti passeri.",
+      "text": "Or io vi dico: Chiunque mi avrà riconosciuto davanti agli uomini, anche il Figliuol dell’uomo riconoscerà lui davanti agli angeli di Dio; ma chi mi avrà rinnegato davanti agli uomini, sarà rinnegato davanti agli angeli di Dio. Ed a chiunque avrà parlato contro il Figliuol dell’uomo, sarà perdonato; ma a chi avrà bestemmiato contro lo Spirito Santo, non sarà perdonato. Quando poi vi condurranno davanti alle sinagoghe e ai magistrati e alle autorità, non state in ansietà del come o del che avrete a rispondere a vostra difesa, o di quel che avrete a dire; perché lo Spirito Santo v’insegnerà in quell’ora stessa quel che dovrete dire.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Sur ces entrefaites, les gens s'étant rassemblés par milliers, au point de se fouler les uns les autres, Jésus se mit à dire à ses disciples: \" Gardez-vous avant tout du levain des Pharisiens, qui est l'hypocrisie. Il n'y a rien de caché qui ne doive être révélé, rien de secret qui ne doive être connu. C'est pourquoi, tout ce que vous aurez dit dans les ténèbres, on l'entendra au grand jour; et ce que vous aurez dit à l'oreille dans l'intérieur de la maison, sera publié sur les toits. Mais je vous dis, à vous qui êtes mes amis: Ne craignez pas ceux qui tuent le corps, et qui après cela ne peuvent rien faire de plus. Je vais vous apprendre qui vous devez craindre: craignez celui qui, après avoir tué, a le pouvoir de jeter dans la géhenne; oui, je vous le dis, craignez celui-là. Cinq passereaux ne se vendent-ils pas deux as? Et pas un d'eux n'est en oubli devant Dieu. Mais les cheveux mêmes de votre tête sont tous comptés. Ne craignez donc point: vous êtes de plus de prix que beaucoup de passereaux.",
+      "text": "Je vous le dis encore, quiconque m'aura confessé devant les hommes, le Fils de l'homme aussi le confessera devant les anges de Dieu; mais celui qui m'aura renié devant les hommes, sera renié devant les anges de Dieu. Et quiconque parlera contre le Fils de l'homme, obtiendra le pardon; mais pour celui qui aura blasphémé contre l'Esprit-Saint, il n'y aura point de pardon. Quand on vous conduira devant les synagogues, les magistrats et les autorités, ne vous mettez point en peine de la manière dont vous vous défendrez, ni de ce que vous direz; car le Saint-Esprit vous enseignera à l'heure même ce qu'il faudra dire. \"",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Enquanto isso, tendo-se reunido uma multidão de muitos milhares, a ponto de atropelarem uns aos outros, ele começou a dizer aos seus discípulos, antes de tudo: “Cuidado com o fermento dos fariseus, que é a hipocrisia. Mas não há nada encoberto que não venha a ser revelado, nem oculto que não venha a ser conhecido. Portanto, tudo o que disserem nas trevas será ouvido na luz. O que falarem ao ouvido nos quartos interiores será proclamado sobre os telhados. “Eu lhes digo, meus amigos: não tenham medo daqueles que matam o corpo e, depois disso, não têm mais nada que possam fazer. Mas eu lhes mostrarei a quem devem temer. Temam aquele que, depois de matar, tem poder para lançar na Geena. Sim, eu lhes digo, temam a esse. “Não se vendem cinco pardais por duas moedas de assare? Contudo, nenhum deles é esquecido por Deus. Mas até os cabelos da cabeça de vocês estão todos contados. Portanto, não tenham medo. Vocês valem mais do que muitos pardais.",
+      "text": "“Eu lhes digo: todo aquele que me confessar diante dos homens, também o Filho do Homem o confessará diante dos anjos de Deus; mas aquele que me negar na presença dos homens será negado na presença dos anjos de Deus. Todo aquele que disser uma palavra contra o Filho do Homem será perdoado, mas aqueles que blasfemarem contra o Espírito Santo não serão perdoados. Quando os levarem às sinagogas, aos governantes e às autoridades, não fiquem ansiosos sobre como ou o que irão responder, ou o que irão dizer; pois o Espírito Santo lhes ensinará, naquela mesma hora, o que devem dizer.”",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }

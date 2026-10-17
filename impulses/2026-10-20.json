@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "gospelRef": "Lukas 12,35-38",
+  "gospelRefOriginal": "Luke 12:35-38",
+  "gospelRefs": {
+    "de": "Lukas 12,35-38",
+    "en": "Luke 12,35-38",
+    "pl": "Łukasz 12,35-38",
+    "es": "Lucas 12,35-38",
+    "it": "Luca 12,35-38",
+    "fr": "Luc 12,35-38",
+    "pt": "Lucas 12,35-38"
+  },
+  "generatedAt": "2026-10-17T01:01:19.674Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Es seien eure Lenden umgürtet und die Lampen brennend; und ihr, seid Menschen gleich, die auf ihren Herrn warten, wann irgend er aufbrechen mag von der Hochzeit, auf daß, wenn er kommt und anklopft, sie ihm alsbald aufmachen. Glückselig jene Knechte, die der Herr, wenn er kommt, wachend finden wird! Wahrlich, ich sage euch: Er wird sich umgürten und sie sich zu Tische legen lassen und wird hinzutreten und sie bedienen. Und wenn er in der zweiten Wache kommt und in der dritten Wache kommt und findet sie also-glückselig sind jene Knechte!",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Let your loins be girded about, and your lights burning; And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately. Blessed are those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them. And if he shall come in the second watch, or come in the third watch, and find them so, blessed are those servants.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Niech będą przepasane biodra wasze, i świece zapalone. A wy bądźcie podobni ludziom oczekującym pana swego, ażeby się wrócił z wesela, żeby gdyby przyszedł, a zakołatał, wnet mu otworzyli. Błogosławieni oni słudzy, których gdy przyjdzie pan, czujących znajdzie; zaprawdę powiadam wam, iż się przepasze, a posadzi ich za stół, a przechadzając się, będzie im służył. A jeźliby przyszedł o wtórej straży, i o trzeciej straży przyszedłliby, a tak by ich znalazł, błogosławieni są oni słudzy.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Estén ceñidos vuestros lomos, y vuestras antorchas encendidas; Y vosotros semejantes á hombres que esperan cuando su señor ha de volver de las bodas; para que cuando viniere y llamare, luego le abran. Bienaventurados aquellos siervos, á los cuales cuando el Señor viniere, hallare velando: de cierto os digo, que se ceñirá, y hará que se sienten á la mesa, y pasando les servirá. Y aunque venga á la segunda vigilia, y aunque venga á la tercera vigilia, y los hallare así, bienaventurados son los tales siervos.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "I vostri fianchi siano cinti, e le vostre lampade accese; e voi siate simili a quelli che aspettano il loro padrone quando tornerà dalle nozze, per aprirgli appena giungerà e picchierà. Beati que’ servitori che il padrone, arrivando, troverà vigilanti! In verità io vi dico che egli si cingerà, li farà mettere a tavola e passerà a servirli. E se giungerà alla seconda o alla terza vigilia e li troverà così, beati loro!",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Ayez la ceinture aux reins et vos lampes allumées! Soyez semblables à des hommes qui attendent le moment où leur maître reviendra des noces, afin que, dès qu'il arrivera et frappera à la porte, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son retour, trouvera veillant! Je vous le dis en vérité, il se ceindra, il les fera mettre à table, et s'approchera pour les servir. Qu'il arrive à la deuxième veille, qu'il arrive à la troisième, s'il les trouve ainsi, heureux ces serviteurs!",
+      "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "“Estejam vestidos e prontos, com as suas lâmpadas acesas. Sejam como homens que esperam pelo seu senhor ao voltar da festa de casamento, para que, quando ele vier e bater, possam abrir-lhe imediatamente. Bem-aventurados aqueles servos a quem o senhor, quando vier, encontrar vigiando. Em verdade lhes digo que ele se vestirá para servi-los, os fará reclinar à mesa e virá servi-los. Eles serão bem-aventurados se ele vier na segunda ou na terceira vigília e os encontrar assim.",
+      "reference": "Bíblia Portuguesa Mundial"
+    }
+  }
+}
