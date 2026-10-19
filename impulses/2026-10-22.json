@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "gospelRef": "Lukas 12,49-53",
+  "gospelRefOriginal": "Luke 12:49-53",
+  "gospelRefs": {
+    "de": "Lukas 12,49-53",
+    "en": "Luke 12,49-53",
+    "pl": "Łukasz 12,49-53",
+    "es": "Lucas 12,49-53",
+    "it": "Luca 12,49-53",
+    "fr": "Luc 12,49-53",
+    "pt": "Lucas 12,49-53"
+  },
+  "generatedAt": "2026-10-19T00:46:52.660Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Ich bin gekommen, Feuer auf die Erde zu werfen; und was will ich, wenn es schon angezündet ist? Ich habe aber eine Taufe, womit ich getauft werden muß, und wie bin ich beengt, bis sie vollbracht ist! Denket ihr, daß ich gekommen sei, Frieden auf der Erde zu geben? Nein, sage ich euch, sondern vielmehr Entzweiung. Denn es werden von nun an fünf in einem Hause entzweit sein; drei werden wider zwei und zwei wider drei entzweit sein: Vater wider Sohn und Sohn wider Vater, Mutter wider Tochter und Tochter wider Mutter, Schwiegermutter wider ihre Schwiegertochter und Schwiegertochter wider ihre Schwiegermutter.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "I am come to send fire on the earth; and what will I, if it be already kindled? But I have a baptism to be baptized with; and how am I straitened till it be accomplished! Suppose ye that I am come to give peace on earth? I tell you, Nay; but rather division: For from henceforth there shall be five in one house divided, three against two, and two against three. The father shall be divided against the son, and the son against the father; the mother against the daughter, and the daughter against the mother; the mother in law against her daughter in law, and the daughter in law against her mother in law.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Przyszedłem, abym ogień puścił na ziemię, i czegoż chcę, jeźli już gore? Aleć mam być chrztem ochrzczony; a jakom jest ściśniony, póki się to nie wykona. Mniemacie, abym przyszedł, pokój dawać na ziemię? Bynajmniej, powiadam wam, ale rozerwanie. Albowiem od tego czasu będzie ich pięć w domu jednym rozerwanych, trzej przeciwko dwom, a dwaj przeciwko trzem. Powstanie ojciec przeciwko synowi, a syn przeciwko ojcu, matka przeciwko córce, a córka przeciwko matce, świekra przeciwko synowej swojej, a synowa przeciwko świekrze swojej.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Fuego vine á meter en la tierra: ¿y qué quiero, si ya está encendido? Empero de bautismo me es necesario ser bautizado: y ¡cómo me angustio hasta que sea cumplido! ¿Pensáis que he venido á la tierra á dar paz? No, os digo; mas disensión. Porque estarán de aquí adelante cinco en una casa divididos; tres contra dos, y dos contra tres. El padre estará dividido contra el hijo, y el hijo contra el padre; la madre contra la hija, y la hija contra la madre; la suegra contra su nuera, y la nuera contra su suegra.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Io son venuto a gettare un fuoco sulla terra; e che mi resta a desiderare, se già è acceso? Ma v’è un battesimo del quale ho da esser battezzato; e come sono angustiato finché non sia compiuto! Pensate voi ch’io sia venuto a metter pace in terra? No, vi dico; ma piuttosto divisione; perché, da ora innanzi, se vi sono cinque persone in una casa, saranno divise tre contro due, e due contro tre; saranno divisi il padre contro il figliuolo, e il figliuolo contro li padre; la madre contro la figliuola, e la figliuola contro la madre; la suocera contro la nuora, e la nuora contro la suocera.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Je suis venu jeter le feu sur la terre, et que désiré-je, si déjà il est allumé? Je dois encore être baptisé d'un baptême, et quelle angoisse en moi jusqu'à ce qu'il soit accompli! Pensez-vous que je sois venu établir la paix sur la terre? Non, vous dis-je, mais bien la division. Car désormais, s'il y a cinq personnes dans une maison, elles seront divisés, trois contre deux, et deux contre trois; le père sera divisé contre son fils, et le fils contre son père; la mère contre sa fille et la fille contre sa mère; la belle-mère contre sa belle-fille, et la belle-fille contre sa belle-mère. \"",
+      "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "“Eu vim para lançar fogo na terra. Como eu gostaria que já estivesse aceso! Mas tenho um batismo com o qual devo ser batizado, e como estou angustiado até que ele se cumpra! Vocês pensam que eu vim para dar paz na terra? Eu lhes digo que não, mas sim divisão. Pois, de agora em diante, haverá cinco em uma casa divididos, três contra dois, e dois contra três. Eles estarão divididos: pai contra filho, e filho contra pai; mãe contra filha, e filha contra sua mãe; sogra contra sua nora, e nora contra sua sogra.”",
+      "reference": "Bíblia Portuguesa Mundial"
+    }
+  }
+}
