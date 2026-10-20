@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-19",
-  "gospelRef": "Lukas 12,13-21",
-  "gospelRefOriginal": "Luke 12:13-21",
+  "date": "2026-10-20",
+  "gospelRef": "Lukas 12,35-38",
+  "gospelRefOriginal": "Luke 12:35-38",
   "gospelRefs": {
-    "de": "Lukas 12,13-21",
-    "en": "Luke 12,13-21",
-    "pl": "Łukasz 12,13-21",
-    "es": "Lucas 12,13-21",
-    "it": "Luca 12,13-21",
-    "fr": "Luc 12,13-21",
-    "pt": "Lucas 12,13-21"
+    "de": "Lukas 12,35-38",
+    "en": "Luke 12,35-38",
+    "pl": "Łukasz 12,35-38",
+    "es": "Lucas 12,35-38",
+    "it": "Luca 12,35-38",
+    "fr": "Luc 12,35-38",
+    "pt": "Lucas 12,35-38"
   },
-  "generatedAt": "2026-10-16T00:59:01.697Z",
+  "generatedAt": "2026-10-17T01:01:19.674Z",
   "gospelTexts": {
     "de": {
-      "text": "Einer aus der Volksmenge aber sprach zu ihm: Lehrer, sage meinem Bruder, daß er das Erbe mit mir teile. Er aber sprach zu ihm: Mensch, wer hat mich zu einem Richter oder Erbteiler über euch gesetzt? Er sprach aber zu ihnen: Sehet zu und hütet euch vor aller Habsucht, denn nicht weil jemand Überfluß hat, besteht sein Leben von seiner Habe. Er sagte aber ein Gleichnis zu ihnen und sprach: Das Land eines gewissen reichen Menschen trug viel ein. Und er überlegte bei sich selbst und sprach: Was soll ich tun? denn ich habe nicht, wohin ich meine Früchte einsammeln soll. Und er sprach: Dies will ich tun: ich will meine Scheunen niederreißen und größere bauen, und will dahin all mein Gewächs und meine Güter einsammeln; und ich will zu meiner Seele sagen: Seele, du hast viele Güter daliegen auf viele Jahre; ruhe aus, iß, trink, sei fröhlich. Gott aber sprach zu ihm: Du Tor! in dieser Nacht wird man deine Seele von dir fordern; was du aber bereitet hast, für wen wird es sein? Also ist der für sich Schätze sammelt, und ist nicht reich in Bezug auf Gott.",
+      "text": "Es seien eure Lenden umgürtet und die Lampen brennend; und ihr, seid Menschen gleich, die auf ihren Herrn warten, wann irgend er aufbrechen mag von der Hochzeit, auf daß, wenn er kommt und anklopft, sie ihm alsbald aufmachen. Glückselig jene Knechte, die der Herr, wenn er kommt, wachend finden wird! Wahrlich, ich sage euch: Er wird sich umgürten und sie sich zu Tische legen lassen und wird hinzutreten und sie bedienen. Und wenn er in der zweiten Wache kommt und in der dritten Wache kommt und findet sie also-glückselig sind jene Knechte!",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "And one of the company said unto him, Master, speak to my brother, that he divide the inheritance with me. And he said unto him, Man, who made me a judge or a divider over you? And he said unto them, Take heed, and beware of covetousness: for a man's life consisteth not in the abundance of the things which he possesseth. And he spake a parable unto them, saying, The ground of a certain rich man brought forth plentifully: And he thought within himself, saying, What shall I do, because I have no room where to bestow my fruits? And he said, This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods. And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry. But God said unto him, Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided? So is he that layeth up treasure for himself, and is not rich toward God.",
+      "text": "Let your loins be girded about, and your lights burning; And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately. Blessed are those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them. And if he shall come in the second watch, or come in the third watch, and find them so, blessed are those servants.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "I rzekł mu niektóry z ludu: Nauczycielu! rzecz bratu memu, aby się ze mną podzielił dziedzictwem. Ale mu on rzekł: Człowiecze! któż mię postanowił sędzią albo dzielcą między wami? I rzekł do nich: Patrzcie, a strzeżcie się łakomstwa, gdyż nie w tem, że kto ma obfite majętności, żywot jego zależy. I powiedział im podobieństwo, mówiąc: Niektórego człowieka bogatego pole obfity urodzaj przyniosło. I rozmyślał sam w sobie, mówiąc: Cóż uczynię, gdyż nie mam, gdzie bym zgromadził urodzaje moje? I rzekł: To uczynię: Rozwalę gumna moje, a większe pobuduję i zgromadzę tam wszystkie urodzaje moje i dobra moje; I rzekę do duszy mojej: Duszo! masz wiele dóbr złożonych na wiele lat; odpocznijże, jedz, pij, bądź dobrej myśli. Ale mu rzekł Bóg: O głupi, tej nocy upomnę się duszy twojej od ciebie, a to, coś nagotował, czyjeż będzie? Takci jest, który sobie skarbi, a nie jest w Bogu bogaty.",
+      "text": "Niech będą przepasane biodra wasze, i świece zapalone. A wy bądźcie podobni ludziom oczekującym pana swego, ażeby się wrócił z wesela, żeby gdyby przyszedł, a zakołatał, wnet mu otworzyli. Błogosławieni oni słudzy, których gdy przyjdzie pan, czujących znajdzie; zaprawdę powiadam wam, iż się przepasze, a posadzi ich za stół, a przechadzając się, będzie im służył. A jeźliby przyszedł o wtórej straży, i o trzeciej straży przyszedłliby, a tak by ich znalazł, błogosławieni są oni słudzy.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y díjole uno de la compañía: Maestro, di á mi hermano que parta conmigo la herencia. Mas él le dijo: Hombre, ¿quién me puso por juez ó partidor sobre vosotros? Y díjoles: Mirad, y guardaos de toda avaricia; porque la vida del hombre no consiste en la abundancia de los bienes que posee. Y refirióles una parábola, diciendo: La heredad de un hombre rico había llevado mucho; Y él pensaba dentro de sí, diciendo: ¿Qué haré, porque no tengo donde juntar mis frutos? Y dijo: Esto haré: derribaré mis alfolíes, y los edificaré mayores, y allí juntaré todos mis frutos y mis bienes; Y diré á mi alma: Alma, muchos bienes tienes almacenados para muchos años; repósate, come, bebe, huélgate. Y díjole Dios: Necio, esta noche vuelven á pedir tu alma; y lo que has prevenido, ¿de quién será? Así es el que hace para sí tesoro, y no es rico en Dios.",
+      "text": "Estén ceñidos vuestros lomos, y vuestras antorchas encendidas; Y vosotros semejantes á hombres que esperan cuando su señor ha de volver de las bodas; para que cuando viniere y llamare, luego le abran. Bienaventurados aquellos siervos, á los cuales cuando el Señor viniere, hallare velando: de cierto os digo, que se ceñirá, y hará que se sienten á la mesa, y pasando les servirá. Y aunque venga á la segunda vigilia, y aunque venga á la tercera vigilia, y los hallare así, bienaventurados son los tales siervos.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Or uno della folla gli disse: Maestro, di’ a mio fratello che divida con me l’eredità. Ma Gesù gli rispose: O uomo, chi mi ha costituito su voi giudice o spartitore? Poi disse loro: Badate e guardatevi da ogni avarizia; perché non è dall’abbondanza de’ beni che uno possiede, ch’egli ha la sua vita. E disse loro questa parabola: La campagna d’un certo uomo ricco fruttò copiosamente; ed egli ragionava così fra sé medesimo: Che farò, poiché non ho dove riporre i miei raccolti? E disse: Questo farò: demolirò i miei granai e ne fabbricherò dei più vasti, e vi raccoglierò tutto il mio grano e i miei beni, e dirò all’anima mia: Anima, tu hai molti beni riposti per molti anni; riposati, mangia, bevi, godi. Ma Dio gli disse: Stolto, questa notte stessa l’anima tua ti sarà ridomandata; e quel che hai preparato, di chi sarà? Così è di chi tesoreggia per sé, e non è ricco in vista di Dio.",
+      "text": "I vostri fianchi siano cinti, e le vostre lampade accese; e voi siate simili a quelli che aspettano il loro padrone quando tornerà dalle nozze, per aprirgli appena giungerà e picchierà. Beati que’ servitori che il padrone, arrivando, troverà vigilanti! In verità io vi dico che egli si cingerà, li farà mettere a tavola e passerà a servirli. E se giungerà alla seconda o alla terza vigilia e li troverà così, beati loro!",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Alors du milieu de la foule quelqu'un dit à Jésus: \" Maître, dites à mon frère de partager avec moi notre héritage. \" Jésus lui répondit: \" Homme, qui m'a établi pour être votre juge, ou pour faire vos partages? \" Et il dit au peuple: \" Gardez-vous avec soin de toute avarice; car, dans l'abondance même, la vie d'un homme ne dépend pas des biens qu'il possède. \" Puis il leur dit cette parabole: \" Il y avait un homme riche dont le domaine avait beaucoup rapporté. Et il s'entretenait en lui-même de ces pensées: Que ferai-je? car je n'ai pas de place pour serrer ma récolte. Voici, dit-il, ce que je ferai. J'abattrai mes greniers, et j'en construirai de plus grands, et j'y amasserai la totalité de mes récoltes et de mes biens. Et je dirai à mon âme: Mon âme, tu as de grands biens en réserve pour beaucoup d'années; repose-toi, mange, bois, fais bonne chère. Mais Dieu lui dit: Insensé! cette nuit même on te redemandera ton âme; et ce que tu as mis en réserve, pour qui sera-t-il? Il en est ainsi de l'homme qui amasse des trésors pour lui-même, et qui n'est pas riche devant Dieu. \"",
+      "text": "Ayez la ceinture aux reins et vos lampes allumées! Soyez semblables à des hommes qui attendent le moment où leur maître reviendra des noces, afin que, dès qu'il arrivera et frappera à la porte, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son retour, trouvera veillant! Je vous le dis en vérité, il se ceindra, il les fera mettre à table, et s'approchera pour les servir. Qu'il arrive à la deuxième veille, qu'il arrive à la troisième, s'il les trouve ainsi, heureux ces serviteurs!",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Um da multidão lhe disse: “Mestre, diz a meu irmão que divida a herança comigo.” Mas ele lhe disse: “Homem, quem me constituiu juiz ou árbitro sobre vocês?” Ele lhes disse: “Cuidado! Guardem-se da avareza, pois a vida de um homem não consiste na abundância dos bens que ele possui.” Ele lhes contou uma parábola, dizendo: “A terra de um certo homem rico produziu com abundância. Ele pensava consigo mesmo, dizendo: ‘O que farei, pois não tenho onde armazenar as minhas colheitas?’ Ele disse: ‘Isto é o que farei. Derrubarei os meus celeiros, construirei outros maiores, e lá armazenarei todos os meus grãos e os meus bens. E direi à minha alma: “Alma, você tem muitos bens guardados para muitos anos. Descanse, coma, beba e alegre-se.”’ “Mas Deus lhe disse: ‘Louco, esta noite a sua alma lhe será exigida. E as coisas que você preparou, para quem serão?’ Assim é aquele que ajunta tesouros para si mesmo e não é rico para com Deus.”",
+      "text": "“Estejam vestidos e prontos, com as suas lâmpadas acesas. Sejam como homens que esperam pelo seu senhor ao voltar da festa de casamento, para que, quando ele vier e bater, possam abrir-lhe imediatamente. Bem-aventurados aqueles servos a quem o senhor, quando vier, encontrar vigiando. Em verdade lhes digo que ele se vestirá para servi-los, os fará reclinar à mesa e virá servi-los. Eles serão bem-aventurados se ele vier na segunda ou na terceira vigília e os encontrar assim.",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }
