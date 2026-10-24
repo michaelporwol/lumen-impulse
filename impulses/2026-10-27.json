@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "gospelRef": "Lukas 13,18-21",
+  "gospelRefOriginal": "Luke 13:18-21",
+  "gospelRefs": {
+    "de": "Lukas 13,18-21",
+    "en": "Luke 13,18-21",
+    "pl": "Łukasz 13,18-21",
+    "es": "Lucas 13,18-21",
+    "it": "Luca 13,18-21",
+    "fr": "Luc 13,18-21",
+    "pt": "Lucas 13,18-21"
+  },
+  "generatedAt": "2026-10-24T01:20:33.069Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Er sprach aber: Wem ist das Reich Gottes gleich, und wem soll ich es vergleichen? Es ist gleich einem Senfkorn, welches ein Mensch nahm und in seinen Garten warf; und es wuchs und wurde zu einem großen Baume, und die Vögel des Himmels ließen sich nieder in seinen Zweigen. Und wiederum sprach er: Wem soll ich das Reich Gottes vergleichen? Es ist gleich einem Sauerteig, welchen ein Weib nahm und unter drei Maß Mehl verbarg, bis es ganz durchsäuert war.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Then said he, Unto what is the kingdom of God like? and whereunto shall I resemble it? It is like a grain of mustard seed, which a man took, and cast into his garden; and it grew, and waxed a great tree; and the fowls of the air lodged in the branches of it. And again he said, Whereunto shall I liken the kingdom of God? It is like leaven, which a woman took and hid in three measures of meal, till the whole was leavened.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Zatem rzekł Jezus: Komuż podobne jest królestwo Boże, a do czegoż je przypodobam? Podobne jest ziarnu gorczycznemu, które wziąwszy człowiek, wrzucił do ogrodu swego; i rosło i stało się drzewem wielkiem, a ptaszki niebieskie czyniły sobie gniazda na gałęziach jego. I rzekł znowu: Do czegoż przypodobam królestwo Boże? Podobne jest kwasowi, który wziąwszy niewiasta, zakryła go we trzy miary mąki, ażby wszystko skwaśniało.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y dijo: ¿A qué es semejante el reino de Dios, y á qué le compararé? Semejante es al grano de la mostaza, que tomándo lo un hombre lo metió en su huerto; y creció, y fué hecho árbol grande, y las aves del cielo hicieron nidos en sus ramas. Y otra vez dijo: ¿A qué compararé el reino de Dios? Semejante es á la levadura, que tomó una mujer, y la escondió en tres medidas de harina, hasta que todo hubo fermentado.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "Diceva dunque: A che è simile il regno di Dio, e a che l’assomiglierò io? Esso è simile ad un granel di senapa che un uomo ha preso e gettato nel suo orto; ed è cresciuto ed è divenuto albero; e gli uccelli del cielo si son riparati sui suoi rami. E di nuovo disse: A che assomiglierò il regno di Dio? Esso è simile al lievito che una donna ha preso e nascosto in tre staia di farina, finché tutta sia lievitata.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Il disait encore: \" A quoi le royaume de Dieu est-il semblable, et à quoi le comparerai-je? Il est semblable à un grain de sénevé qu'un homme prit et jeta dans son jardin; il poussa et il devint un arbre, et les oiseaux du ciel firent leur demeure dans ses rameaux. \" Il dit encore: \" A quoi comparerai-je le royaume de Dieu? Il est semblable au levain qu'une femme prend et mêle dans trois mesures de farine, de façon à faire lever toute la pâte. \"",
+      "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Ele disse: “A que é semelhante o Reino de Deus? A que o compararei? É semelhante a um grão de mostarda que um homem pegou e plantou em sua própria horta. Ele cresceu e se tornou uma grande árvore, e as aves do céu habitam em seus ramos.” Novamente ele disse: “A que compararei o Reino de Deus? É semelhante ao fermento que uma mulher pegou e escondeu em três medidas de farinha, até que tudo ficasse levedado.”",
+      "reference": "Bíblia Portuguesa Mundial"
+    }
+  }
+}
