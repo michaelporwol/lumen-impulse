@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-24",
-  "gospelRef": "Lukas 13,1-9",
-  "gospelRefOriginal": "Luke 13:1-9",
+  "date": "2026-10-25",
+  "gospelRef": "Matthäus 22,34-40",
+  "gospelRefOriginal": "Matt 22:34-40",
   "gospelRefs": {
-    "de": "Lukas 13,1-9",
-    "en": "Luke 13,1-9",
-    "pl": "Łukasz 13,1-9",
-    "es": "Lucas 13,1-9",
-    "it": "Luca 13,1-9",
-    "fr": "Luc 13,1-9",
-    "pt": "Lucas 13,1-9"
+    "de": "Matthäus 22,34-40",
+    "en": "Matthew 22,34-40",
+    "pl": "Mateusz 22,34-40",
+    "es": "Mateo 22,34-40",
+    "it": "Matteo 22,34-40",
+    "fr": "Matthieu 22,34-40",
+    "pt": "Mateus 22,34-40"
   },
-  "generatedAt": "2026-10-21T01:15:06.890Z",
+  "generatedAt": "2026-10-22T01:10:56.049Z",
   "gospelTexts": {
     "de": {
-      "text": "Zu selbiger Zeit waren aber einige gegenwärtig, die ihm von den Galiläern berichteten, deren Blut Pilatus mit ihren Schlachtopfern vermischt hatte. Und er antwortete und sprach zu ihnen: Meinet ihr, daß diese Galiläer vor allen Galiläern Sünder waren, weil sie solches erlitten haben? Nein, sage ich euch, sondern wenn ihr nicht Buße tut, werdet ihr alle ebenso umkommen. Oder jene achtzehn, auf welche der Turm in Siloam fiel und sie tötete: meinet ihr, daß sie vor allen Menschen, die in Jerusalem wohnen, Schuldner waren? Nein, sage ich euch, sondern wenn ihr nicht Buße tut, werdet ihr alle gleicherweise umkommen. Er sagte aber dieses Gleichnis: Es hatte jemand einen Feigenbaum, der in seinem Weinberge gepflanzt war; und er kam und suchte Frucht an ihm und fand keine. Er sprach aber zu dem Weingärtner: Siehe, drei Jahre komme ich und suche Frucht an diesem Feigenbaum und finde keine; haue ihn ab, wozu macht er auch das Land unnütz? Er aber antwortet und sagt zu ihm: Herr, laß ihn noch dieses Jahr, bis ich um ihn graben und Dünger legen werde; und wenn er etwa Frucht bringen wird, gut, wenn aber nicht, so magst du ihn künftig abhauen.",
+      "text": "Als aber die Pharisäer hörten, daß er die Sadducäer zum Schweigen gebracht hatte, versammelten sie sich miteinander. Und einer aus ihnen, ein Gesetzgelehrter, fragte ihn versuchend, und sprach: Lehrer, welches ist das große Gebot in dem Gesetz? 'Er aber sprach zu ihm: ''Du sollst den Herrn, deinen Gott, lieben mit deinem ganzen Herzen und mit deiner ganzen Seele und mit deinem ganzen Verstande''. ' Dieses ist das große und erste Gebot. 'Das zweite aber, ihm gleiche, ist: ''Du sollst deinen Nächsten lieben wie dich selbst''. ' An diesen zwei Geboten hängt das ganze Gesetz und die Propheten.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices. And Jesus answering said unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans, because they suffered such things? I tell you, Nay: but, except ye repent, ye shall all likewise perish. Or those eighteen, upon whom the tower in Siloam fell, and slew them, think ye that they were sinners above all men that dwelt in Jerusalem? I tell you, Nay: but, except ye repent, ye shall all likewise perish. He spake also this parable; A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none. Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree, and find none: cut it down; why cumbereth it the ground? And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it: And if it bear fruit, well: and if not, then after that thou shalt cut it down.",
+      "text": "But when the Pharisees had heard that he had put the Sadducees to silence, they were gathered together. Then one of them, which was a lawyer, asked him a question, tempting him, and saying, Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "A prawie natenczas byli przytomni niektórzy, oznajmując mu o Galilejczykach, których krew Piłat pomieszał z ofiarami ich. A Jezus odpowiadając, rzekł im: Mniemacie, że ci Galilejczycy nad wszystkie inne Galilejczyki grzeszniejszymi byli, iż takowe rzeczy ucierpieli? Bynajmniej, mówię wam: i owszem, jeźli nie będziecie pokutować, wszyscy także poginiecie. Albo ośmnaście onych, na które upadła wieża w Syloe i pobiła je, mniemacie żeby ci winniejszymi byli nad wszystkie ludzie mieszkające w Jeruzalemie? Bynajmniej, mówię wam: i owszem, jeźli pokutować nie będziecie, wszyscy także poginiecie. I powiedział im to podobieństwo: Człowiek niektóry miał figowe drzewo wsadzone na winnicy swojej, a przyszedłszy, szukał na niem owocu, ale nie znalazł. Tedy rzekł do winiarza: Oto po trzy lata przychodzę, szukając owocu na tem drzewie figowem, ale nie znajduję. Wytnijże je; bo przeczże tę ziemię próżno zastępuje? Ale on odpowiadając rzekł mu: Panie! zaniechaj go jeszcze i na ten rok, aż je okopię i obłożę gnojem; Owa snać przyniesie owoc, a jeźli nie, potem je wytniesz.",
+      "text": "Lecz gdy usłyszeli Faryzeuszowie, że zawarł usta Saduceuszom, zeszli się wespół. I spytał go jeden z nich, zakonnik, kusząc go i mówiąc: Nauczycielu! które jest największe przykazanie w zakonie? A Jezus mu rzekł: Będziesz miłował Pana, Boga twego, ze wszystkiego serca twego, i ze wszystkiej duszy twojej i ze wszystkiej myśli twojej. To jest pierwsze i największe przykazanie. A wtóre podobne jest temuż: Będziesz miłował bliźniego twego, jako samego siebie. Na tych dwóch przykazaniach wszystek zakon i prorocy zawisnęli.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y EN este mismo tiempo estaban allí unos que le contaban acerca de los Galileos, cuya sangre Pilato había mezclado con sus sacrificios. Y respondiendo Jesús, les dijo: ¿Pensáis que estos Galileos, porque han padecido tales cosas, hayan sido más pecadores que todos los Galileos? No, os digo; antes si no os arrepintiereis, todos pereceréis igualmente. O aquellos dieciocho, sobre los cuales cayó la torre en Siloé, y los mató, ¿pensáis que ellos fueron más deudores que todos los hombres que habitan en Jerusalem? No, os digo; antes si no os arrepintiereis, todos pereceréis asimismo. Y dijo esta parábola: Tenía uno una higuera plantada en su viña, y vino á buscar fruto en ella, y no lo halló. Y dijo al viñero: He aquí tres años ha que vengo á buscar fruto en esta higuera, y no lo hallo; córtala, ¿por qué ocupará aún la tierra? El entonces respondiendo, le dijo: Señor, déjala aún este año, hasta que la excave, y estercole. Y si hiciere fruto, bien; y si no, la cortarás después.",
+      "text": "Entonces los Fariseos, oyendo que había cerrado la boca á los Saduceos, se juntaron á una. Y preguntó uno de ellos, intérprete de la ley, tentándole y diciendo: Maestro, ¿cuál es el mandamiento grande en la ley? Y Jesús le dijo: Amarás al Señor tu Dios de todo tu corazón, y de toda tu alma, y de toda tu mente. Este es el primero y el grande mandamiento. Y el segundo es semejante á éste: Amarás á tu prójimo como á ti mismo. De estos dos mandamientos depende toda la ley y los profetas.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "In quello stesso tempo vennero alcuni a riferirgli il fatto dei Galilei il cui sangue Pilato aveva mescolato coi loro sacrifici. E Gesù, rispondendo, disse loro: Pensate voi che quei Galilei fossero più peccatori di tutti i Galilei perché hanno sofferto tali cose? No, vi dico; ma se non vi ravvedete, tutti similmente perirete. O quei diciotto sui quali cadde la torre in Siloe e li uccise, pensate voi che fossero più colpevoli di tutti gli abitanti di Gerusalemme? No, vi dico; ma se non vi ravvedete, tutti al par di loro perirete. Disse pure questa parabola: Un tale aveva un fico piantato nella sua vigna; e andò a cercarvi del frutto, e non ne trovò. Disse dunque al vignaiuolo: Ecco, sono ormai tre anni che vengo a cercar frutto da questo fico, e non ne trovo; taglialo; perché sta lì a rendere improduttivo anche il terreno? Ma l’altro, rispondendo, gli disse: Signore, lascialo ancora quest’anno, finch’io l’abbia scalzato e concimato; e forse darà frutto in avvenire; se no, lo taglierai.",
+      "text": "Or i Farisei, udito ch’egli avea chiusa la bocca a’ Sadducei, si raunarono insieme; e uno di loro, dottor della legge, gli domandò, per metterlo alla prova: Maestro, qual è, nella legge, il gran comandamento? E Gesù gli disse: Ama il Signore Iddio tuo con tutto il tuo cuore e con tutta l’anima tua e con tutta la mente tua. Questo è il grande e il primo comandamento. Il secondo, simile ad esso, è: Ama il tuo prossimo come te stesso. Da questi due comandamenti dipendono tutta la legge ed i profeti.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "En ce même temps, quelques-uns vinrent raconter à Jésus ce qui était arrivé aux Galiléens, dont Pilate avait mêlé le sang avec celui de leurs sacrifices. Il leur répondit: \" Pensez-vous que ces Galiléens fussent de plus grands pécheurs que tous les autres Galiléens, pour avoir souffert de la sorte? Non, je vous le dis; mais si vous ne vous repentez, vous périrez tous comme eux. Ou bien ces dix-huit sur qui tomba la tour de Siloé, et qu'elle tua, pensez-vous que leur dette fût plus grande que celle de tous les autres habitants de Jérusalem? Non, je vous le dis; mais si vous ne vous repentez, vous périrez tous de même. \" Il dit aussi cette parabole: \" Un homme avait un figuier planté dans sa vigne; il vint pour y chercher des fruits, et n'en trouvant point, il dit au vigneron: Voilà trois ans que je viens chercher du fruit à ce figuier, et je n'en trouve point; coupe-le donc: pourquoi rend-il la terre improductive? Le vigneron lui répondit: Seigneur, laissez-le encore cette année, jusqu'à ce que j'aie creusé et mis du fumier tout autour. Peut-être portera-t-il du fruit ensuite; sinon, vous le couperez. \"",
+      "text": "Les Pharisiens ayant appris que Jésus avait réduit au silence les Sadducéens, s'assemblèrent. Et l'un d'eux, docteur de la loi, lui demanda pour le tenter: \" Maître, quel est le plus grand commandement de la Loi? \" Jésus lui dit: \" Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme et de tout ton esprit. C'est là le plus grand et le premier commandement. Le second lui est semblable: Tu aimeras ton prochain comme toi-même. A ces deux commandements se rattachent toute la Loi, et les Prophètes. \"",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Naquele mesmo tempo, estavam presentes alguns que lhe falaram sobre os galileus cujo sangue Pilatos havia misturado com os sacrifícios deles. Jesus lhes respondeu: “Vocês pensam que esses galileus eram mais pecadores do que todos os outros galileus, por terem sofrido tais coisas? Eu lhes digo que não; mas, a menos que se arrependam, todos vocês perecerão da mesma forma. Ou aqueles dezoito sobre os quais caiu a torre de Siloé e os matou — vocês pensam que eles eram mais culpados do que todos os homens que habitam em Jerusalém? Eu lhes digo que não; mas, a menos que se arrependam, todos vocês perecerão da mesma forma.” Então ele contou esta parábola: “Certo homem tinha uma figueira plantada em sua vinha; e foi procurar fruto nela, e não achou nenhum. Ele disse ao viticultor: ‘Eis que há três anos venho procurar fruto nesta figueira, e não acho nenhum. Corte-a! Por que ela ainda ocupa a terra inutilmente?’ Ele respondeu: ‘Senhor, deixe-a por este ano ainda, até que eu cave ao redor dela e coloque adubo. Se der fruto, muito bem; mas se não, depois disso, o senhor poderá cortá-la.’”",
+      "text": "Mas os fariseus, quando ouviram que ele havia silenciado os saduceus, reuniram-se. Um deles, perito na lei, fez-lhe uma pergunta, para testá-lo: “Mestre, qual é o maior mandamento da lei?” Jesus lhe disse: “‘Ame ao Senhor, seu Deus, de todo o seu coração, de toda a sua alma e de todo o seu entendimento.’ Este é o primeiro e grande mandamento. E o segundo, semelhante a este, é: ‘Ame ao seu próximo como a si mesmo.’ Destes dois mandamentos dependem toda a lei e os profetas.”",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }
