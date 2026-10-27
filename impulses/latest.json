@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-26",
-  "gospelRef": "Lukas 13,10-17",
-  "gospelRefOriginal": "Luke 13:10-17",
+  "date": "2026-10-27",
+  "gospelRef": "Lukas 13,18-21",
+  "gospelRefOriginal": "Luke 13:18-21",
   "gospelRefs": {
-    "de": "Lukas 13,10-17",
-    "en": "Luke 13,10-17",
-    "pl": "Łukasz 13,10-17",
-    "es": "Lucas 13,10-17",
-    "it": "Luca 13,10-17",
-    "fr": "Luc 13,10-17",
-    "pt": "Lucas 13,10-17"
+    "de": "Lukas 13,18-21",
+    "en": "Luke 13,18-21",
+    "pl": "Łukasz 13,18-21",
+    "es": "Lucas 13,18-21",
+    "it": "Luca 13,18-21",
+    "fr": "Luc 13,18-21",
+    "pt": "Lucas 13,18-21"
   },
-  "generatedAt": "2026-10-23T01:10:32.112Z",
+  "generatedAt": "2026-10-24T01:20:33.069Z",
   "gospelTexts": {
     "de": {
-      "text": "Er lehrte aber am Sabbath in einer der Synagogen. Und siehe, da war ein Weib, die achtzehn Jahre einen Geist der Schwachheit hatte; und sie war zusammengekrümmt und gänzlich unfähig, sich aufzurichten. Als aber Jesus sie sah, rief er ihr zu und sprach zu ihr: Weib, du bist gelöst von deiner Schwachheit! Und er legte ihr die Hände auf, und alsbald wurde sie gerade und verherrlichte Gott. Der Synagogenvorsteher aber, unwillig, daß Jesus am Sabbath heilte, hob an und sprach zu der Volksmenge: Sechs Tage sind es, an denen man arbeiten soll; an diesen nun kommt und laßt euch heilen, und nicht am Tage des Sabbaths. Der Herr nun antwortete ihm und sprach: Heuchler! löst nicht ein jeder von euch am Sabbath seinen Ochsen oder Esel von der Krippe und führt ihn hin und tränkt ihn? Diese aber, die eine Tochter Abrahams ist, welche der Satan gebunden hat, siehe, achtzehn Jahre, sollte sie nicht von dieser Fessel gelöst werden am Tage des Sabbaths? Und als er dies sagte, wurden alle seine Widersacher beschämt; und die ganze Volksmenge freute sich über all die herrlichen Dinge, welche durch ihn geschahen.",
+      "text": "Er sprach aber: Wem ist das Reich Gottes gleich, und wem soll ich es vergleichen? Es ist gleich einem Senfkorn, welches ein Mensch nahm und in seinen Garten warf; und es wuchs und wurde zu einem großen Baume, und die Vögel des Himmels ließen sich nieder in seinen Zweigen. Und wiederum sprach er: Wem soll ich das Reich Gottes vergleichen? Es ist gleich einem Sauerteig, welchen ein Weib nahm und unter drei Maß Mehl verbarg, bis es ganz durchsäuert war.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "And he was teaching in one of the synagogues on the sabbath. And, behold, there was a woman which had a spirit of infirmity eighteen years, and was bowed together, and could in no wise lift up herself. And when Jesus saw her, he called her to him, and said unto her, Woman, thou art loosed from thine infirmity. And he laid his hands on her: and immediately she was made straight, and glorified God. And the ruler of the synagogue answered with indignation, because that Jesus had healed on the sabbath day, and said unto the people, There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath day. The Lord then answered him, and said, Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him away to watering? And ought not this woman, being a daughter of Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from this bond on the sabbath day? And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the glorious things that were done by him.",
+      "text": "Then said he, Unto what is the kingdom of God like? and whereunto shall I resemble it? It is like a grain of mustard seed, which a man took, and cast into his garden; and it grew, and waxed a great tree; and the fowls of the air lodged in the branches of it. And again he said, Whereunto shall I liken the kingdom of God? It is like leaven, which a woman took and hid in three measures of meal, till the whole was leavened.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "I nauczał w jednej bóżnicy w sabat. A oto była tam niewiasta, która miała ducha niemocy ośmnaście lat, a była skurczona, tak iż się żadną miarą nie mogła rozprostować. Tę gdy ujrzał Jezus, zawołał jej do siebie i rzekł: Niewiasto! uwolnionaś od niemocy twojej. I włożył na nią ręce, a zarazem rozprostowała się i chwaliła Boga. Tedy odpowiadając przełożony nad bóżnicą, który się bardzo gniewał, że Jezus w sabat uzdrawiał, rzekł do ludu: Sześć dni jest, w które trzeba robić; w te tedy dni przychodząc, leczcie się, a nie w dzień sabatu. Ale mu odpowiedział Pan i rzekł: Obłudniku, azaż każdy z was w sabat nie odwiązuje wołu swego, albo osła swego od żłobu, a nie wiedzie, żeby go napoił? A ta córka Abrahamowa, którą był związał szatan oto już ośmnaście lat, zaż nie miała być rozwiązana od tej związki w dzień sabatu? A gdy on to mówił, zawstydzili się wszyscy przeciwnicy jego: ale wszystek lud radował się ze wszystkich onych chwalebnych spraw, które się działy od niego.",
+      "text": "Zatem rzekł Jezus: Komuż podobne jest królestwo Boże, a do czegoż je przypodobam? Podobne jest ziarnu gorczycznemu, które wziąwszy człowiek, wrzucił do ogrodu swego; i rosło i stało się drzewem wielkiem, a ptaszki niebieskie czyniły sobie gniazda na gałęziach jego. I rzekł znowu: Do czegoż przypodobam królestwo Boże? Podobne jest kwasowi, który wziąwszy niewiasta, zakryła go we trzy miary mąki, ażby wszystko skwaśniało.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y enseñaba en una sinagoga en sábado. Y he aquí una mujer que tenía espíritu de enfermedad dieciocho años, y andaba agobiada, que en ninguna manera se podía enhestar. Y como Jesús la vió, llamóla, y díjole: Mujer, libre eres de tu enfermedad. Y puso las manos sobre ella; y luego se enderezó, y glorificaba á Dios. Y respondiendo el príncipe de la sinagoga, enojado de que Jesús hubiese curado en sábado, dijo á la compañía: Seis días hay en que es necesario obrar: en estos, pues, venid y sed curados, y no en día de sábado. Entonces el Señor le respondió, y dijo: Hipócrita, cada uno de vosotros ¿no desata en sábado su buey ó su asno del pesebre, y lo lleva á beber? Y á esta hija de Abraham, que he aquí Satanás la había ligado dieciocho años, ¿no convino desatar la de esta ligadura en día de sábado? Y diciendo estas cosas, se avergonzaban todos sus adversarios: mas todo el pueblo se gozaba de todas las cosas gloriosas que eran por él hechas.",
+      "text": "Y dijo: ¿A qué es semejante el reino de Dios, y á qué le compararé? Semejante es al grano de la mostaza, que tomándo lo un hombre lo metió en su huerto; y creció, y fué hecho árbol grande, y las aves del cielo hicieron nidos en sus ramas. Y otra vez dijo: ¿A qué compararé el reino de Dios? Semejante es á la levadura, que tomó una mujer, y la escondió en tres medidas de harina, hasta que todo hubo fermentado.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Or egli stava insegnando in una delle sinagoghe in giorno di sabato. Ed ecco una donna, che da diciotto anni aveva uno spirito d’infermità, ed era tutta curvata e incapace di raddrizzarsi in alcun modo. E Gesù, vedutala, la chiamò a sé e le disse: Donna, tu sei liberata dalla tua infermità. E pose le mani su lei, ed ella in quell’istante fu raddrizzata e glorificava Iddio. Or il capo della sinagoga, sdegnato che Gesù avesse fatta una guarigione in giorno di sabato, prese a dire alla moltitudine: Ci son sei giorni ne’ quali s’ha da lavorare; venite dunque in quelli a farvi guarire, e non in giorno di sabato. Ma il Signore gli rispose e disse: Ipocriti, non scioglie ciascun di voi, di sabato, il suo bue o il suo asino dalla mangiatoia per menarlo a bere? E costei, ch’è figliuola d’Abramo, e che Satana avea tenuta legata per ben diciott’anni, non doveva esser sciolta da questo legame in giorno di sabato? E mentre diceva queste cose, tutti i suoi avversari erano confusi, e tutta la moltitudine si rallegrava di tutte le opere gloriose da lui compiute.",
+      "text": "Diceva dunque: A che è simile il regno di Dio, e a che l’assomiglierò io? Esso è simile ad un granel di senapa che un uomo ha preso e gettato nel suo orto; ed è cresciuto ed è divenuto albero; e gli uccelli del cielo si son riparati sui suoi rami. E di nuovo disse: A che assomiglierò il regno di Dio? Esso è simile al lievito che una donna ha preso e nascosto in tre staia di farina, finché tutta sia lievitata.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Jésus enseignait dans une synagogue un jour de sabbat. Or, il y avait là une femme possédée depuis dix-huit ans d'un esprit qui la rendait infirme: elle était courbée, et ne pouvait absolument pas se redresser. L'ayant vue, Jésus l'appela et lui dit: \" Femme, tu es délivrée de ton infirmité. \" Et il lui imposa les mains; aussitôt elle se redressa, et elle glorifiait Dieu. Mais le chef de synagogue, indigné de ce que Jésus avait fait cette guérison un jour de sabbat, prit la parole et dit au peuple: \" Il y a six jours pour travailler, venez donc vous faire guérir ces jours-là et non pas le jour du sabbat. — Hypocrite, lui répondit le Seigneur, est-ce que chacun de vous, le jour du sabbat, ne détache pas de la crèche son bœuf ou son âne, pour le mener boire? Et cette fille d'Abraham, que Satan tenait liée depuis dix-huit ans, il ne fallait pas la délivrer de cette chaîne le jour du sabbat! \" Pendant qu'il parlait ainsi, tous ses adversaires étaient couverts de confusion, et tout le peuple était ravi de toutes les choses merveilleuses qu'il accomplissait.",
+      "text": "Il disait encore: \" A quoi le royaume de Dieu est-il semblable, et à quoi le comparerai-je? Il est semblable à un grain de sénevé qu'un homme prit et jeta dans son jardin; il poussa et il devint un arbre, et les oiseaux du ciel firent leur demeure dans ses rameaux. \" Il dit encore: \" A quoi comparerai-je le royaume de Dieu? Il est semblable au levain qu'une femme prend et mêle dans trois mesures de farine, de façon à faire lever toute la pâte. \"",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Ele estava ensinando em uma das sinagogas no dia de sábado. Eis que estava ali uma mulher que tinha um espírito de enfermidade havia dezoito anos. Ela andava encurvada e de forma alguma conseguia se endireitar. Quando Jesus a viu, chamou-a e lhe disse: “Mulher, você está livre da sua enfermidade.” Ele impôs as mãos sobre ela, e imediatamente ela se endireitou e glorificou a Deus. O chefe da sinagoga, indignado porque Jesus havia curado no sábado, disse à multidão: “Há seis dias em que os homens devem trabalhar. Portanto, venham nesses dias para serem curados, e não no dia de sábado!” Portanto, o Senhor lhe respondeu: “Hipócritas! Cada um de vocês não solta do estábulo o seu boi ou o seu jumento no sábado, e o leva para beber água? E não deveria esta mulher, sendo uma filha de Abraão, a quem Satanás manteve presa por dezoito longos anos, ser liberta desse cativeiro no dia de sábado?” Ao dizer ele estas coisas, todos os seus adversários ficaram frustrados; e toda a multidão se alegrava por todas as coisas gloriosas que eram feitas por ele.",
+      "text": "Ele disse: “A que é semelhante o Reino de Deus? A que o compararei? É semelhante a um grão de mostarda que um homem pegou e plantou em sua própria horta. Ele cresceu e se tornou uma grande árvore, e as aves do céu habitam em seus ramos.” Novamente ele disse: “A que compararei o Reino de Deus? É semelhante ao fermento que uma mulher pegou e escondeu em três medidas de farinha, até que tudo ficasse levedado.”",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }
