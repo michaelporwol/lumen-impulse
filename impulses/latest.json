@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-28",
-  "gospelRef": "Lukas 6,12-16",
-  "gospelRefOriginal": "Luke 6:12-16",
+  "date": "2026-10-29",
+  "gospelRef": "Lukas 13,31-35",
+  "gospelRefOriginal": "Luke 13:31-35",
   "gospelRefs": {
-    "de": "Lukas 6,12-16",
-    "en": "Luke 6,12-16",
-    "pl": "Łukasz 6,12-16",
-    "es": "Lucas 6,12-16",
-    "it": "Luca 6,12-16",
-    "fr": "Luc 6,12-16",
-    "pt": "Lucas 6,12-16"
+    "de": "Lukas 13,31-35",
+    "en": "Luke 13,31-35",
+    "pl": "Łukasz 13,31-35",
+    "es": "Lucas 13,31-35",
+    "it": "Luca 13,31-35",
+    "fr": "Luc 13,31-35",
+    "pt": "Lucas 13,31-35"
   },
-  "generatedAt": "2026-10-25T00:47:29.467Z",
+  "generatedAt": "2026-10-26T00:57:53.037Z",
   "gospelTexts": {
     "de": {
-      "text": "Und es geschah in selbigen Tagen, daß er auf den Berg hinausging, um zu beten; und er verharrte die Nacht im Gebet zu Gott. Und als es Tag wurde, rief er seine Jünger herzu und erwählte aus ihnen zwölf, die er auch Apostel nannte: Simon, den er auch Petrus nannte, und Andreas, seinen Bruder, und Jakobus und Johannes, und Philippus und Bartholomäus, und Matthäus und Thomas, und Jakobus, Alphäus Sohn, und Simon, genannt Zelotes, (Eiferer) und Judas, Jakobus Bruder, und Judas Iskariot, der auch sein Verräter wurde.",
+      "text": "In derselben Stunde kamen einige Pharisäer herzu und sagten zu ihm: Geh hinaus und ziehe von hinnen, denn Herodes will dich töten. Und er sprach zu ihnen: Gehet hin und saget diesem Fuchs: Siehe, ich treibe Dämonen aus und vollbringe Heilungen heute und morgen, und am dritten Tage werde ich vollendet. Doch ich muß heute und morgen und am folgenden Tage wandeln; denn es geht nicht an, daß ein Prophet außerhalb Jerusalems umkomme. Jerusalem, Jerusalem, die da tötet die Propheten und steinigt, die zu ihr gesandt sind! Wie oft habe ich deine Kinder versammeln wollen, wie eine Henne ihre Brut unter die Flügel, und ihr habt nicht gewollt! 'Siehe, euer Haus wird euch überlassen. Ich sage euch aber: Ihr werdet mich nicht sehen, bis es kommt, daß ihr sprechet: ''Gepriesen sei, der da kommt im Namen des Herrn!'' '",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "And it came to pass in those days, that he went out into a mountain to pray, and continued all night in prayer to God. And when it was day, he called unto him his disciples: and of them he chose twelve, whom also he named apostles; Simon, (whom he also named Peter,) and Andrew his brother, James and John, Philip and Bartholomew, Matthew and Thomas, James the son of Alphaeus, and Simon called Zelotes, And Judas the brother of James, and Judas Iscariot, which also was the traitor.",
+      "text": "The same day there came certain of the Pharisees, saying unto him, Get thee out, and depart hence: for Herod will kill thee. And he said unto them, Go ye, and tell that fox, Behold, I cast out devils, and I do cures to day and to morrow, and the third day I shall be perfected. Nevertheless I must walk to day, and to morrow, and the day following: for it cannot be that a prophet perish out of Jerusalem. O Jerusalem, Jerusalem, which killest the prophets, and stonest them that are sent unto thee; how often would I have gathered thy children together, as a hen doth gather her brood under her wings, and ye would not! Behold, your house is left unto you desolate: and verily I say unto you, Ye shall not see me, until the time come when ye shall say, Blessed is he that cometh in the name of the Lord.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "I stało się w oneż dni, odszedł na górę, aby się modlił; i był tam przez noc na modlitwie Bożej. A gdy był dzień, zwołał uczniów swych i wybrał z nich dwanaście, które też nazwał Apostołami: Szymona, którego też nazwał Piotrem, i Andrzeja brata jego, Jakóba, i Jana, Filipa, i Bartłomieja; Mateusza, i Tomasza, Jakóba, syna Alfeuszowego, i Szymona, którego zowią Zelotes; Judasza, brata Jakóbowego, i Judasza Iszkarjotę, który potem był zdrajcą.",
+      "text": "W onże dzień przystąpili niektórzy z Faryzeuszów, mówiąc mu: Wynijdź, a idź stąd; bo cię Herod chce zabić. I rzekł im: Idźcie, a powiedzcie temu lisowi: Oto wyganiam dyjabły, i uzdrawiam dziś i jutro, a trzeciego dnia dokończenie wezmę. Wszakże muszę dziś i jutro i pojutrze odprawiać drogę: albowiem nie może być, aby miał prorok zginąć, oprócz w Jeruzalemie. Jeruzalem! Jeruzalem! które zabijasz proroki, a kamionujesz te, którzy do ciebie bywają posłani; ilekroć chciałem zgromadzić dzieci twoje, tak jako kokosz zgromadza kurczęta swoje pod skrzydła, a nie chcieliście. Otoż zostanie wam dom wasz pusty. A zaprawdęć wam powiadam, że mię nie ujrzycie, aż przyjdzie czas, gdy rzeczecie: Błogosławiony, który idzie w imieniu Pańskiem.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y aconteció en aquellos días, que fué al monte á orar, y pasó la noche orando á Dios. Y como fué de día, llamó á sus discípulos, y escogió doce de ellos, á los cuales también llamó apóstoles: A Simón, al cual también llamó Pedro, y á Andrés su hermano, Jacobo y Juan, Felipe y Bartolomé, Mateo y Tomás, Jacobo hijo de Alfeo, y Simón el que se llama Celador, Judas hermano de Jacobo, y Judas Iscariote, que también fué el traidor.",
+      "text": "Aquel mismo día llegaron unos de los Fariseos, diciéndole: Sal, y vete de aquí, porque Herodes te quiere matar. Y les dijo: Id, y decid á aquella zorra: He aquí, echo fuera demonios y acabo sanidades hoy y mañana, y al tercer día soy consumado. Empero es menester que hoy, y mañana, y pasado mañana camine; porque no es posible que profeta muera fuera de Jerusalem. ¡Jerusalem, Jerusalem! que matas á los profetas, y apedreas á los que son enviados á ti: ¡cuántas veces quise juntar tus hijos, como la gallina sus pollos debajo de sus alas, y no quisiste! He aquí, os es dejada vuestra casa desierta: y os digo que no me veréis, hasta que venga tiempo cuando digáis: Bendito el que viene en nombre del Señor.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Or avvenne in que’ giorni ch’egli se ne andò sul monte a pregare, e passò la notte in orazione a Dio. E quando fu giorno, chiamò a sé i suoi discepoli, e ne elesse dodici, ai quali dette anche il nome di apostoli: Simone, che nominò anche Pietro, e Andrea, fratello di lui, e Giacomo e Giovanni, e Filippo e Bartolommeo, e Matteo e Toma, e Giacomo d’Alfeo e Simone chiamato Zelota, e Giuda di Giacomo, e Giuda Iscariot che divenne poi traditore.",
+      "text": "In quello stesso momento vennero alcuni Farisei a dirgli: Parti, e vattene di qui, perché Erode ti vuol far morire. Ed egli disse loro: Andate a dire a quella volpe: Ecco, io caccio i demoni e compio guarigioni oggi e domani, e il terzo giorno giungo al mio termine. D’altronde, bisogna ch’io cammini oggi e domani e posdomani, perché non può essere che un profeta muoia fuori di Gerusalemme. Gerusalemme, Gerusalemme, che uccidi i profeti e lapidi quelli che ti son mandati, quante volte ho voluto raccogliere i tuoi figliuoli, come la gallina raccoglie i suoi pulcini sotto le ali; e voi non avete voluto! Ecco, la vostra casa sta per esservi lasciata deserta. E io vi dico che non mi vedrete più, finché venga il giorno che diciate: Benedetto colui che viene nel nome del Signore!",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "En ces jours-là, il se retira sur la montagne pour prier, et il passa toute la nuit à prier Dieu. Quand il fut jour, il appela ses disciples, et choisit douze d'entre eux, qu'il nomma apôtres: Simon, auquel il donna le nom de Pierre, et André son frère, Jacques et Jean, Philippe et Barthélemy, Matthieu et Thomas, Jacques, fils d'Alphée, et Simon, appelé le Zélé, Jude, frère de Jacques, et Judas Iscariote, qui devint traître.",
+      "text": "Le même jour, quelques Pharisiens vinrent lui dire: \" Retirez-vous et partez d'ici; car Hérode veut vous faire mourir. \" Il leur répondit: \" Allez et dites à ce renard: Je chasse les démons et guéris les malades aujourd'hui et demain, et le troisième jour j'aurai fini. Seulement il faut que je poursuive ma route aujourd'hui, et demain, et le jour suivant; car il ne convient pas qu'un prophète meure hors de Jérusalem. Jérusalem, Jérusalem, qui tues les prophètes, et lapide ceux qui sont envoyés vers elle! Combien de fois j'ai voulu rassembler tes enfants comme la poule rassemble sa couvée sous ses ailes, et vous ne l'avez pas voulu! Voici que votre maison va vous être laissée. Je vous le dis, vous ne me verrez plus, jusqu'à ce que vienne le jour où vous direz: Béni soit celui qui vient au nom du Seigneur! \"",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Naqueles dias, ele retirou-se para o monte a fim de orar, e passou a noite toda em oração a Deus. Quando amanheceu, chamou seus discípulos, e escolheu doze dentre eles, aos quais também chamou apóstolos: Simão, a quem também chamou Pedro; André, seu irmão; Tiago; João; Filipe; Bartolomeu; Mateus; Tomé; Tiago, filho de Alfeu; Simão, que era chamado o Zelote; Judas, filho de Tiago; e Judas Iscariotes, que também se tornou o traidor.",
+      "text": "Naquele mesmo dia, alguns fariseus se aproximaram, dizendo-lhe: “Saia daqui e vá embora, pois Herodes quer matá-lo.” Ele lhes disse: “Vão e digam àquela raposa: ‘Eis que expulso demônios e realizo curas hoje e amanhã, e no terceiro dia completarei a minha missão. No entanto, devo seguir o meu caminho hoje, amanhã e depois de amanhã, pois não pode ser que um profeta pereça fora de Jerusalém.’ “Jerusalém, Jerusalém, você que mata os profetas e apedreja os que lhe são enviados! Quantas vezes eu quis ajuntar os seus filhos, como a galinha ajunta a sua própria ninhada debaixo das asas, e vocês não quiseram! Eis que a casa de vocês lhes ficará deserta. Eu lhes digo que vocês não me verão até que digam: ‘Bendito é o que vem em nome do Senhor!’”",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }

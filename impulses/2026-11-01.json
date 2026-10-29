@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "gospelRef": "Matthäus 5,1-12a",
+  "gospelRefOriginal": "Matt 5:1-12a",
+  "gospelRefs": {
+    "de": "Matthäus 5,1-12a",
+    "en": "Matthew 5,1-12a",
+    "pl": "Mateusz 5,1-12a",
+    "es": "Mateo 5,1-12a",
+    "it": "Matteo 5,1-12a",
+    "fr": "Matthieu 5,1-12a",
+    "pt": "Mateus 5,1-12a"
+  },
+  "generatedAt": "2026-10-29T02:04:30.508Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Als er aber die Volksmengen sah, stieg er auf den Berg; und als er sich gesetzt hatte, traten seine Jünger zu ihm. Und er tat seinen Mund auf, lehrte sie und sprach: Glückselig die Armen im Geiste, denn ihrer ist das Reich der Himmel. Glückselig die Trauernden, denn sie werden getröstet werden. Glückselig die Sanftmütigen, denn sie werden das Land ererben. Glückselig die nach der Gerechtigkeit hungern und dürsten, denn sie werden gesättigt werden. Glückselig die Barmherzigen, denn ihnen wird Barmherzigkeit widerfahren. Glückselig die reinen Herzens sind, denn sie werden Gott schauen. Glückselig die Friedensstifter, denn sie werden Söhne Gottes heißen. Glückselig die um Gerechtigkeit willen Verfolgten, denn ihrer ist das Reich der Himmel. Glückselig seid ihr, wenn sie euch schmähen und verfolgen und jedes böse Wort lügnerisch wider euch reden werden um meinetwillen. Freuet euch und frohlocket, denn euer Lohn ist groß in den Himmeln; denn also haben sie die Propheten verfolgt, die vor euch waren.",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him: And he opened his mouth, and taught them, saying, Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted. Blessed are the meek: for they shall inherit the earth. Blessed are they which do hunger and thirst after righteousness: for they shall be filled. Blessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God. Blessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven. Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "A Jezus widząc lud, wstąpił na górę; a gdy usiadł, przystąpili do niego uczniowie jego. A otworzywszy usta swe, uczył je, mówiąc: Błogosławieni ubodzy w duchu; albowiem ich jest królestwo niebieskie. Błogosławieni, którzy się smęcą; albowiem pocieszeni będą. Błogosławieni cisi; albowiem oni odziedziczą ziemię. Błogosławieni, którzy łakną i pragną sprawiedliwości; albowiem oni nasyceni będą. Błogosławieni miłosierni: albowiem oni miłosierdzia dostąpią. Błogosławieni czystego serca; albowiem oni Boga oglądają. Błogosławieni pokój czyniący; albowiem oni synami Bożymi nazwani będą. Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości; albowiem ich jest królestwo niebieskie. Błogosławieni jesteście, gdy wam złorzeczyć będą, i prześladować was, i mówić wszystko złe przeciwko wam, kłamając dla mnie. Radujcie się, i weselcie się; albowiem zapłata wasza obfita jest w niebiesiech; tak bowiem prześladowali proroki, którzy byli przed wami.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Y VIENDO las gentes, subió al monte; y sentándose, se llegaron á él sus discípulos. Y abriendo su boca, les enseñaba, diciendo: Bienaventurados los pobres en espíritu: porque de ellos es el reino de los cielos. Bienaventurados los que lloran: porque ellos recibirán consolación. Bienaventurados los mansos: porque ellos recibirán la tierra por heredad. Bienaventurados los que tienen hambre y sed de justicia: porque ellos serán hartos. Bienaventurados los misericordiosos: porque ellos alcanzarán misericordia. Bienaventurados los de limpio corazón: porque ellos verán á Dios. Bienaventurados los pacificadores: porque ellos serán llamados hijos de Dios. Bienaventurados los que padecen persecución por causa de la justicia: porque de ellos es el reino de los cielos. Bienaventurados sois cuando os vituperaren y os persiguieren, y dijeren de vosotros todo mal por mi causa, mintiendo. Gozaos y alegraos; porque vuestra merced es grande en los cielos: que así persiguieron á los profetas que fueron antes de vosotros.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "E Gesù, vedendo le folle, salì sul monte; e postosi a sedere, i suoi discepoli si accostarono a lui. Ed egli, aperta la bocca, li ammaestrava dicendo: Beati i poveri in ispirito, perché di loro è il regno de’ cieli. Beati quelli che fanno cordoglio, perché essi saranno consolati. Beati i mansueti, perché essi erederanno la terra. Beati quelli che sono affamati ed assetati della giustizia, perché essi saranno saziati. Beati i misericordiosi, perché a loro misericordia sarà fatta. Beati i puri di cuore, perché essi vedranno Iddio. Beati quelli che s’adoperano alla pace, perché essi saran chiamati figliuoli di Dio. Beati i perseguitati per cagion di giustizia, perché di loro è il regno dei cieli. Beati voi, quando v’oltraggeranno e vi perseguiteranno e, mentendo, diranno contro a voi ogni sorta di male per cagion mia. Rallegratevi e giubilate, perché il vostro premio è grande ne’ cieli; poiché così hanno perseguitato i profeti che sono stati prima di voi.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Jésus, voyant cette foule, monta sur la montagne, et lorsqu'il se fut assis, ses disciples s'approchèrent de lui. Alors, ouvrant sa bouche, il se mit à les enseigner, en disant: \" Heureux les pauvres en esprit, car le royaume des cieux est à eux! Heureux ceux qui sont doux, car ils posséderont la terre! Heureux ceux qui pleurent, car ils seront consolés! Heureux ceux qui ont faim et soif de la justice, car ils seront rassasiés! Heureux les miséricordieux, car ils obtiendront miséricorde! Heureux ceux qui ont le cœur pur, car ils verront Dieu! Heureux les pacifiques, car ils seront appelés enfants de Dieu! Heureux ceux qui souffrent persécution pour la justice, car le royaume des cieux est à eux! Heureux êtes-vous, lorsqu'on vous insultera, qu'on vous persécutera, et qu'on dira faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous et soyez dans l'allégresse, car votre récompense est grande dans les cieux: c'est ainsi qu'ils ont persécuté les prophètes qui ont été avant vous.",
+      "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Vendo as multidões, ele subiu ao monte. Quando se assentou, seus discípulos aproximaram-se dele. Ele abriu a sua boca e os ensinava, dizendo: “Bem-aventurados os pobres em espírito, pois deles é o Reino dos Céus. Bem-aventurados os que choram, pois eles serão consolados. Bem-aventurados os mansos, pois eles herdarão a terra. Bem-aventurados os que têm fome e sede de justiça, pois eles serão saciados. Bem-aventurados os misericordiosos, pois eles alcançarão misericórdia. Bem-aventurados os puros de coração, pois eles verão a Deus. Bem-aventurados os pacificadores, pois eles serão chamados filhos de Deus. Bem-aventurados os que são perseguidos por causa da justiça, pois deles é o Reino dos Céus. “Bem-aventurados vocês quando as pessoas os insultarem, os perseguirem e, mentindo, disserem todo tipo de mal contra vocês por minha causa. Alegrem-se e exultem, pois grande é a sua recompensa nos céus. Pois assim perseguiram os profetas que viveram antes de vocês.",
+      "reference": "Bíblia Portuguesa Mundial"
+    }
+  }
+}
