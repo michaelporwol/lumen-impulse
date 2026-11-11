@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-10",
-  "gospelRef": "Lukas 17,7-10",
-  "gospelRefOriginal": "Luke 17:7-10",
+  "date": "2026-11-11",
+  "gospelRef": "Lukas 17,11-19",
+  "gospelRefOriginal": "Luke 17:11-19",
   "gospelRefs": {
-    "de": "Lukas 17,7-10",
-    "en": "Luke 17,7-10",
-    "pl": "Łukasz 17,7-10",
-    "es": "Lucas 17,7-10",
-    "it": "Luca 17,7-10",
-    "fr": "Luc 17,7-10",
-    "pt": "Lucas 17,7-10"
+    "de": "Lukas 17,11-19",
+    "en": "Luke 17,11-19",
+    "pl": "Łukasz 17,11-19",
+    "es": "Lucas 17,11-19",
+    "it": "Luca 17,11-19",
+    "fr": "Luc 17,11-19",
+    "pt": "Lucas 17,11-19"
   },
-  "generatedAt": "2026-11-07T02:31:19.834Z",
+  "generatedAt": "2026-11-08T02:01:19.664Z",
   "gospelTexts": {
     "de": {
-      "text": "Wer aber von euch, der einen Knecht hat, welcher pflügt oder weidet, wird zu ihm, wenn er vom Felde hereinkommt, sagen: Komm und lege dich alsbald zu Tische? Wird er nicht vielmehr zu ihm sagen: Richte zu, was ich zu Abend essen soll, und gürte dich und diene mir, bis ich gegessen und getrunken habe; und danach sollst du essen und trinken? Dankt er etwa dem Knechte, daß er das Befohlene getan hat? Ich meine nicht. Also auch ihr, wenn ihr alles getan habt, was euch befohlen ist, so sprechet: Wir sind unnütze Knechte; wir haben getan, was wir zu tun schuldig waren.",
+      "text": "Und es geschah, als er nach Jerusalem reiste, daß er mitten durch Samaria und Galiläa ging. Und als er in ein gewisses Dorf eintrat, begegneten ihm zehn aussätzige Männer, welche von ferne standen. Und sie erhoben ihre Stimme und sprachen: Jesu, Meister, erbarme dich unser! Und als er sie sah, sprach er zu ihnen: Gehet hin und zeiget euch den Priestern. Und es geschah, indem sie hingingen, wurden sie gereinigt. Einer aber von ihnen, als er sah, daß er geheilt war, kehrte zurück, indem er mit lauter Stimme Gott verherrlichte; und er fiel aufs Angesicht zu seinen Füßen und dankte ihm; und derselbe war ein Samariter. Jesus aber antwortete und sprach: Sind nicht die zehn gereinigt worden? wo sind aber die neun? Sind keine gefunden worden, die zurückkehrten, um Gott Ehre zu geben, außer diesem Fremdling? Und er sprach zu ihm: Stehe auf und gehe hin; dein Glaube hat dich gerettet.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "But which of you, having a servant plowing or feeding cattle, will say unto him by and by, when he is come from the field, Go and sit down to meat? And will not rather say unto him, Make ready wherewith I may sup, and gird thyself, and serve me, till I have eaten and drunken; and afterward thou shalt eat and drink? Doth he thank that servant because he did the things that were commanded him? I trow not. So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do.",
+      "text": "And it came to pass, as he went to Jerusalem, that he passed through the midst of Samaria and Galilee. And as he entered into a certain village, there met him ten men that were lepers, which stood afar off: And they lifted up their voices, and said, Jesus, Master, have mercy on us. And when he saw them, he said unto them, Go shew yourselves unto the priests. And it came to pass, that, as they went, they were cleansed. And one of them, when he saw that he was healed, turned back, and with a loud voice glorified God, And fell down on his face at his feet, giving him thanks: and he was a Samaritan. And Jesus answering said, Were there not ten cleansed? but where are the nine? There are not found that returned to give glory to God, save this stranger. And he said unto him, Arise, go thy way: thy faith hath made thee whole.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "I któż z was jest, co by miał sługę orzącego albo pasącego, który gdyby się wrócił, zaraz by mu rzekł: Pójdź, a usiądź za stół? I owszem, izali mu nie rzecze: Nagotuj, co bym wieczerzał, a przepasawszy się, służ mi, aż się najem i napiję, a potem i ty jedz i pij? Izali dziękuje słudze onemu, iż uczynił to, co mu było rozkazano? Nie zda mi się. Także i wy, gdy uczynicie wszystko, co wam rozkazano, mówcie: Słudzy nieużyteczni jesteśmy, bo cośmy byli powinni uczynić, uczyniliśmy.",
+      "text": "I stało się, gdy szedł do Jeruzalemu, że szedł pośrodkiem Samaryi i Galilei. A gdy wchodził do niektórego miasteczka, zabieżało mu dziesięć mężów trędowatych, którzy stanęli z daleka. A ci podniósłszy głos swój, rzekli: Jezusie, Nauczycielu! zmiłuj się nad nami. Które on ujrzawszy, rzekł im: Szedłszy okażcie się kapłanom. I stało się, gdy szli, że oczyszczeni są. Ale jeden z nich ujrzawszy, że jest uzdrowiony, wrócił się, wielkim głosem chwaląc Boga; I padł na oblicze swoje u nóg jego, dziękując mu; a ten był Samarytanin. A Jezus odpowiadając, rzekł: Zaż nie dziesięć jest oczyszczonych, a dziewięć kędy? Nie znaleźli się, aby się wrócili, i dali chwałę Bogu, jedno ten cudzoziemiec? I rzekł mu: Wstań, idź, wiara twoja ciebie uzdrowiła.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "¿Y quién de vosotros tiene un siervo que ara ó apacienta, que vuelto del campo le diga luego: Pasa, siéntate á la mesa? ¿No le dice antes: Adereza qué cene, y arremángate, y sírveme hasta que haya comido y bebido; y después de esto, come tú y bebe? ¿Da gracias al siervo porque hizo lo que le había sido mandado? Pienso que no. Así también vosotros, cuando hubiereis hecho todo lo que os es mandado, decid: Siervos inútiles somos, porque lo que debíamos hacer, hicimos.",
+      "text": "Y aconteció que yendo él á Jerusalem, pasaba por medio de Samaria y de Galilea. Y entrando en una aldea, viniéronle al encuentro diez hombres leprosos, los cuales se pararon de lejos, Y alzaron la voz, diciendo: Jesús, Maestro, ten misericordia de nosotros. Y como él los vió, les dijo: Id, mostraos á los sacerdotes. Y aconteció, que yendo ellos, fueron limpios. Entonces uno de ellos, como se vió que estaba limpio, volvió, glorificando á Dios á gran voz; Y derribóse sobre el rostro á sus pies, dándole gracias: y éste era Samaritano. Y respondiendo Jesús, dijo: ¿No son diez los que fueron limpios? ¿Y los nueve dónde están? ¿No hubo quien volviese y diese gloria á Dios sino este extranjero? Y díjole: Levántate, vete; tu fe te ha salvado.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "Or chi di voi, avendo un servo ad arare o pascere, quand’ei torna a casa dai campi, gli dirà: Vieni presto a metterti a tavola? Non gli dirà invece: Preparami la cena, e cingiti a servirmi finch’io abbia mangiato e bevuto, e poi mangerai e berrai tu? Si ritiene egli forse obbligato al suo servo perché ha fatto le cose comandategli? Così anche voi, quand’avrete fatto tutto ciò che v’è comandato, dite: Noi siamo servi inutili; abbiam fatto quel ch’eravamo in obbligo di fare.",
+      "text": "Ed avvenne che, nel recarsi a Gerusalemme, egli passava sui confini della Samaria e della Galilea. E come entrava in un certo villaggio, gli si fecero incontro dieci uomini lebbrosi, i quali, fermatisi da lontano, alzaron la voce dicendo: Gesù, Maestro, abbi pietà di noi! E, vedutili, egli disse loro: Andate a mostrarvi a’ sacerdoti. E avvenne che, mentre andavano, furon mondati. E uno di loro, vedendo che era guarito, tornò indietro, glorificando Iddio ad alta voce; e si gettò ai suoi piedi con la faccia a terra, ringraziandolo; e questo era un Samaritano. Gesù, rispondendo, disse: I dieci non sono stati tutti mondati? E i nove altri dove sono? Non si è trovato alcuno che sia tornato per dar gloria a Dio fuor che questo straniero? E gli disse: Lèvati e vattene: la tua fede t’ha salvato.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Qui de vous, ayant un serviteur au labourage ou à la garde des troupeaux, lui dira, à son retour des champs: Viens vite, et mets-toi à table? Ne lui dira-t-il pas, au contraire: Prépare-moi à souper, ceins-toi, et me sers, jusqu'à ce que j'aie mangé et bu; après cela, toi, tu mangeras et boiras? A-t-il de la reconnaissance à ce serviteur, parce qu'il a fait ce qui lui était ordonné? Je ne le pense pas. De même vous, quand vous aurez fait ce qui vous était commandé, dites: Nous sommes des serviteurs inutiles; nous avons fait ce que nous devions faire. \"",
+      "text": "En se rendant à Jérusalem, Jésus côtoyait la frontière de la Samarie et de la Galilée. Comme il entrait dans un village, dix lépreux vinrent à sa rencontre, et se tenant à distance, ils élevèrent la voix en disant: \" Jésus, Maître, ayez pitié de nous. \" Dès qu'il les eut aperçus: \" Allez, leur dit-il, montrez-vous aux prêtres. \" Et en y allant, ils furent guéris. L'un d'eux, lorsqu'il se vit guéri, revint sur ses pas, glorifiant Dieu à haute voix, et tombant le visage contre terre aux pieds de Jésus, il lui rendit grâces. Or c'était un Samaritain. Prenant alors la parole, Jésus dit: \" Est-ce que les dix n'ont pas été guéris? Et les neuf, où sont-ils? Il ne s'est trouvé parmi eux que cet étranger pour revenir et rendre gloire à Dieu? Et il lui dit: Lève-toi, va; ta foi t'a sauvé. \"",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Mas quem de vocês, tendo um servo lavrando ou apascentando ovelhas, lhe dirá quando ele voltar do campo: ‘Venha imediatamente e sente-se à mesa’? Não lhe dirá antes: ‘Prepare a minha ceia, vista-se adequadamente e sirva-me enquanto eu como e bebo. Depois você comerá e beberá’? Porventura ele agradece a esse servo porque fez as coisas que lhe foram ordenadas? Creio que não. Assim também vocês, quando tiverem feito todas as coisas que lhes foram ordenadas, digam: ‘Somos servos indignos. Fizemos apenas o nosso dever.’”",
+      "text": "Estando ele a caminho de Jerusalém, passava pelas fronteiras de Samaria e da Galileia. Ao entrar em uma certa aldeia, dez homens leprosos vieram ao seu encontro, os quais pararam de longe. Eles levantaram a voz, dizendo: “Jesus, Mestre, tem misericórdia de nós!” Quando ele os viu, disse-lhes: “Vão e mostrem-se aos sacerdotes.” E aconteceu que, enquanto iam, foram purificados. Um deles, vendo que estava curado, voltou, glorificando a Deus em alta voz. Ele prostrou-se com o rosto em terra aos pés de Jesus, dando-lhe graças; e ele era samaritano. Jesus respondeu: “Não foram purificados os dez? Mas onde estão os nove? Não se achou nenhum que voltasse para dar glória a Deus, exceto este estrangeiro?” Então ele lhe disse: “Levante-se e siga o seu caminho. A sua fé o curou.”",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }
