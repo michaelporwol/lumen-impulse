@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-19",
-  "gospelRef": "Lukas 19,41-44",
-  "gospelRefOriginal": "Luke 19:41-44",
+  "date": "2026-11-20",
+  "gospelRef": "Lukas 19,45-48",
+  "gospelRefOriginal": "Luke 19:45-48",
   "gospelRefs": {
-    "de": "Lukas 19,41-44",
-    "en": "Luke 19,41-44",
-    "pl": "Łukasz 19,41-44",
-    "es": "Lucas 19,41-44",
-    "it": "Luca 19,41-44",
-    "fr": "Luc 19,41-44",
-    "pt": "Lucas 19,41-44"
+    "de": "Lukas 19,45-48",
+    "en": "Luke 19,45-48",
+    "pl": "Łukasz 19,45-48",
+    "es": "Lucas 19,45-48",
+    "it": "Luca 19,45-48",
+    "fr": "Luc 19,45-48",
+    "pt": "Lucas 19,45-48"
   },
-  "generatedAt": "2026-11-16T02:32:26.580Z",
+  "generatedAt": "2026-11-17T00:29:46.480Z",
   "gospelTexts": {
     "de": {
-      "text": "Und als er sich näherte und die Stadt sah, weinte er über sie und sprach: Wenn auch du erkannt hättest, und selbst an diesem deinem Tage, was zu deinem Frieden dient! Jetzt aber ist es vor deinen Augen verborgen. Denn Tage werden über dich kommen, daß deine Feinde einen Wall um dich aufschütten und dich umzingeln und dich von allen Seiten einengen werden; und sie werden dich und deine Kinder in dir zu Boden werfen und werden in dir nicht einen Stein auf dem anderen lassen, darum daß du die Zeit deiner Heimsuchung nicht erkannt hast.",
+      "text": "Und als er in den Tempel (die Gebäude) eingetreten war, fing er an auszutreiben, die darin verkauften und kauften, 'indem er zu ihnen sprach: Es steht geschrieben: ''Mein Haus ist ein Bethaus''; ''ihr aber habt es zu einer Räuberhöhle gemacht''. ' Und er lehrte täglich im Tempel; (die Gebäude; so auch Kap. 21,5. 37. 38.;22,52. 53.;24,53.) die Hohenpriester aber und die Schriftgelehrten und die Ersten des Volkes suchten ihn umzubringen. Und sie fanden nicht, was sie tun sollten, denn das ganze Volk hing an seinem Munde.",
       "reference": "Elberfelder 1871"
     },
     "en": {
-      "text": "And when he was come near, he beheld the city, and wept over it, Saying, If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes. For the days shall come upon thee, that thine enemies shall cast a trench about thee, and compass thee round, and keep thee in on every side, And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.",
+      "text": "And he went into the temple, and began to cast out them that sold therein, and them that bought; Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves. And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him, And could not find what they might do: for all the people were very attentive to hear him.",
       "reference": "King James Version"
     },
     "pl": {
-      "text": "A gdy się przybliżył, ujrzawszy miasto, płakał nad niem, mówiąc: O gdybyś poznało i ty, a zwłaszcza w ten to dzień twój, co jest ku pokojowi twemu! lecz to teraz zakryte od oczów twoich. Albowiem przyjdą na cię dni, gdy cię otoczą nieprzyjaciele twoi wałem, i oblęgą cię, i ścisną cię zewsząd; I zrównają cię z ziemią, i dzieci twoje w tobie, a nie zostawią w tobie kamienia na kamieniu, dlatego żeś nie poznało czasu nawiedzenia twego.",
+      "text": "A wszedłszy do kościoła, począł wyganiać te, którzy w nim sprzedawali i kupowali. Mówiąc im: Napisano: Dom mój dom modlitwy jest, a wyście go uczynili jaskinią zbójców. I uczył na każdy dzień w kościele; lecz przedniejsi kapłani i nauczeni w Piśmie, i przedniejsi z ludu szukali go stracić; Ale nie znaleźli, co by mu uczynili; albowiem wszystek lud zawieszał się na nim, słuchając go.",
       "reference": "Biblia Gdańska 1881"
     },
     "es": {
-      "text": "Y como llegó cerca, viendo la ciudad, lloró sobre ella, Diciendo: ¡Oh si también tú conocieses, á lo menos en este tu día, lo que toca á tu paz! mas ahora está encubierto de tus ojos. Porque vendrán días sobre ti, que tus enemigos te cercarán con baluarte, y te pondrán cerco, y de todas partes te pondrán en estrecho, Y te derribarán á tierra, y á tus hijos dentro de ti; y no dejarán sobre ti piedra sobre piedra; por cuanto no conociste el tiempo de tu visitación.",
+      "text": "Y entrando en el templo, comenzó á echar fuera á todos los que vendían y compraban en él. Diciéndoles: Escrito está: Mi casa, casa de oración es; mas vosotros la habéis hecho cueva de ladrones. Y enseñaba cada día en el templo; mas los príncipes de los sacerdotes, y los escribas, y los principales del pueblo procuraban matarle. Y no hallaban qué hacerle, porque todo el pueblo estaba suspenso oyéndole.",
       "reference": "Reina-Valera 1909"
     },
     "it": {
-      "text": "E come si fu avvicinato, vedendo la città, pianse su lei, dicendo: Oh se tu pure avessi conosciuto in questo giorno quel ch’è per la tua pace! Ma ora è nascosto agli occhi tuoi. Poiché verranno su te de’ giorni nei quali i tuoi nemici ti faranno attorno delle trincee, e ti circonderanno e ti stringeranno da ogni parte; e atterreranno te e i tuoi figliuoli dentro di te, e non lasceranno in te pietra sopra pietra, perché tu non hai conosciuto il tempo nel quale sei stata visitata.",
+      "text": "Poi, entrato nel tempio, cominciò a cacciar quelli che in esso vendevano, dicendo loro: Egli è scritto: La mia casa sarà una casa d’orazione, ma voi ne avete fatto una spelonca di ladroni. Ed ogni giorno insegnava nel tempio. Ma i capi sacerdoti e gli scribi e i primi fra il popolo cercavano di farlo morire; ma non sapevano come fare, perché tutto il popolo, ascoltandolo, pendeva dalle sue labbra.",
       "reference": "Riveduta 1927"
     },
     "fr": {
-      "text": "Et lorsque, s'étant approché, il aperçut Jérusalem, il pleura sur elle, en disant: \" Si tu connaissais, toi aussi, du moins en ce jour qui t'est donné, ce qui ferait ta paix! Mais maintenant ces choses sont cachées à tes yeux. Viendront sur toi des jours où tes ennemis t'environneront de tranchées, t'investiront et te serreront de toutes parts; ils te renverseront par terre, toi et tes enfants qui sont dans ton sein, et ils ne laisseront pas dans ton enceinte pierre sur pierre, parce que tu n'as pas connu le temps où tu as été visitée. \"",
+      "text": "Etant entré dans le temple, il se mit à chasser ceux qui y vendaient et y achetaient, leur disant: \" Il est écrit: Ma maison est une maison de prière, et vous en avez fait une caverne de voleurs. \" Jésus passait les journées à enseigner dans le temple. Et les Princes des prêtres, les Scribes et les principaux du peuple cherchaient à le perdre; mais ils ne savaient comment s'y prendre, car tout le peuple l'écoutait avec ravissement.",
       "reference": "Augustin Crampon 1923"
     },
     "pt": {
-      "text": "Quando ele se aproximou, viu a cidade e chorou sobre ela, dizendo: “Ah, se você, sim, você mesma, tivesse conhecido hoje o que lhe traria paz! Mas agora isso está oculto aos seus olhos. Pois virão dias sobre você em que os seus inimigos levantarão uma barricada contra você, a cercarão e a apertarão de todos os lados, e derrubarão por terra você e os seus filhos dentro de você. Eles não deixarão em você pedra sobre pedra, porque você não reconheceu o tempo da sua visitação.”",
+      "text": "Ele entrou no templo e começou a expulsar os que ali compravam e vendiam, dizendo-lhes: “Está escrito: 'A minha casa é casa de oração', mas vocês fizeram dela um 'covil de ladrões'!” Ele ensinava diariamente no templo, mas os principais sacerdotes, os escribas e os líderes do povo procuravam destruí-lo. Eles não conseguiam encontrar o que poderiam fazer, pois todo o povo ouvia atentamente cada palavra que ele dizia.",
       "reference": "Bíblia Portuguesa Mundial"
     }
   }
