@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-29",
+  "gospelRef": "Markus 13,33-37",
+  "gospelRefOriginal": "Mark 13:33-37",
+  "gospelRefs": {
+    "de": "Markus 13,33-37",
+    "en": "Mark 13,33-37",
+    "pl": "Marek 13,33-37",
+    "es": "Marcos 13,33-37",
+    "it": "Marco 13,33-37",
+    "fr": "Marc 13,33-37",
+    "pt": "Marcos 13,33-37"
+  },
+  "generatedAt": "2026-11-26T00:40:33.138Z",
+  "gospelTexts": {
+    "de": {
+      "text": "Sehet zu, wachet und betet; denn ihr wisset nicht, wann die Zeit ist. Gleichwie ein Mensch, der außer Landes reiste, sein Haus verließ und seinen Knechten die Gewalt gab und einem jeden sein Werk, und dem Türhüter einschärfte, daß er wache. So wachet nun, denn ihr wisset nicht, wann der Herr des Hauses kommt, des Abends, oder um Mitternacht, oder um den Hahnenschrei, oder frühmorgens; damit er nicht, plötzlich kommend, euch schlafend finde. Was ich aber euch sage, sage ich allen: Wachet!",
+      "reference": "Elberfelder 1871"
+    },
+    "en": {
+      "text": "Take ye heed, watch and pray: for ye know not when the time is. For the Son of man is as a man taking a far journey, who left his house, and gave authority to his servants, and to every man his work, and commanded the porter to watch. Watch ye therefore: for ye know not when the master of the house cometh, at even, or at midnight, or at the cockcrowing, or in the morning: Lest coming suddenly he find you sleeping. And what I say unto you I say unto all, Watch.",
+      "reference": "King James Version"
+    },
+    "pl": {
+      "text": "Patrzcież, czujcie, a módlcie się; bo nie wiecie, kiedy ten czas będzie. Jako człowiek, który precz odjeżdżając, zostawił dom swój, i rozdał urzędy sługom swoim, i każdemu robotę jego, i wrotnemu przykazał, aby czuł. Czujcież tedy; (bo nie wiecie, kiedy Pan domu onego przyjdzie, z wieczorali, czyli o północy, czyli gdy kury pieją, czyli rano.) By snać niespodzianie przyszedłszy, nie znalazł was śpiącymi. A co wam mówię, wszystkimci mówię: Czujcie.",
+      "reference": "Biblia Gdańska 1881"
+    },
+    "es": {
+      "text": "Mirad, velad y orad: porque no sabéis cuándo será el tiempo. Como el hombre que partiéndose lejos, dejó su casa, y dió facultad á sus siervos, y á cada uno su obra, y al portero mandó que velase: Velad pues, porque no sabéis cuándo el señor de la casa vendrá; si á la tarde, ó á la media noche, ó al canto del gallo, ó á la mañana; Porque cuando viniere de repente, no os halle durmiendo. Y las cosas que á vosotros digo, á todos las digo: Velad.",
+      "reference": "Reina-Valera 1909"
+    },
+    "it": {
+      "text": "State in guardia, vegliate, poiché non sapete quando sarà quel tempo. Egli è come se un uomo, andando in un viaggio, lasciasse la sua casa e ne desse la potestà ai suoi servitori, a ciascuno il compito suo, e al portinaio comandasse di vegliare. Vegliate dunque perché non sapete quando viene il padron di casa: se a sera, a mezzanotte, o al cantar del gallo la mattina; che talora, venendo egli all’improvviso, non vi trovi addormentati. Ora, quel che dico a voi, lo dico a tutti: Vegliate.",
+      "reference": "Riveduta 1927"
+    },
+    "fr": {
+      "text": "Prenez garde, veillez et priez; car vous ne savez pas quand ce sera le moment. C'est ainsi qu'un homme, ayant laissé sa maison pour aller en voyage, après avoir remis l'autorité à ses serviteurs et assigné à chacun sa tâche, commande au portier de veiller. Veillez donc, car vous ne savez pas quand viendra le maître de la maison, le soir, ou au milieu de la nuit, ou au chant du coq, ou le matin; de peur que, survenant tout à coup, il ne vous trouve endormis. Ce que je vous dis, je le dis à tous: Veillez! \"",
+      "reference": "Augustin Crampon 1923"
+    },
+    "pt": {
+      "text": "Fiquem atentos, vigiem e orem; pois vocês não sabem quando chegará o tempo. “É como um homem que, viajando para outro país, deixa a sua casa e dá autoridade aos seus servos, e a cada um a sua tarefa, e também ordena ao porteiro que vigie. Vigiem, portanto, pois vocês não sabem quando o senhor da casa virá — se à tarde, ou à meia-noite, ou ao cantar do galo, ou pela manhã; para que ele não chegue de repente e os encontre dormindo. O que lhes digo, digo a todos: Vigiem!”",
+      "reference": "Bíblia Portuguesa Mundial"
+    }
+  }
+}
