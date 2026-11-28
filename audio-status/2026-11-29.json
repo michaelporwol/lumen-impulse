@@ -1,6 +1,6 @@
 {
   "date": "2026-11-29",
-  "generatedAt": "2026-11-28T02:58:45Z",
+  "generatedAt": "2026-11-28T05:18:45Z",
   "audio": {
     "de": {
       "gospel": {
@@ -49,6 +49,13 @@
         "url": "gospel-es.mp3",
         "size": 253872,
         "duration": 42
+      },
+      "lectio": {
+        "url": "gospel-es-lectio.mp3",
+        "size": 246672,
+        "duration": 41,
+        "alignment_url": "gospel-es-lectio-alignment.json",
+        "original_text_url": "gospel-es-lectio-original.txt"
       }
     },
     "it": {
